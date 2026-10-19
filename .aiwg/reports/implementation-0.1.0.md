@@ -14,6 +14,10 @@ An additional strict core24 Snap was built and installed locally. Its health che
 
 The final `.deb` was also installed on the real Ubuntu 24.04 GNOME 46 Wayland host. All 24,634 runtime files passed verification. Its GUI, taskbar icon and menu, Open, Jobs and Quit passed the desktop check. The temporary QA Snap was removed before native installation; the native package remains installed. Reproduce this desktop lane with `python3 scripts/snap_desktop_smoke.py --deb` after installing the tested package and closing any existing Mandarin instance.
 
+The [public repository](https://github.com/robit-man/mandarin) and [0.1.0 release](https://github.com/robit-man/mandarin/releases/tag/v0.1.0) are live. All 13 assets, including both tested installers and five corresponding-source archives, match their local SHA256 values and sizes. Unauthenticated installer and checksum downloads passed. The release tag identifies commit `06c9ee4492a5e52aa5b4c168d0ae9a150f87fa23`; later evidence-only commits do not change the payload. [GitHub CI](https://github.com/robit-man/mandarin/actions/runs/39340185918) passed the application and native GUI/drag/indicator checks. Full offline installer qualification is the separate local clean-container evidence above.
+
+Canonical received revision 1 and accepted the listing metadata after upload. The Store's SHA3-384 matches the exact tested Snap. Its recorded state is `ReviewInProgress`, with no released channel. The edge-only workflow waits for Canonical processing; Store availability is an external pending step. The temporary GitHub secret and local credential export are removed after the upload step starts; the running job already has its scoped, expiring credential. Host account authentication is retained.
+
 Open gates:
 
 - Global GNOME Wayland invocation/transfer across native, XWayland, browser and portal sources; multiple monitors/scales. Only GNOME 46 metadata is enabled.

@@ -1,0 +1,73 @@
+{
+  "status": "pass",
+  "version": "0.1.0",
+  "public": true,
+  "release_url": "https://github.com/robit-man/mandarin/releases/tag/v0.1.0",
+  "assets": [
+    {
+      "name": "LICENSE",
+      "bytes": 1078,
+      "sha256": "e0f6b4a5eaf480e49bdcb943310b1627f1675545bccf70deba4d9a49c97b32c6"
+    },
+    {
+      "name": "SHA256SUMS",
+      "bytes": 1153,
+      "sha256": "9824cd10e02def3e9152f2116e9a0b069439aa5d8912422064dce03308230772"
+    },
+    {
+      "name": "THIRD-PARTY.md",
+      "bytes": 1666,
+      "sha256": "1cacdb60d1cdfd2926090229c16e10118ec27006bf4d8b6ba0824a4992a8d18f"
+    },
+    {
+      "name": "corresponding-sources.json",
+      "bytes": 522009,
+      "sha256": "e40c25d88c1737e513c6a36f3c2b55d0df1569cabff9276c635c4b5ded49caba"
+    },
+    {
+      "name": "mandarin-0.1.0-corresponding-sources-01.tar",
+      "bytes": 673822720,
+      "sha256": "74d8f71f5cbf48b42dd151b9323bb43d120f71255832ca21c44da7c9fbc92041"
+    },
+    {
+      "name": "mandarin-0.1.0-corresponding-sources-02.tar",
+      "bytes": 1424332800,
+      "sha256": "4be4170164ae845a2648e01bc09198bff8fa1ccc6f07882ccdcd99d67f0ea48a"
+    },
+    {
+      "name": "mandarin-0.1.0-corresponding-sources-03.tar",
+      "bytes": 1467842560,
+      "sha256": "0da64506cfd283c8ac6260816fe1a7266addfa86ed90f153a9d76bd676f82cd8"
+    },
+    {
+      "name": "mandarin-0.1.0-corresponding-sources-04.tar",
+      "bytes": 1262264320,
+      "sha256": "860198733470e362d354aaabc6f0fbc60412dc0438e4279ff60992770d67bb5e"
+    },
+    {
+      "name": "mandarin-0.1.0-corresponding-sources-05.tar",
+      "bytes": 441057280,
+      "sha256": "b70dae0a415f6bee5b5cff4bb40c2cda13e7e3489b3ed6c901431dd0f59ac6cf"
+    },
+    {
+      "name": "mandarin_0.1.0_amd64.deb",
+      "bytes": 672477874,
+      "sha256": "efe23889ee0ce7da4e1b37290884947cc4db596506e8570d0940cfa60712d19c"
+    },
+    {
+      "name": "mandarin_0.1.0_amd64.snap",
+      "bytes": 663552000,
+      "sha256": "f311451df00c90f5852365fcb6ebf08d3d4e2fdceb9f003dd58bdebbbe07b48b"
+    },
+    {
+      "name": "runtime-manifest.json",
+      "bytes": 5027449,
+      "sha256": "fa23852795dd811ffcd6a0755ec9b42e01055df84d4c8bc804748c69b73072e2"
+    },
+    {
+      "name": "verification.json",
+      "bytes": 491,
+      "sha256": "b2c1316f8babc1efce921efc00dcaf568a8de8b7a7af698666ec7b15518d35da"
+    }
+  ]
+}

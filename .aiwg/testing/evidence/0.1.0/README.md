@@ -12,6 +12,9 @@ Reproduce using the [implementation report](../../../reports/implementation-0.1.
 - `snap-results.json`, `snap-desktop-results.json`: the installed strict Snap's 12 representative conversions and actual GNOME desktop indicator/menu lifecycle.
 - `ui-static-audit.json`: deterministic UI audit, with zero findings.
 - `source-archive-results.json`: all 1,316 exact source files checked inside five release archives, covering 413 source packages and 651 bundled binary packages.
+- `release-assets.json`, `public-download-results.json`: all 13 public release assets match the local SHA256 values and sizes; the Ubuntu installer and checksum list download without authentication.
+- `github-ci-results.json`: the passing Ubuntu application and native GUI/drag/indicator workflow for the release source commit.
+- `store-submission-results.json`: Canonical revision 1, current review/channel status, and a Store SHA3-384 match to the tested Snap.
 - `fixtures.json`: hashes for 43 source formats. The screenshots show normal radial, keyboard, compact and editor states.
 
 Synthetic fixtures establish basic output production/decoding. They do not establish arbitrary-file fidelity, every reference format, recognition efficacy, real-device sharing, every desktop source or global Wayland drag transfer. A private headless GNOME experiment did not complete a source drag; global qualification remains open.

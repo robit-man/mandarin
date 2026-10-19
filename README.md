@@ -10,6 +10,8 @@ Open the downloaded `.deb` with Ubuntu App Center and choose **Install**. Ubuntu
 
 ![Mandarin's native contextual radial conversion menu](.aiwg/testing/evidence/0.1.0/radial.png)
 
+Snap Store: `mandarin` is registered and revision 1 is submitted for edge publication. Canonical reports `ReviewInProgress`; Store installation is pending approval. The public `.deb` above is available now. See the [submission record](packaging/STORE-LISTING.md).
+
 The command-line alternative is:
 
 ```bash

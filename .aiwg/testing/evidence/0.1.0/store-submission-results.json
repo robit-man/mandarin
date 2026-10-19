@@ -1,0 +1,13 @@
+{
+  "checked_at_utc": "2026-10-19T23:20:19.415528+00:00",
+  "name": "mandarin",
+  "snap_id": "tAdZZICCxYWgHTZ8UARl7mYrPdP5flwA",
+  "revision": 1,
+  "version": "0.1.0",
+  "store_status": "ReviewInProgress",
+  "channels": [],
+  "sha3_384": "2de3d9395d41eeca64c38dd42ea503cc3b7f1b422fc1efca46728f05c370cc2e0fd4d3b1897368a147ee110bb1e5efb1",
+  "tested_artifact_matches_store": true,
+  "metadata_upload": "succeeded",
+  "workflow_url": "https://github.com/robit-man/mandarin/actions/runs/39340289856"
+}

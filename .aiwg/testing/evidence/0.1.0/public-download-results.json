@@ -1,0 +1,8 @@
+{
+  "status": "pass",
+  "unauthenticated_deb_download": true,
+  "http_status": 206,
+  "deb_archive_header": "valid",
+  "public_checksums_match": true,
+  "checksums_sha256": "9824cd10e02def3e9152f2116e9a0b069439aa5d8912422064dce03308230772"
+}
