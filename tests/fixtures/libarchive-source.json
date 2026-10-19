@@ -1,0 +1,7 @@
+{
+  "source": "https://raw.githubusercontent.com/libarchive/libarchive/8c4d7d77d3b68701809ddfd3c1a8bf42ef42dfe3/libarchive/test/test_read_format_rar5_stored.rar.uu",
+  "revision": "8c4d7d77d3b68701809ddfd3c1a8bf42ef42dfe3",
+  "sha256": "35d75e315d164d2e329afc28f7d844f013271b4fcffd4ddd78efcdd114a383a7",
+  "license": "libarchive-COPYING",
+  "purpose": "Upstream stored RAR5 decoding/conversion fixture"
+}

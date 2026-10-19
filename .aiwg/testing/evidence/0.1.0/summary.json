@@ -1,0 +1,17 @@
+{
+  "version": "0.1.0",
+  "package_sha256": "ed6bd1ace0f5ae8b21ba807d1e7c5114e4e38e5106a498cf58bf3aafec69b3e7",
+  "offline_conversion_cases_passed": 248,
+  "reference_pairs_implemented_with_smoke_evidence": 239,
+  "additional_conversion_pairs": 9,
+  "source_formats": 43,
+  "tool_cases_passed": 32,
+  "operation_identifiers": 28,
+  "conversion_status": {
+    "implemented": 239,
+    "planned": 23,
+    "blocked": 8,
+    "in-progress": 5
+  },
+  "certifies_native_parity": false
+}

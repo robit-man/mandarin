@@ -1,0 +1,75 @@
+libEGL warning: DRI3 error: Could not get DRI3 device
+libEGL warning: Ensure your X server supports DRI3 to get accelerated rendering
+dbus-daemon[345897]: [session uid=1000 pid=345897] Activating service name='org.freedesktop.portal.Desktop' requested by ':1.1' (uid=1000 pid=345932 comm="python3 scripts/gui_smoke.py" label="unconfined")
+dbus-daemon[345897]: [session uid=1000 pid=345897] Activating service name='org.freedesktop.portal.Documents' requested by ':1.2' (uid=1000 pid=345979 comm="/usr/libexec/xdg-desktop-portal" label="unconfined")
+dbus-daemon[345897]: [session uid=1000 pid=345897] Activating service name='org.freedesktop.impl.portal.PermissionStore' requested by ':1.3' (uid=1000 pid=345986 comm="/usr/libexec/xdg-document-portal" label="unconfined")
+dbus-daemon[345897]: [session uid=1000 pid=345897] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+dbus-daemon[345897]: [session uid=1000 pid=345897] Successfully activated service 'org.freedesktop.portal.Documents'
+Ignoring invalid max threads value 4294967295 > max (100000).
+dbus-daemon[345897]: [session uid=1000 pid=345897] Activating service name='org.freedesktop.impl.portal.desktop.gnome' requested by ':1.2' (uid=1000 pid=345979 comm="/usr/libexec/xdg-desktop-portal" label="unconfined")
+Non-compatible display server, exposing settings only.
+dbus-daemon[345897]: [session uid=1000 pid=345897] Successfully activated service 'org.freedesktop.impl.portal.desktop.gnome'
+dbus-daemon[345897]: [session uid=1000 pid=345897] Activating service name='org.freedesktop.impl.portal.desktop.gtk' requested by ':1.2' (uid=1000 pid=345979 comm="/usr/libexec/xdg-desktop-portal" label="unconfined")
+dbus-daemon[345897]: [session uid=1000 pid=345897] Successfully activated service 'org.freedesktop.impl.portal.desktop.gtk'
+
+(/usr/libexec/xdg-desktop-portal:345979): xdg-desktop-portal-WARNING **: 14:44:49.869: Failed connect to PipeWire: Couldn't connect to PipeWire
+dbus-daemon[345897]: [session uid=1000 pid=345897] Activating service name='org.freedesktop.secrets' requested by ':1.2' (uid=1000 pid=345979 comm="/usr/libexec/xdg-desktop-portal" label="unconfined")
+** Message: 14:44:49.890: couldn't access control socket: /tmp/mandarin-gui-runtime.aYICDD/keyring/control: No such file or directory
+discover_other_daemon: 0dbus-daemon[345897]: [session uid=1000 pid=345897] Successfully activated service 'org.freedesktop.secrets'
+dbus-daemon[345897]: [session uid=1000 pid=345897] Successfully activated service 'org.freedesktop.portal.Desktop'
+dbus-daemon[345897]: [session uid=1000 pid=345897] Activating service name='org.a11y.Bus' requested by ':1.1' (uid=1000 pid=345932 comm="python3 scripts/gui_smoke.py" label="unconfined")
+dbus-daemon[345897]: [session uid=1000 pid=345897] Successfully activated service 'org.a11y.Bus'
+dbus-daemon[346149]: Activating service name='org.a11y.atspi.Registry' requested by ':1.0' (uid=1000 pid=345932 comm="python3 scripts/gui_smoke.py" label="unconfined")
+dbus-daemon[346149]: Successfully activated service 'org.a11y.atspi.Registry'
+SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+PASS: native workflow, radial/list/compact/editor captures.
+libEGL warning: DRI3 error: Could not get DRI3 device
+libEGL warning: Ensure your X server supports DRI3 to get accelerated rendering
+dbus-daemon[346787]: [session uid=1000 pid=346787] Activating service name='org.freedesktop.portal.Desktop' requested by ':1.1' (uid=1000 pid=346816 comm="python3 scripts/drag_smoke.py" label="unconfined")
+dbus-daemon[346787]: [session uid=1000 pid=346787] Activating service name='org.freedesktop.portal.Documents' requested by ':1.2' (uid=1000 pid=346915 comm="/usr/libexec/xdg-desktop-portal" label="unconfined")
+dbus-daemon[346787]: [session uid=1000 pid=346787] Activating service name='org.freedesktop.impl.portal.PermissionStore' requested by ':1.3' (uid=1000 pid=346922 comm="/usr/libexec/xdg-document-portal" label="unconfined")
+dbus-daemon[346787]: [session uid=1000 pid=346787] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+dbus-daemon[346787]: [session uid=1000 pid=346787] Successfully activated service 'org.freedesktop.portal.Documents'
+Ignoring invalid max threads value 4294967295 > max (100000).
+dbus-daemon[346787]: [session uid=1000 pid=346787] Activating service name='org.freedesktop.impl.portal.desktop.gnome' requested by ':1.2' (uid=1000 pid=346915 comm="/usr/libexec/xdg-desktop-portal" label="unconfined")
+Non-compatible display server, exposing settings only.
+dbus-daemon[346787]: [session uid=1000 pid=346787] Successfully activated service 'org.freedesktop.impl.portal.desktop.gnome'
+dbus-daemon[346787]: [session uid=1000 pid=346787] Activating service name='org.freedesktop.impl.portal.desktop.gtk' requested by ':1.2' (uid=1000 pid=346915 comm="/usr/libexec/xdg-desktop-portal" label="unconfined")
+dbus-daemon[346787]: [session uid=1000 pid=346787] Successfully activated service 'org.freedesktop.impl.portal.desktop.gtk'
+
+(/usr/libexec/xdg-desktop-portal:346915): xdg-desktop-portal-WARNING **: 14:44:54.548: Failed connect to PipeWire: Couldn't connect to PipeWire
+dbus-daemon[346787]: [session uid=1000 pid=346787] Activating service name='org.freedesktop.secrets' requested by ':1.2' (uid=1000 pid=346915 comm="/usr/libexec/xdg-desktop-portal" label="unconfined")
+** Message: 14:44:54.563: couldn't access control socket: /tmp/mandarin-gui-runtime.aYICDD/keyring/control: No such file or directory
+discover_other_daemon: 0dbus-daemon[346787]: [session uid=1000 pid=346787] Successfully activated service 'org.freedesktop.secrets'
+dbus-daemon[346787]: [session uid=1000 pid=346787] Successfully activated service 'org.freedesktop.portal.Desktop'
+dbus-daemon[346787]: [session uid=1000 pid=346787] Activating service name='org.a11y.Bus' requested by ':1.1' (uid=1000 pid=346816 comm="python3 scripts/drag_smoke.py" label="unconfined")
+dbus-daemon[346787]: [session uid=1000 pid=346787] Successfully activated service 'org.a11y.Bus'
+dbus-daemon[346977]: Activating service name='org.a11y.atspi.Registry' requested by ':1.0' (uid=1000 pid=346816 comm="python3 scripts/drag_smoke.py" label="unconfined")
+dbus-daemon[346977]: Successfully activated service 'org.a11y.atspi.Registry'
+SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+PASS: real GTK file drag, payload preload, dwell submenu, leaf drop, exactly-one conversion, original retained.
+libEGL warning: DRI3 error: Could not get DRI3 device
+libEGL warning: Ensure your X server supports DRI3 to get accelerated rendering
+dbus-daemon[347268]: [session uid=1000 pid=347268] Activating service name='org.freedesktop.portal.Desktop' requested by ':1.1' (uid=1000 pid=347295 comm="python3 scripts/indicator_smoke.py" label="unconfined")
+dbus-daemon[347268]: [session uid=1000 pid=347268] Activating service name='org.freedesktop.portal.Documents' requested by ':1.2' (uid=1000 pid=347407 comm="/usr/libexec/xdg-desktop-portal" label="unconfined")
+dbus-daemon[347268]: [session uid=1000 pid=347268] Activating service name='org.freedesktop.impl.portal.PermissionStore' requested by ':1.3' (uid=1000 pid=347419 comm="/usr/libexec/xdg-document-portal" label="unconfined")
+dbus-daemon[347268]: [session uid=1000 pid=347268] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+dbus-daemon[347268]: [session uid=1000 pid=347268] Successfully activated service 'org.freedesktop.portal.Documents'
+Ignoring invalid max threads value 4294967295 > max (100000).
+dbus-daemon[347268]: [session uid=1000 pid=347268] Activating service name='org.freedesktop.impl.portal.desktop.gnome' requested by ':1.2' (uid=1000 pid=347407 comm="/usr/libexec/xdg-desktop-portal" label="unconfined")
+Non-compatible display server, exposing settings only.
+dbus-daemon[347268]: [session uid=1000 pid=347268] Successfully activated service 'org.freedesktop.impl.portal.desktop.gnome'
+dbus-daemon[347268]: [session uid=1000 pid=347268] Activating service name='org.freedesktop.impl.portal.desktop.gtk' requested by ':1.2' (uid=1000 pid=347407 comm="/usr/libexec/xdg-desktop-portal" label="unconfined")
+dbus-daemon[347268]: [session uid=1000 pid=347268] Successfully activated service 'org.freedesktop.impl.portal.desktop.gtk'
+
+(/usr/libexec/xdg-desktop-portal:347407): xdg-desktop-portal-WARNING **: 14:44:58.063: Failed connect to PipeWire: Couldn't connect to PipeWire
+dbus-daemon[347268]: [session uid=1000 pid=347268] Activating service name='org.freedesktop.secrets' requested by ':1.2' (uid=1000 pid=347407 comm="/usr/libexec/xdg-desktop-portal" label="unconfined")
+** Message: 14:44:58.079: couldn't access control socket: /tmp/mandarin-gui-runtime.aYICDD/keyring/control: No such file or directory
+discover_other_daemon: 0dbus-daemon[347268]: [session uid=1000 pid=347268] Successfully activated service 'org.freedesktop.secrets'
+dbus-daemon[347268]: [session uid=1000 pid=347268] Successfully activated service 'org.freedesktop.portal.Desktop'
+dbus-daemon[347268]: [session uid=1000 pid=347268] Activating service name='org.a11y.Bus' requested by ':1.1' (uid=1000 pid=347295 comm="python3 scripts/indicator_smoke.py" label="unconfined")
+dbus-daemon[347268]: [session uid=1000 pid=347268] Successfully activated service 'org.a11y.Bus'
+dbus-daemon[347574]: Activating service name='org.a11y.atspi.Registry' requested by ':1.0' (uid=1000 pid=347295 comm="python3 scripts/indicator_smoke.py" label="unconfined")
+dbus-daemon[347574]: Successfully activated service 'org.a11y.atspi.Registry'
+SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+PASS: taskbar registration, icon/menu export, close-to-tray, menu reopen, live job status and Quit.

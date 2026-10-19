@@ -1,0 +1,33 @@
+name: Verify Ubuntu preview
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      package:
+        description: Build and test the complete offline installer
+        type: boolean
+        default: false
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Install explicit build dependencies
+        run: sh scripts/bootstrap-build.sh
+      - name: Verify application and native drag workflow
+        run: |
+          python3 -m compileall -q mandarin scripts tests
+          python3 -m unittest discover -s tests -v
+          make gui
+          python3 scripts/validate_plan.py
+      - name: Build complete offline installer
+        if: github.event_name == 'workflow_dispatch' && inputs.package
+        run: |
+          docker pull ubuntu:24.04
+          make package

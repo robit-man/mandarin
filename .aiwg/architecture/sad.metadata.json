@@ -1,0 +1,51 @@
+{
+  "artifact_id": "SAD-001",
+  "name": "Software architecture baseline",
+  "type": "architecture",
+  "version": "1.0.0",
+  "status": "baselined",
+  "owner": "root",
+  "created": "2026-10-18T18:22:03.703Z",
+  "modified": "2026-10-18T18:35:49.396764+00:00",
+  "reviewers": [
+    "security",
+    "requirements",
+    "test-release"
+  ],
+  "history": [
+    {
+      "version": "0.1.0",
+      "summary": "Primary architecture draft and researched feature/requirements/SOP/plan."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-10-18T18:35:49.396764+00:00",
+      "summary": "Synthesized three independent reviews; all findings resolved at planning-contract level. Application remains unimplemented."
+    }
+  ],
+  "reviews": [
+    {
+      "reviewer": "security",
+      "date": "2026-10-18T18:35:49.396764+00:00",
+      "outcome": "approved",
+      "comments": "Final targeted verification approved the planning baseline only; runtime gates remain open.",
+      "evidence": ".aiwg/archive/2026-10-18/mandarin-plan/reviews/security.md"
+    },
+    {
+      "reviewer": "requirements",
+      "date": "2026-10-18T18:35:49.396764+00:00",
+      "outcome": "approved",
+      "comments": "Final targeted verification approved the planning baseline only; runtime gates remain open.",
+      "evidence": ".aiwg/archive/2026-10-18/mandarin-plan/reviews/requirements.md"
+    },
+    {
+      "reviewer": "test-release",
+      "date": "2026-10-18T18:35:49.396764+00:00",
+      "outcome": "approved",
+      "comments": "Final targeted verification approved the planning baseline only; runtime gates remain open.",
+      "evidence": ".aiwg/archive/2026-10-18/mandarin-plan/reviews/test-release.md"
+    }
+  ],
+  "baselined": "2026-10-18T18:35:49.396764+00:00",
+  "artifact_path": ".aiwg/architecture/sad.md"
+}

@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.venv/
+build/
+dist/
+.cache/
+.ruff_cache/
+premium-audit.json

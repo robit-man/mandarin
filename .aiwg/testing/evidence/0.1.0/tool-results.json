@@ -1,0 +1,258 @@
+{
+  "cases": [
+    {
+      "operation": "compress",
+      "options": {
+        "target_kb": 100
+      },
+      "status": "succeeded",
+      "error": ""
+    },
+    {
+      "operation": "metadata",
+      "options": {
+        "mode": "inspect"
+      },
+      "status": "succeeded",
+      "error": ""
+    },
+    {
+      "operation": "crop_image",
+      "options": {
+        "x": 2,
+        "y": 2,
+        "width": 40,
+        "height": 30
+      },
+      "status": "succeeded",
+      "error": ""
+    },
+    {
+      "operation": "resize",
+      "options": {
+        "width": 48,
+        "height": 32
+      },
+      "status": "succeeded",
+      "error": ""
+    },
+    {
+      "operation": "edit_image",
+      "options": {
+        "brightness": 1.2
+      },
+      "status": "succeeded",
+      "error": ""
+    },
+    {
+      "operation": "annotate",
+      "options": {
+        "text": "Local",
+        "font_size": 16
+      },
+      "status": "succeeded",
+      "error": ""
+    },
+    {
+      "operation": "background",
+      "options": {},
+      "status": "succeeded",
+      "error": ""
+    },
+    {
+      "operation": "collage",
+      "options": {
+        "cell": 96
+      },
+      "status": "succeeded",
+      "error": ""
+    },
+    {
+      "operation": "images_pdf",
+      "options": {},
+      "status": "succeeded",
+      "error": ""
+    },
+    {
+      "operation": "trim_video",
+      "options": {
+        "start": 0.1,
+        "end": 0.7
+      },
+      "status": "succeeded",
+      "error": ""
+    },
+    {
+      "operation": "crop_video",
+      "options": {
+        "width": 48,
+        "height": 32
+      },
+      "status": "succeeded",
+      "error": ""
+    },
+    {
+      "operation": "speed",
+      "options": {
+        "speed": 2
+      },
+      "status": "succeeded",
+      "error": ""
+    },
+    {
+      "operation": "mute",
+      "options": {},
+      "status": "succeeded",
+      "error": ""
+    },
+    {
+      "operation": "snapshot",
+      "options": {
+        "start": 0.2
+      },
+      "status": "succeeded",
+      "error": ""
+    },
+    {
+      "operation": "split_video",
+      "options": {
+        "parts": 2
+      },
+      "status": "succeeded",
+      "error": ""
+    },
+    {
+      "operation": "join",
+      "options": {},
+      "status": "succeeded",
+      "error": ""
+    },
+    {
+      "operation": "normalize",
+      "options": {},
+      "status": "succeeded",
+      "error": ""
+    },
+    {
+      "operation": "trim_audio",
+      "options": {
+        "start": 0.1,
+        "end": 0.7
+      },
+      "status": "succeeded",
+      "error": ""
+    },
+    {
+      "operation": "channels",
+      "options": {
+        "channels": "stereo"
+      },
+      "status": "succeeded",
+      "error": ""
+    },
+    {
+      "operation": "visualizer",
+      "options": {
+        "width": 96,
+        "height": 64,
+        "color": "#ee3300"
+      },
+      "status": "succeeded",
+      "error": ""
+    },
+    {
+      "operation": "bleep",
+      "options": {
+        "start": 0.1,
+        "end": 0.4
+      },
+      "status": "succeeded",
+      "error": ""
+    },
+    {
+      "operation": "redact_image",
+      "options": {
+        "width": 20,
+        "height": 20
+      },
+      "status": "succeeded",
+      "error": ""
+    },
+    {
+      "operation": "redact_video",
+      "options": {
+        "width": 20,
+        "height": 20,
+        "start": 0.1,
+        "end": 0.5
+      },
+      "status": "succeeded",
+      "error": ""
+    },
+    {
+      "operation": "merge_pdf",
+      "options": {},
+      "status": "succeeded",
+      "error": ""
+    },
+    {
+      "operation": "split_pdf",
+      "options": {},
+      "status": "succeeded",
+      "error": ""
+    },
+    {
+      "operation": "organize_pdf",
+      "options": {
+        "pages": "2,1"
+      },
+      "status": "succeeded",
+      "error": ""
+    },
+    {
+      "operation": "extract",
+      "options": {},
+      "status": "succeeded",
+      "error": ""
+    },
+    {
+      "operation": "qr",
+      "options": {},
+      "status": "succeeded",
+      "error": ""
+    },
+    {
+      "operation": "metadata",
+      "options": {
+        "mode": "remove"
+      },
+      "status": "succeeded",
+      "error": ""
+    },
+    {
+      "operation": "metadata",
+      "options": {
+        "mode": "remove"
+      },
+      "status": "succeeded",
+      "error": ""
+    },
+    {
+      "operation": "redact_image",
+      "options": {
+        "detect": "faces"
+      },
+      "status": "succeeded",
+      "error": ""
+    },
+    {
+      "operation": "redact_image",
+      "options": {
+        "detect": "text"
+      },
+      "status": "succeeded",
+      "error": ""
+    }
+  ],
+  "operations": 28
+}

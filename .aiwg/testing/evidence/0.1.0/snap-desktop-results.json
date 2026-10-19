@@ -1,0 +1,13 @@
+{
+  "distribution": "installed strict Snap",
+  "desktop": "Ubuntu 24.04 GNOME 46 Wayland",
+  "status": "pass",
+  "actions": [
+    "Mandarin is ready",
+    "Open Mandarin",
+    "Add files\u2026",
+    "Conversion jobs",
+    "Quit Mandarin"
+  ],
+  "indicator_id": "mandarin"
+}

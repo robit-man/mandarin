@@ -1,0 +1,16 @@
+{
+  "package": "mandarin_0.1.0_amd64.deb",
+  "sha256": "ed6bd1ace0f5ae8b21ba807d1e7c5114e4e38e5106a498cf58bf3aafec69b3e7",
+  "status": "pass",
+  "checks": [
+    "offline-install",
+    "unprivileged-conversion-corpus",
+    "packaged-tool-operations",
+    "bundled-GTK-import"
+  ],
+  "base_image": "ubuntu:24.04",
+  "base_image_id": "sha256:68ee22004a9109b44973313b02ff7b1de250f1de0f5ecb628d73f579aaff33ac",
+  "conversions": 248,
+  "uid": 1000,
+  "evidence": "build/package-qa-ubuntu-24.04"
+}

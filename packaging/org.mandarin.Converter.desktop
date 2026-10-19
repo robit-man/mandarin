@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Mandarin
+Comment=Convert and edit local files with a contextual radial menu
+Exec=/usr/bin/mandarin %F
+Icon=org.mandarin.Converter
+Terminal=false
+Categories=Utility;Graphics;AudioVideo;
+MimeType=image/png;image/jpeg;image/webp;image/heic;image/avif;image/tiff;image/bmp;image/svg+xml;application/pdf;audio/mpeg;audio/flac;audio/ogg;audio/x-wav;video/mp4;video/quicktime;video/x-matroska;application/zip;application/x-tar;application/gzip;text/plain;text/markdown;text/csv;application/vnd.openxmlformats-officedocument.wordprocessingml.document;application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;application/vnd.openxmlformats-officedocument.presentationml.presentation;
+StartupNotify=true
+DBusActivatable=true

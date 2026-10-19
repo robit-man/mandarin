@@ -1,0 +1,16 @@
+[project]
+name = "mandarin-desktop"
+version = "0.1.0"
+description = "Contextual offline file conversion for Ubuntu"
+requires-python = ">=3.12"
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+exclude = ["build", "dist", ".aiwg"]
+
+[tool.ruff.lint.per-file-ignores]
+# GTK namespace versions and source-tree bootstrap paths must be selected before imports.
+"mandarin/ui.py" = ["E402"]
+"mandarin/indicator.py" = ["E402"]
+"scripts/*.py" = ["E402"]

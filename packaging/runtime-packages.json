@@ -1,0 +1,14 @@
+{
+  "baseline": "Ubuntu 24.04 amd64",
+  "packages": [
+    "python3.12", "python3-gi", "python3-gi-cairo", "python3-cairo", "python3-pil",
+    "python3-pypdf", "python3-reportlab", "python3-docx", "python3-openpyxl", "python3-numpy", "python3-opencv",
+    "gir1.2-gtk-4.0", "gir1.2-adw-1", "gir1.2-gtk-3.0", "gir1.2-ayatanaappindicator3-0.1", "ffmpeg", "imagemagick-6.q16",
+    "libheif-plugin-aomdec", "libheif-plugin-aomenc", "libheif-plugin-libde265", "libheif-plugin-x265",
+    "libreoffice-core", "libreoffice-writer", "libreoffice-calc", "libreoffice-impress", "libreofficekit-data",
+    "poppler-utils", "qpdf", "ghostscript", "pandoc", "pandoc-data", "librsvg2-bin", "libarchive-tools",
+    "libimage-exiftool-perl", "perl", "tesseract-ocr", "tesseract-ocr-eng", "opencv-data",
+    "zbar-tools", "libseccomp2", "fonts-dejavu-core", "fonts-liberation", "fonts-noto-core", "fonts-noto-cjk", "fonts-noto-color-emoji", "adwaita-icon-theme"
+  ],
+  "policy": "Stage the exact installed dependency closure into the package, record versions and hashes, reject missing packages. Packaged execution never searches host PATH for conversion tooling."
+}

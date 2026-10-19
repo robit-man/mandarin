@@ -1,0 +1,228 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-19T21:59:51.428186Z",
+  "title": "Design System: Mandarin",
+  "extensions": {
+    "colorMeta": {
+      "citrus-accent": {
+        "role": "primary",
+        "displayName": "Citrus accent",
+        "canonical": "#c35416",
+        "tonalRamp": [
+          "oklch(15% 0.15761 44.43)",
+          "oklch(26% 0.15761 44.43)",
+          "oklch(38% 0.15761 44.43)",
+          "oklch(49% 0.15761 44.43)",
+          "oklch(61% 0.15761 44.43)",
+          "oklch(72% 0.15761 44.43)",
+          "oklch(84% 0.15761 44.43)",
+          "oklch(95% 0.15761 44.43)"
+        ]
+      },
+      "citrus-soft": {
+        "role": "primary",
+        "displayName": "Citrus soft",
+        "canonical": "#fae8da",
+        "tonalRamp": [
+          "oklch(15% 0.02716 60.37)",
+          "oklch(26% 0.02716 60.37)",
+          "oklch(38% 0.02716 60.37)",
+          "oklch(49% 0.02716 60.37)",
+          "oklch(61% 0.02716 60.37)",
+          "oklch(72% 0.02716 60.37)",
+          "oklch(84% 0.02716 60.37)",
+          "oklch(95% 0.02716 60.37)"
+        ]
+      },
+      "wheel-light": {
+        "role": "neutral",
+        "displayName": "Warm wheel neutral",
+        "canonical": "rgb(94%, 92.5%, 90%)",
+        "tonalRamp": [
+          "oklch(15% 0.00947 80.72)",
+          "oklch(26% 0.00947 80.72)",
+          "oklch(38% 0.00947 80.72)",
+          "oklch(49% 0.00947 80.72)",
+          "oklch(61% 0.00947 80.72)",
+          "oklch(72% 0.00947 80.72)",
+          "oklch(84% 0.00947 80.72)",
+          "oklch(95% 0.00947 80.72)"
+        ]
+      },
+      "wheel-dark": {
+        "role": "neutral",
+        "displayName": "Dark wheel neutral",
+        "canonical": "rgb(18%, 18%, 18%)",
+        "tonalRamp": [
+          "oklch(15% 0.00000 0.00)",
+          "oklch(26% 0.00000 0.00)",
+          "oklch(38% 0.00000 0.00)",
+          "oklch(49% 0.00000 0.00)",
+          "oklch(61% 0.00000 0.00)",
+          "oklch(72% 0.00000 0.00)",
+          "oklch(84% 0.00000 0.00)",
+          "oklch(95% 0.00000 0.00)"
+        ]
+      },
+      "wheel-dark-hover": {
+        "role": "neutral",
+        "displayName": "Warm dark hover",
+        "canonical": "rgb(34%, 23%, 16%)",
+        "tonalRamp": [
+          "oklch(15% 0.04902 53.18)",
+          "oklch(26% 0.04902 53.18)",
+          "oklch(38% 0.04902 53.18)",
+          "oklch(49% 0.04902 53.18)",
+          "oklch(61% 0.04902 53.18)",
+          "oklch(72% 0.04902 53.18)",
+          "oklch(84% 0.04902 53.18)",
+          "oklch(95% 0.04902 53.18)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "title": {
+        "displayName": "Application title",
+        "purpose": "Header title; the desktop chooses its font family."
+      },
+      "label": {
+        "displayName": "Wheel label",
+        "purpose": "Centered wrapped labels under native symbolic icons."
+      },
+      "job-name": {
+        "displayName": "Job name",
+        "purpose": "Semibold operation and filename label; native body size."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "category-dwell",
+        "value": "250ms",
+        "purpose": "Default dwell; user setting supports 150–600ms. Navigation timing, not animation."
+      },
+      {
+        "name": "drag-poll",
+        "value": "50ms",
+        "purpose": "Check dwell while dragging."
+      },
+      {
+        "name": "preview-debounce",
+        "value": "250ms",
+        "purpose": "Coalesce parameter edits before generating a new image preview."
+      }
+    ],
+    "breakpoints": []
+  },
+  "components": [
+    {
+      "name": "Wheel operation button",
+      "kind": "button",
+      "description": "Browser preview adapter of the custom GTK wheel button; native font/focus resolve on the desktop.",
+      "html": "<button class=\"ds-wheel-button\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\"><path d=\"M10 2v10m-4-4 4 4 4-4M3 14v3h14v-3\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/></svg><span>Convert</span></button>",
+      "css": ".ds-wheel-button{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;background:transparent;color:CanvasText;border:0;box-shadow:none;padding:8px;min-width:62px;min-height:44px;width:100px;height:74px;border-radius:12px;font:600 13px sans-serif}.ds-wheel-button:hover,.ds-wheel-button:focus-visible{background:rgba(195,84,22,.14)}.ds-wheel-button:focus-visible{outline:auto}.ds-wheel-button:active{background:rgba(195,84,22,.14)}",
+      "refersTo": "wheel-button"
+    },
+    {
+      "name": "Wheel hub",
+      "kind": "button",
+      "description": "Browser preview adapter of the centered GTK Add files/Back button; native theme owns its text metrics.",
+      "html": "<button class=\"ds-wheel-hub\">Add files</button>",
+      "css": ".ds-wheel-hub{width:110px;height:110px;min-width:0;min-height:0;padding:0;background:Canvas;color:CanvasText;border:1px solid color-mix(in srgb,CanvasText 10%,transparent);border-radius:50%;font-family:sans-serif}.ds-wheel-hub:hover{color:CanvasText}.ds-wheel-hub:focus-visible{outline:auto}.ds-wheel-hub:active{color:CanvasText}",
+      "refersTo": "wheel-hub"
+    },
+    {
+      "name": "File row",
+      "kind": "custom",
+      "description": "Custom row around native icon, filename and remove button; browser controls preview their roles only.",
+      "html": "<div class=\"ds-file-row\"><span>sample.png</span><button title=\"Remove file\" aria-label=\"Remove file\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" aria-hidden=\"true\"><path d=\"m4 4 8 8m0-8-8 8\" stroke=\"currentColor\" stroke-width=\"2\"/></svg></button></div>",
+      "css": ".ds-file-row{display:flex;align-items:center;gap:8px;padding:8px;min-height:44px;border-radius:8px;color:CanvasText;font-family:sans-serif}.ds-file-row:hover{background:color-mix(in srgb,CanvasText 5%,transparent)}.ds-file-row span{flex:1;overflow:hidden;text-overflow:ellipsis}.ds-file-row button:focus-visible{outline:auto}.ds-file-row button:hover{color:ButtonText}.ds-file-row button:active{color:ButtonText}",
+      "refersTo": "file-row"
+    },
+    {
+      "name": "Persistent status",
+      "kind": "custom",
+      "description": "Custom status wash; GTK supplies semantic foreground and error colors. This is not a decorative card.",
+      "html": "<div class=\"ds-status\" role=\"status\">Completed. Your new copy is ready to reveal.</div>",
+      "css": ".ds-status{padding:8px 12px;min-height:42px;border-radius:8px;background:color-mix(in srgb,CanvasText 4.5%,transparent);color:CanvasText;font-family:sans-serif}",
+      "refersTo": "status"
+    },
+    {
+      "name": "Shared job row",
+      "kind": "custom",
+      "description": "Browser preview adapter of a completed job; native progress and action styling remains platform-owned.",
+      "html": "<div class=\"ds-job-row\"><div class=\"ds-job-top\"><span>Convert to jpg · sample.png</span><button>Reveal</button></div><progress class=\"ds-job-progress\" max=\"1\" value=\"1\"></progress><div>Completed · /home/user/sample.jpg</div></div>",
+      "css": ".ds-job-row{display:flex;flex-direction:column;gap:6px;padding:12px;border-top:1px solid color-mix(in srgb,CanvasText 10%,transparent);font-family:sans-serif;color:CanvasText}.ds-job-top{display:flex;align-items:center;gap:12px}.ds-job-top span{flex:1;font-weight:600}.ds-job-progress{width:100%}.ds-job-top button:hover{color:ButtonText}.ds-job-top button:focus-visible{outline:auto}.ds-job-top button:active{color:ButtonText}",
+      "refersTo": "job-row"
+    },
+    {
+      "name": "Native parameter field",
+      "kind": "input",
+      "description": "Browser native-control adapter of Gtk.Entry; border, focus, font size and rounding are theme-owned, not fixed Mandarin tokens.",
+      "html": "<label class=\"ds-parameter\">Output name<input class=\"ds-parameter-input\" type=\"text\" value=\"sample-copy\"></label>",
+      "css": ".ds-parameter{display:flex;flex-direction:column;gap:5px;padding:8px 0;color:CanvasText;font-family:sans-serif}.ds-parameter-input{font:inherit}.ds-parameter-input:hover{color:FieldText}.ds-parameter-input:focus-visible{outline:auto}"
+    },
+    {
+      "name": "Operation list",
+      "kind": "nav",
+      "description": "Browser native-button adapter of the same operation tree used by the wheel; GTK owns button appearance.",
+      "html": "<nav class=\"ds-operation-list\" aria-label=\"Available operations\"><strong>Convert</strong><button>JPG</button><button>PNG</button></nav>",
+      "css": ".ds-operation-list{display:flex;flex-direction:column;gap:4px;font-family:sans-serif;color:CanvasText}.ds-operation-list strong{margin-top:12px}.ds-operation-list button{min-height:44px;font-family:inherit}.ds-operation-list button:hover{color:ButtonText}.ds-operation-list button:focus-visible{outline:auto}.ds-operation-list button:active{color:ButtonText}"
+    },
+    {
+      "name": "Native suggested action",
+      "kind": "button",
+      "description": "Role adapter of Create copy: the runtime uses Gtk.Button suggested-action and the desktop accent, never a hard-coded Mandarin button palette.",
+      "html": "<button class=\"ds-suggested\">Create copy</button>",
+      "css": ".ds-suggested{font-family:sans-serif;background:AccentColor;color:AccentColorText}.ds-suggested:hover{color:AccentColorText}.ds-suggested:focus-visible{outline:auto}.ds-suggested:active{color:AccentColorText}"
+    },
+    {
+      "name": "Native taskbar menu",
+      "kind": "nav",
+      "description": "Browser native-control adapter of the GTK3 Ayatana menu; the runtime reuses the citrus icon and inherits the desktop menu theme. The disabled status row refreshes every two seconds; Open Mandarin and Conversion jobs reopen the shared normal window, Add files… opens its file picker, and Quit Mandarin confirms active conversions. Closing hides only while the indicator is connected.",
+      "html": "<nav class=\"ds-indicator-menu\" aria-label=\"Mandarin taskbar menu\"><button disabled>Mandarin is ready</button><button>Open Mandarin</button><button>Add files…</button><button>Conversion jobs</button><hr><button>Quit Mandarin</button></nav>",
+      "css": ".ds-indicator-menu{display:flex;flex-direction:column;font-family:sans-serif;color:CanvasText}.ds-indicator-menu button{font-family:inherit;text-align:start}.ds-indicator-menu button:hover{color:ButtonText}.ds-indicator-menu button:focus-visible{outline:auto}.ds-indicator-menu button:active{color:ButtonText}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Quiet native desktop instrument",
+    "overview": "A quiet native desktop instrument organized around a citrus wheel: the radial menu is the distinctive element; file selection, editors and job feedback remain familiar GTK controls. The application belongs to the Ubuntu desktop, follows its font and color preferences, and keeps file names, destinations and recovery actions readable.\n\nThe existing code establishes the direction. The wheel uses warm orange interaction cues and neutral sectors; surrounding surfaces, suggested actions, fields and dialogs inherit GTK4/libadwaita. There is no approved visual comp or recorded FORM seed; this document captures the implemented system without asserting either.",
+    "keyCharacteristics": [
+      "Native desktop controls and user-selected typography.",
+      "A stable circular hub with labeled, keyboard-accessible operation buttons.",
+      "Quiet tonal separation, persistent status and reachable job actions.",
+      "One operation model shared by the normal window, compact popup and list view."
+    ],
+    "rules": [
+      {
+        "name": "Native Theme",
+        "body": "Use GTK/libadwaita semantic foreground, background, accent and error roles for native controls; custom wheel colors do not replace those roles.",
+        "section": "colors"
+      },
+      {
+        "name": "Native Type",
+        "body": "Keep the desktop font and text scaling. Apply only the title, wheel-label and job-name overrides recorded in the frontmatter.",
+        "section": "typography"
+      },
+      {
+        "name": "Quiet Depth",
+        "body": "The wheel is flat and shadowless. Preserve the platform’s own elevation, focus rings and dialogs around it.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do preserve native focus rings, desktop text scaling, high-contrast preferences and reduced-motion behavior.",
+      "Do keep the same operations and parameter form available through the radial and keyboard list interfaces.",
+      "Do keep selected files, the actual output destination and recovery actions accessible in compact mode.",
+      "Do use symbolic native icons with text or a tooltip; keep filenames in the normal desktop face.",
+      "Do keep engine details in diagnostics and show useful errors beside the task or persistent job state."
+    ],
+    "donts": [
+      "Don’t force the warm light wheel palette onto native windows, fields or dialogs in dark mode.",
+      "Don’t treat a recognized extension as proof that an operation is available.",
+      "Don’t replace native controls with decorative web-style cards or remove native focus treatment.",
+      "Don’t introduce entrance animation or substitute animation for meaningful progress.",
+      "Don’t use icon-only controls without a tooltip and accessible name."
+    ]
+  }
+}

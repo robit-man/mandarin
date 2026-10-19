@@ -1,0 +1,94 @@
+{
+  "health": {
+    "version": "0.1.0",
+    "profile": "bundled",
+    "engines": {
+      "ffmpeg": "/opt/mandarin/runtime/usr/bin/ffmpeg",
+      "ffprobe": "/opt/mandarin/runtime/usr/bin/ffprobe",
+      "convert": "/opt/mandarin/runtime/usr/bin/convert",
+      "identify": "/opt/mandarin/runtime/usr/bin/identify",
+      "soffice": "/opt/mandarin/runtime/usr/lib/libreoffice/program/soffice.bin",
+      "pdftoppm": "/opt/mandarin/runtime/usr/bin/pdftoppm",
+      "pdftotext": "/opt/mandarin/runtime/usr/bin/pdftotext",
+      "pdfinfo": "/opt/mandarin/runtime/usr/bin/pdfinfo",
+      "qpdf": "/opt/mandarin/runtime/usr/bin/qpdf",
+      "pandoc": "/opt/mandarin/runtime/usr/bin/pandoc",
+      "bsdtar": "/opt/mandarin/runtime/usr/bin/bsdtar",
+      "rsvg": "/opt/mandarin/runtime/usr/bin/rsvg-convert",
+      "exiftool": "/opt/mandarin/runtime/usr/bin/exiftool",
+      "perl": "/opt/mandarin/runtime/usr/bin/perl",
+      "tesseract": "/opt/mandarin/runtime/usr/bin/tesseract",
+      "zbarimg": "/opt/mandarin/runtime/usr/bin/zbarimg",
+      "gs": "/opt/mandarin/runtime/usr/bin/gs"
+    },
+    "isolation": {
+      "landlock_abi": 8,
+      "seccomp": true,
+      "available": true
+    }
+  },
+  "distribution": "installed strict Snap",
+  "results": [
+    {
+      "input": "png",
+      "output": "heic",
+      "status": "pass"
+    },
+    {
+      "input": "heic",
+      "output": "png",
+      "status": "pass"
+    },
+    {
+      "input": "png",
+      "output": "avif",
+      "status": "pass"
+    },
+    {
+      "input": "svg",
+      "output": "pdf",
+      "status": "pass"
+    },
+    {
+      "input": "wav",
+      "output": "opus",
+      "status": "pass"
+    },
+    {
+      "input": "mp4",
+      "output": "webm",
+      "status": "pass"
+    },
+    {
+      "input": "md",
+      "output": "docx",
+      "status": "pass"
+    },
+    {
+      "input": "docx",
+      "output": "pdf",
+      "status": "pass"
+    },
+    {
+      "input": "csv",
+      "output": "pdf",
+      "status": "pass"
+    },
+    {
+      "input": "pdf",
+      "output": "png",
+      "status": "pass"
+    },
+    {
+      "input": "rar",
+      "output": "zip",
+      "status": "pass"
+    },
+    {
+      "input": "srt",
+      "output": "vtt",
+      "status": "pass"
+    }
+  ],
+  "sha256": "dc336e8af402881af0c97cf63d421e3e6b6c9f25cc07e22a7302db84953ae209"
+}

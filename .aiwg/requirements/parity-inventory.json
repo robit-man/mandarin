@@ -1,0 +1,5451 @@
+{
+  "schema_version": 1,
+  "project": "Mandarin",
+  "baseline_date": "2026-10-18",
+  "status": "0.1.0-preview-implemented-not-parity-certified",
+  "reference": {
+    "name": "Tangerine",
+    "store_version_observed": "2.0.1",
+    "conversion_count_advertised": 275,
+    "tool_count_advertised": 26,
+    "action_count_advertised": 6,
+    "counts_are_not_runtime_certification": true
+  },
+  "conversions": [
+    {
+      "id": "CONV-001",
+      "input": "jpg",
+      "output": "png",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "normal",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-002",
+      "input": "jpg",
+      "output": "webp",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "normal",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-003",
+      "input": "jpg",
+      "output": "heic",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "codec-build-and-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-004",
+      "input": "jpg",
+      "output": "tiff",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "normal",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-005",
+      "input": "jpg",
+      "output": "avif",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "codec-build-and-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-006",
+      "input": "jpg",
+      "output": "bmp",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "normal",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-007",
+      "input": "jpg",
+      "output": "pdf",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "normal",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-008",
+      "input": "png",
+      "output": "jpg",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "normal",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-009",
+      "input": "png",
+      "output": "webp",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "normal",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-010",
+      "input": "png",
+      "output": "heic",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "codec-build-and-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-011",
+      "input": "png",
+      "output": "tiff",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "normal",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-012",
+      "input": "png",
+      "output": "avif",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "codec-build-and-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-013",
+      "input": "png",
+      "output": "bmp",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "normal",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-014",
+      "input": "png",
+      "output": "pdf",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "normal",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-015",
+      "input": "webp",
+      "output": "jpg",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "normal",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-016",
+      "input": "webp",
+      "output": "png",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "normal",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-017",
+      "input": "webp",
+      "output": "heic",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "codec-build-and-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-018",
+      "input": "webp",
+      "output": "tiff",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "normal",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-019",
+      "input": "webp",
+      "output": "avif",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "codec-build-and-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-020",
+      "input": "webp",
+      "output": "bmp",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "normal",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-021",
+      "input": "webp",
+      "output": "pdf",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "normal",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-022",
+      "input": "heic",
+      "output": "jpg",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "codec-build-and-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-023",
+      "input": "heic",
+      "output": "png",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "codec-build-and-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-024",
+      "input": "heic",
+      "output": "webp",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "codec-build-and-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-025",
+      "input": "heic",
+      "output": "tiff",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "codec-build-and-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-026",
+      "input": "heic",
+      "output": "avif",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "codec-build-and-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-027",
+      "input": "heic",
+      "output": "bmp",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "codec-build-and-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-028",
+      "input": "heic",
+      "output": "pdf",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "codec-build-and-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-029",
+      "input": "tiff",
+      "output": "jpg",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "normal",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-030",
+      "input": "tiff",
+      "output": "png",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "normal",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-031",
+      "input": "tiff",
+      "output": "webp",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "normal",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-032",
+      "input": "tiff",
+      "output": "heic",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "codec-build-and-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-033",
+      "input": "tiff",
+      "output": "avif",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "codec-build-and-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-034",
+      "input": "tiff",
+      "output": "bmp",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "normal",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-035",
+      "input": "tiff",
+      "output": "pdf",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "normal",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-036",
+      "input": "svg",
+      "output": "jpg",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "normal",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-037",
+      "input": "svg",
+      "output": "png",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "normal",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-038",
+      "input": "svg",
+      "output": "webp",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "normal",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-039",
+      "input": "svg",
+      "output": "heic",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "codec-build-and-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-040",
+      "input": "svg",
+      "output": "tiff",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "normal",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-041",
+      "input": "svg",
+      "output": "avif",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "codec-build-and-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-042",
+      "input": "svg",
+      "output": "bmp",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "normal",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-043",
+      "input": "svg",
+      "output": "pdf",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "normal",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-044",
+      "input": "avif",
+      "output": "jpg",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "codec-build-and-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-045",
+      "input": "avif",
+      "output": "png",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "codec-build-and-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-046",
+      "input": "avif",
+      "output": "webp",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "codec-build-and-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-047",
+      "input": "avif",
+      "output": "heic",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "codec-build-and-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-048",
+      "input": "avif",
+      "output": "tiff",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "codec-build-and-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-049",
+      "input": "avif",
+      "output": "bmp",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "codec-build-and-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-050",
+      "input": "avif",
+      "output": "pdf",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "codec-build-and-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-051",
+      "input": "bmp",
+      "output": "jpg",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "normal",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-052",
+      "input": "bmp",
+      "output": "png",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "normal",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-053",
+      "input": "bmp",
+      "output": "webp",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "normal",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-054",
+      "input": "bmp",
+      "output": "heic",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "codec-build-and-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-055",
+      "input": "bmp",
+      "output": "tiff",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "normal",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-056",
+      "input": "bmp",
+      "output": "avif",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "codec-build-and-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-057",
+      "input": "bmp",
+      "output": "pdf",
+      "milestone": "M2",
+      "adapter": "image",
+      "risk": "normal",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-058",
+      "input": "mp3",
+      "output": "m4a",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-059",
+      "input": "mp3",
+      "output": "wav",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-060",
+      "input": "mp3",
+      "output": "flac",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-061",
+      "input": "mp3",
+      "output": "ogg",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-062",
+      "input": "mp3",
+      "output": "opus",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-063",
+      "input": "mp3",
+      "output": "aiff",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-064",
+      "input": "mp3",
+      "output": "wma",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-065",
+      "input": "m4a",
+      "output": "mp3",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-066",
+      "input": "m4a",
+      "output": "wav",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-067",
+      "input": "m4a",
+      "output": "flac",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-068",
+      "input": "m4a",
+      "output": "ogg",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-069",
+      "input": "m4a",
+      "output": "opus",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-070",
+      "input": "m4a",
+      "output": "aiff",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-071",
+      "input": "m4a",
+      "output": "wma",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-072",
+      "input": "wav",
+      "output": "mp3",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-073",
+      "input": "wav",
+      "output": "m4a",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-074",
+      "input": "wav",
+      "output": "flac",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-075",
+      "input": "wav",
+      "output": "ogg",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-076",
+      "input": "wav",
+      "output": "opus",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-077",
+      "input": "wav",
+      "output": "aiff",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-078",
+      "input": "wav",
+      "output": "wma",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-079",
+      "input": "flac",
+      "output": "mp3",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-080",
+      "input": "flac",
+      "output": "m4a",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-081",
+      "input": "flac",
+      "output": "wav",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-082",
+      "input": "flac",
+      "output": "ogg",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-083",
+      "input": "flac",
+      "output": "opus",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-084",
+      "input": "flac",
+      "output": "aiff",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-085",
+      "input": "flac",
+      "output": "wma",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-086",
+      "input": "ogg",
+      "output": "mp3",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-087",
+      "input": "ogg",
+      "output": "m4a",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-088",
+      "input": "ogg",
+      "output": "wav",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-089",
+      "input": "ogg",
+      "output": "flac",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-090",
+      "input": "ogg",
+      "output": "opus",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-091",
+      "input": "ogg",
+      "output": "aiff",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-092",
+      "input": "ogg",
+      "output": "wma",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-093",
+      "input": "opus",
+      "output": "mp3",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-094",
+      "input": "opus",
+      "output": "m4a",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-095",
+      "input": "opus",
+      "output": "wav",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-096",
+      "input": "opus",
+      "output": "flac",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-097",
+      "input": "opus",
+      "output": "ogg",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-098",
+      "input": "opus",
+      "output": "aiff",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-099",
+      "input": "opus",
+      "output": "wma",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-100",
+      "input": "aiff",
+      "output": "mp3",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-101",
+      "input": "aiff",
+      "output": "m4a",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-102",
+      "input": "aiff",
+      "output": "wav",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-103",
+      "input": "aiff",
+      "output": "flac",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-104",
+      "input": "aiff",
+      "output": "ogg",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-105",
+      "input": "aiff",
+      "output": "opus",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-106",
+      "input": "aiff",
+      "output": "wma",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-107",
+      "input": "wma",
+      "output": "mp3",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-108",
+      "input": "wma",
+      "output": "m4a",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-109",
+      "input": "wma",
+      "output": "wav",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-110",
+      "input": "wma",
+      "output": "flac",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-111",
+      "input": "wma",
+      "output": "ogg",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-112",
+      "input": "wma",
+      "output": "opus",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-113",
+      "input": "wma",
+      "output": "aiff",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-114",
+      "input": "mp4",
+      "output": "mov",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-115",
+      "input": "mp4",
+      "output": "mkv",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-116",
+      "input": "mp4",
+      "output": "webm",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-117",
+      "input": "mp4",
+      "output": "avi",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-118",
+      "input": "mp4",
+      "output": "wmv",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-119",
+      "input": "mp4",
+      "output": "gif",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-120",
+      "input": "mp4",
+      "output": "mp3",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-121",
+      "input": "mov",
+      "output": "mp4",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-122",
+      "input": "mov",
+      "output": "mkv",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-123",
+      "input": "mov",
+      "output": "webm",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-124",
+      "input": "mov",
+      "output": "avi",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-125",
+      "input": "mov",
+      "output": "wmv",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-126",
+      "input": "mov",
+      "output": "gif",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-127",
+      "input": "mov",
+      "output": "mp3",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-128",
+      "input": "mkv",
+      "output": "mp4",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-129",
+      "input": "mkv",
+      "output": "mov",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-130",
+      "input": "mkv",
+      "output": "webm",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-131",
+      "input": "mkv",
+      "output": "avi",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-132",
+      "input": "mkv",
+      "output": "wmv",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-133",
+      "input": "mkv",
+      "output": "gif",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-134",
+      "input": "mkv",
+      "output": "mp3",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-135",
+      "input": "webm",
+      "output": "mp4",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-136",
+      "input": "webm",
+      "output": "mov",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-137",
+      "input": "webm",
+      "output": "mkv",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-138",
+      "input": "webm",
+      "output": "avi",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-139",
+      "input": "webm",
+      "output": "wmv",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-140",
+      "input": "webm",
+      "output": "gif",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-141",
+      "input": "webm",
+      "output": "mp3",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-142",
+      "input": "avi",
+      "output": "mp4",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-143",
+      "input": "avi",
+      "output": "mov",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-144",
+      "input": "avi",
+      "output": "mkv",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-145",
+      "input": "avi",
+      "output": "webm",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-146",
+      "input": "avi",
+      "output": "wmv",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-147",
+      "input": "avi",
+      "output": "gif",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-148",
+      "input": "avi",
+      "output": "mp3",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-149",
+      "input": "wmv",
+      "output": "mp4",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-150",
+      "input": "wmv",
+      "output": "mov",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-151",
+      "input": "wmv",
+      "output": "mkv",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-152",
+      "input": "wmv",
+      "output": "webm",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-153",
+      "input": "wmv",
+      "output": "avi",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-154",
+      "input": "wmv",
+      "output": "gif",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-155",
+      "input": "wmv",
+      "output": "mp3",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-156",
+      "input": "gif",
+      "output": "mp4",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-157",
+      "input": "gif",
+      "output": "mov",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-158",
+      "input": "gif",
+      "output": "mkv",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-159",
+      "input": "gif",
+      "output": "webm",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-160",
+      "input": "gif",
+      "output": "avi",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-161",
+      "input": "gif",
+      "output": "wmv",
+      "milestone": "M3",
+      "adapter": "media",
+      "risk": "codec-container-compatibility",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-162",
+      "input": "pdf",
+      "output": "docx",
+      "milestone": "M4",
+      "adapter": "pdf-layout-reconstruction",
+      "risk": "semantic-reconstruction",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "planned",
+      "acceptance_test": "TC-CONV-ALL"
+    },
+    {
+      "id": "CONV-163",
+      "input": "pdf",
+      "output": "pages",
+      "milestone": "M4",
+      "adapter": "pages-writer-research",
+      "risk": "blocked-native-pages-export",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "blocked",
+      "acceptance_test": "TC-CONV-ALL",
+      "implementation_note": "No native Pages writer; route is absent from runtime menus."
+    },
+    {
+      "id": "CONV-164",
+      "input": "pdf",
+      "output": "pptx",
+      "milestone": "M4",
+      "adapter": "pdf-layout-reconstruction",
+      "risk": "semantic-reconstruction",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "planned",
+      "acceptance_test": "TC-CONV-ALL"
+    },
+    {
+      "id": "CONV-165",
+      "input": "pdf",
+      "output": "xlsx",
+      "milestone": "M4",
+      "adapter": "pdf-layout-reconstruction",
+      "risk": "semantic-reconstruction",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "planned",
+      "acceptance_test": "TC-CONV-ALL"
+    },
+    {
+      "id": "CONV-166",
+      "input": "pdf",
+      "output": "jpg",
+      "milestone": "M4",
+      "adapter": "pdf",
+      "risk": "normal",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-167",
+      "input": "pdf",
+      "output": "png",
+      "milestone": "M4",
+      "adapter": "pdf",
+      "risk": "normal",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-168",
+      "input": "pdf",
+      "output": "epub",
+      "milestone": "M4",
+      "adapter": "pdf-layout-reconstruction",
+      "risk": "semantic-reconstruction",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "planned",
+      "acceptance_test": "TC-CONV-ALL"
+    },
+    {
+      "id": "CONV-169",
+      "input": "pdf",
+      "output": "txt",
+      "milestone": "M4",
+      "adapter": "pdf",
+      "risk": "reading-order-and-ocr",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-170",
+      "input": "pdf",
+      "output": "md",
+      "milestone": "M4",
+      "adapter": "pdf",
+      "risk": "reading-order-and-ocr",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-171",
+      "input": "docx",
+      "output": "pages",
+      "milestone": "M4",
+      "adapter": "pages-writer-research",
+      "risk": "blocked-native-pages-export",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "blocked",
+      "acceptance_test": "TC-CONV-ALL",
+      "implementation_note": "No native Pages writer; route is absent from runtime menus."
+    },
+    {
+      "id": "CONV-172",
+      "input": "docx",
+      "output": "pdf",
+      "milestone": "M4",
+      "adapter": "document",
+      "risk": "fonts-and-layout",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-173",
+      "input": "docx",
+      "output": "txt",
+      "milestone": "M4",
+      "adapter": "document",
+      "risk": "fonts-and-layout",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-174",
+      "input": "docx",
+      "output": "md",
+      "milestone": "M4",
+      "adapter": "document",
+      "risk": "fonts-and-layout",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-175",
+      "input": "docx",
+      "output": "html",
+      "milestone": "M4",
+      "adapter": "document",
+      "risk": "fonts-and-layout",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-176",
+      "input": "docx",
+      "output": "epub",
+      "milestone": "M4",
+      "adapter": "document",
+      "risk": "fonts-and-layout",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-177",
+      "input": "docx",
+      "output": "png",
+      "milestone": "M4",
+      "adapter": "document",
+      "risk": "fonts-and-layout",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-178",
+      "input": "docx",
+      "output": "jpg",
+      "milestone": "M4",
+      "adapter": "document",
+      "risk": "fonts-and-layout",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-179",
+      "input": "pages",
+      "output": "docx",
+      "milestone": "M4",
+      "adapter": "pages-reader-research",
+      "risk": "pages-version-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "in-progress",
+      "acceptance_test": "TC-CONV-ALL",
+      "implementation_note": "Tentative LibreOffice import; authentic Pages fixture qualification is missing."
+    },
+    {
+      "id": "CONV-180",
+      "input": "pages",
+      "output": "pdf",
+      "milestone": "M4",
+      "adapter": "pages-reader-research",
+      "risk": "pages-version-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "in-progress",
+      "acceptance_test": "TC-CONV-ALL",
+      "implementation_note": "Tentative LibreOffice import; authentic Pages fixture qualification is missing."
+    },
+    {
+      "id": "CONV-181",
+      "input": "pages",
+      "output": "txt",
+      "milestone": "M4",
+      "adapter": "pages-reader-research",
+      "risk": "pages-version-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "in-progress",
+      "acceptance_test": "TC-CONV-ALL",
+      "implementation_note": "Tentative LibreOffice import; authentic Pages fixture qualification is missing."
+    },
+    {
+      "id": "CONV-182",
+      "input": "pages",
+      "output": "md",
+      "milestone": "M4",
+      "adapter": "pages-reader-research",
+      "risk": "pages-version-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "planned",
+      "acceptance_test": "TC-CONV-ALL"
+    },
+    {
+      "id": "CONV-183",
+      "input": "pages",
+      "output": "html",
+      "milestone": "M4",
+      "adapter": "pages-reader-research",
+      "risk": "pages-version-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "planned",
+      "acceptance_test": "TC-CONV-ALL"
+    },
+    {
+      "id": "CONV-184",
+      "input": "pages",
+      "output": "epub",
+      "milestone": "M4",
+      "adapter": "pages-reader-research",
+      "risk": "pages-version-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "planned",
+      "acceptance_test": "TC-CONV-ALL"
+    },
+    {
+      "id": "CONV-185",
+      "input": "pages",
+      "output": "png",
+      "milestone": "M4",
+      "adapter": "pages-reader-research",
+      "risk": "pages-version-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "in-progress",
+      "acceptance_test": "TC-CONV-ALL",
+      "implementation_note": "Tentative LibreOffice import; authentic Pages fixture qualification is missing."
+    },
+    {
+      "id": "CONV-186",
+      "input": "pages",
+      "output": "jpg",
+      "milestone": "M4",
+      "adapter": "pages-reader-research",
+      "risk": "pages-version-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "in-progress",
+      "acceptance_test": "TC-CONV-ALL",
+      "implementation_note": "Tentative LibreOffice import; authentic Pages fixture qualification is missing."
+    },
+    {
+      "id": "CONV-187",
+      "input": "md",
+      "output": "docx",
+      "milestone": "M4",
+      "adapter": "document",
+      "risk": "fonts-and-layout",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-188",
+      "input": "md",
+      "output": "pages",
+      "milestone": "M4",
+      "adapter": "pages-writer-research",
+      "risk": "blocked-native-pages-export",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "blocked",
+      "acceptance_test": "TC-CONV-ALL",
+      "implementation_note": "No native Pages writer; route is absent from runtime menus."
+    },
+    {
+      "id": "CONV-189",
+      "input": "md",
+      "output": "pdf",
+      "milestone": "M4",
+      "adapter": "document",
+      "risk": "fonts-and-layout",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-190",
+      "input": "md",
+      "output": "txt",
+      "milestone": "M4",
+      "adapter": "document",
+      "risk": "fonts-and-layout",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-191",
+      "input": "md",
+      "output": "html",
+      "milestone": "M4",
+      "adapter": "document",
+      "risk": "fonts-and-layout",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-192",
+      "input": "md",
+      "output": "epub",
+      "milestone": "M4",
+      "adapter": "document",
+      "risk": "fonts-and-layout",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-193",
+      "input": "md",
+      "output": "png",
+      "milestone": "M4",
+      "adapter": "document",
+      "risk": "fonts-and-layout",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-194",
+      "input": "md",
+      "output": "jpg",
+      "milestone": "M4",
+      "adapter": "document",
+      "risk": "fonts-and-layout",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-195",
+      "input": "rtf",
+      "output": "docx",
+      "milestone": "M4",
+      "adapter": "document",
+      "risk": "fonts-and-layout",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-196",
+      "input": "rtf",
+      "output": "pages",
+      "milestone": "M4",
+      "adapter": "pages-writer-research",
+      "risk": "blocked-native-pages-export",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "blocked",
+      "acceptance_test": "TC-CONV-ALL",
+      "implementation_note": "No native Pages writer; route is absent from runtime menus."
+    },
+    {
+      "id": "CONV-197",
+      "input": "rtf",
+      "output": "pdf",
+      "milestone": "M4",
+      "adapter": "document",
+      "risk": "fonts-and-layout",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-198",
+      "input": "rtf",
+      "output": "txt",
+      "milestone": "M4",
+      "adapter": "document",
+      "risk": "fonts-and-layout",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-199",
+      "input": "rtf",
+      "output": "md",
+      "milestone": "M4",
+      "adapter": "document",
+      "risk": "fonts-and-layout",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-200",
+      "input": "rtf",
+      "output": "html",
+      "milestone": "M4",
+      "adapter": "document",
+      "risk": "fonts-and-layout",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-201",
+      "input": "rtf",
+      "output": "epub",
+      "milestone": "M4",
+      "adapter": "document",
+      "risk": "fonts-and-layout",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-202",
+      "input": "rtf",
+      "output": "png",
+      "milestone": "M4",
+      "adapter": "document",
+      "risk": "fonts-and-layout",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-203",
+      "input": "rtf",
+      "output": "jpg",
+      "milestone": "M4",
+      "adapter": "document",
+      "risk": "fonts-and-layout",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-204",
+      "input": "rtfd",
+      "output": "docx",
+      "milestone": "M4",
+      "adapter": "mac-document-reader-research",
+      "risk": "apple-format-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "planned",
+      "acceptance_test": "TC-CONV-ALL"
+    },
+    {
+      "id": "CONV-205",
+      "input": "rtfd",
+      "output": "pages",
+      "milestone": "M4",
+      "adapter": "pages-writer-research",
+      "risk": "blocked-native-pages-export",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "blocked",
+      "acceptance_test": "TC-CONV-ALL",
+      "implementation_note": "No native Pages writer; route is absent from runtime menus."
+    },
+    {
+      "id": "CONV-206",
+      "input": "rtfd",
+      "output": "pdf",
+      "milestone": "M4",
+      "adapter": "mac-document-reader-research",
+      "risk": "apple-format-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "planned",
+      "acceptance_test": "TC-CONV-ALL"
+    },
+    {
+      "id": "CONV-207",
+      "input": "rtfd",
+      "output": "txt",
+      "milestone": "M4",
+      "adapter": "mac-document-reader-research",
+      "risk": "apple-format-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "planned",
+      "acceptance_test": "TC-CONV-ALL"
+    },
+    {
+      "id": "CONV-208",
+      "input": "rtfd",
+      "output": "md",
+      "milestone": "M4",
+      "adapter": "mac-document-reader-research",
+      "risk": "apple-format-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "planned",
+      "acceptance_test": "TC-CONV-ALL"
+    },
+    {
+      "id": "CONV-209",
+      "input": "rtfd",
+      "output": "html",
+      "milestone": "M4",
+      "adapter": "mac-document-reader-research",
+      "risk": "apple-format-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "planned",
+      "acceptance_test": "TC-CONV-ALL"
+    },
+    {
+      "id": "CONV-210",
+      "input": "rtfd",
+      "output": "epub",
+      "milestone": "M4",
+      "adapter": "mac-document-reader-research",
+      "risk": "apple-format-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "planned",
+      "acceptance_test": "TC-CONV-ALL"
+    },
+    {
+      "id": "CONV-211",
+      "input": "rtfd",
+      "output": "png",
+      "milestone": "M4",
+      "adapter": "mac-document-reader-research",
+      "risk": "apple-format-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "planned",
+      "acceptance_test": "TC-CONV-ALL"
+    },
+    {
+      "id": "CONV-212",
+      "input": "rtfd",
+      "output": "jpg",
+      "milestone": "M4",
+      "adapter": "mac-document-reader-research",
+      "risk": "apple-format-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "planned",
+      "acceptance_test": "TC-CONV-ALL"
+    },
+    {
+      "id": "CONV-213",
+      "input": "textClipping",
+      "output": "docx",
+      "milestone": "M4",
+      "adapter": "mac-document-reader-research",
+      "risk": "apple-format-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "planned",
+      "acceptance_test": "TC-CONV-ALL"
+    },
+    {
+      "id": "CONV-214",
+      "input": "textClipping",
+      "output": "pages",
+      "milestone": "M4",
+      "adapter": "pages-writer-research",
+      "risk": "blocked-native-pages-export",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "blocked",
+      "acceptance_test": "TC-CONV-ALL",
+      "implementation_note": "No native Pages writer; route is absent from runtime menus."
+    },
+    {
+      "id": "CONV-215",
+      "input": "textClipping",
+      "output": "pdf",
+      "milestone": "M4",
+      "adapter": "mac-document-reader-research",
+      "risk": "apple-format-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "planned",
+      "acceptance_test": "TC-CONV-ALL"
+    },
+    {
+      "id": "CONV-216",
+      "input": "textClipping",
+      "output": "txt",
+      "milestone": "M4",
+      "adapter": "mac-document-reader-research",
+      "risk": "apple-format-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "planned",
+      "acceptance_test": "TC-CONV-ALL"
+    },
+    {
+      "id": "CONV-217",
+      "input": "textClipping",
+      "output": "md",
+      "milestone": "M4",
+      "adapter": "mac-document-reader-research",
+      "risk": "apple-format-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "planned",
+      "acceptance_test": "TC-CONV-ALL"
+    },
+    {
+      "id": "CONV-218",
+      "input": "textClipping",
+      "output": "html",
+      "milestone": "M4",
+      "adapter": "mac-document-reader-research",
+      "risk": "apple-format-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "planned",
+      "acceptance_test": "TC-CONV-ALL"
+    },
+    {
+      "id": "CONV-219",
+      "input": "textClipping",
+      "output": "epub",
+      "milestone": "M4",
+      "adapter": "mac-document-reader-research",
+      "risk": "apple-format-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "planned",
+      "acceptance_test": "TC-CONV-ALL"
+    },
+    {
+      "id": "CONV-220",
+      "input": "textClipping",
+      "output": "png",
+      "milestone": "M4",
+      "adapter": "mac-document-reader-research",
+      "risk": "apple-format-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "planned",
+      "acceptance_test": "TC-CONV-ALL"
+    },
+    {
+      "id": "CONV-221",
+      "input": "textClipping",
+      "output": "jpg",
+      "milestone": "M4",
+      "adapter": "mac-document-reader-research",
+      "risk": "apple-format-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "planned",
+      "acceptance_test": "TC-CONV-ALL"
+    },
+    {
+      "id": "CONV-222",
+      "input": "txt",
+      "output": "docx",
+      "milestone": "M4",
+      "adapter": "document",
+      "risk": "fonts-and-layout",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-223",
+      "input": "txt",
+      "output": "pages",
+      "milestone": "M4",
+      "adapter": "pages-writer-research",
+      "risk": "blocked-native-pages-export",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "blocked",
+      "acceptance_test": "TC-CONV-ALL",
+      "implementation_note": "No native Pages writer; route is absent from runtime menus."
+    },
+    {
+      "id": "CONV-224",
+      "input": "txt",
+      "output": "pdf",
+      "milestone": "M4",
+      "adapter": "document",
+      "risk": "fonts-and-layout",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-225",
+      "input": "txt",
+      "output": "md",
+      "milestone": "M4",
+      "adapter": "document",
+      "risk": "fonts-and-layout",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-226",
+      "input": "txt",
+      "output": "html",
+      "milestone": "M4",
+      "adapter": "document",
+      "risk": "fonts-and-layout",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-227",
+      "input": "txt",
+      "output": "epub",
+      "milestone": "M4",
+      "adapter": "document",
+      "risk": "fonts-and-layout",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-228",
+      "input": "txt",
+      "output": "jpg",
+      "milestone": "M4",
+      "adapter": "document",
+      "risk": "fonts-and-layout",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-229",
+      "input": "txt",
+      "output": "png",
+      "milestone": "M4",
+      "adapter": "document",
+      "risk": "fonts-and-layout",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-230",
+      "input": "epub",
+      "output": "pdf",
+      "milestone": "M4",
+      "adapter": "document",
+      "risk": "fonts-and-layout",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-231",
+      "input": "epub",
+      "output": "docx",
+      "milestone": "M4",
+      "adapter": "document",
+      "risk": "fonts-and-layout",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-232",
+      "input": "epub",
+      "output": "pages",
+      "milestone": "M4",
+      "adapter": "pages-writer-research",
+      "risk": "blocked-native-pages-export",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "blocked",
+      "acceptance_test": "TC-CONV-ALL",
+      "implementation_note": "No native Pages writer; route is absent from runtime menus."
+    },
+    {
+      "id": "CONV-233",
+      "input": "epub",
+      "output": "txt",
+      "milestone": "M4",
+      "adapter": "document",
+      "risk": "fonts-and-layout",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-234",
+      "input": "epub",
+      "output": "md",
+      "milestone": "M4",
+      "adapter": "document",
+      "risk": "fonts-and-layout",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-235",
+      "input": "epub",
+      "output": "html",
+      "milestone": "M4",
+      "adapter": "document",
+      "risk": "fonts-and-layout",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-236",
+      "input": "ppt",
+      "output": "pdf",
+      "milestone": "M4",
+      "adapter": "presentation",
+      "risk": "fonts-and-layout",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-237",
+      "input": "ppt",
+      "output": "jpg",
+      "milestone": "M4",
+      "adapter": "presentation",
+      "risk": "fonts-and-layout",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-238",
+      "input": "ppt",
+      "output": "png",
+      "milestone": "M4",
+      "adapter": "presentation",
+      "risk": "fonts-and-layout",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-239",
+      "input": "pptx",
+      "output": "pdf",
+      "milestone": "M4",
+      "adapter": "presentation",
+      "risk": "fonts-and-layout",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-240",
+      "input": "pptx",
+      "output": "jpg",
+      "milestone": "M4",
+      "adapter": "presentation",
+      "risk": "fonts-and-layout",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-241",
+      "input": "pptx",
+      "output": "png",
+      "milestone": "M4",
+      "adapter": "presentation",
+      "risk": "fonts-and-layout",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-242",
+      "input": "xlsx",
+      "output": "ods",
+      "milestone": "M4",
+      "adapter": "spreadsheet",
+      "risk": "sheet-and-formula-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-243",
+      "input": "xlsx",
+      "output": "csv",
+      "milestone": "M4",
+      "adapter": "spreadsheet",
+      "risk": "sheet-and-formula-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-244",
+      "input": "xlsx",
+      "output": "tsv",
+      "milestone": "M4",
+      "adapter": "spreadsheet",
+      "risk": "sheet-and-formula-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-245",
+      "input": "xlsx",
+      "output": "pdf",
+      "milestone": "M4",
+      "adapter": "spreadsheet",
+      "risk": "sheet-and-formula-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-246",
+      "input": "xls",
+      "output": "xlsx",
+      "milestone": "M4",
+      "adapter": "spreadsheet",
+      "risk": "sheet-and-formula-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-247",
+      "input": "xls",
+      "output": "ods",
+      "milestone": "M4",
+      "adapter": "spreadsheet",
+      "risk": "sheet-and-formula-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-248",
+      "input": "xls",
+      "output": "csv",
+      "milestone": "M4",
+      "adapter": "spreadsheet",
+      "risk": "sheet-and-formula-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-249",
+      "input": "xls",
+      "output": "tsv",
+      "milestone": "M4",
+      "adapter": "spreadsheet",
+      "risk": "sheet-and-formula-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-250",
+      "input": "xls",
+      "output": "pdf",
+      "milestone": "M4",
+      "adapter": "spreadsheet",
+      "risk": "sheet-and-formula-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-251",
+      "input": "ods",
+      "output": "xlsx",
+      "milestone": "M4",
+      "adapter": "spreadsheet",
+      "risk": "sheet-and-formula-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-252",
+      "input": "ods",
+      "output": "csv",
+      "milestone": "M4",
+      "adapter": "spreadsheet",
+      "risk": "sheet-and-formula-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-253",
+      "input": "ods",
+      "output": "tsv",
+      "milestone": "M4",
+      "adapter": "spreadsheet",
+      "risk": "sheet-and-formula-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-254",
+      "input": "ods",
+      "output": "pdf",
+      "milestone": "M4",
+      "adapter": "spreadsheet",
+      "risk": "sheet-and-formula-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-255",
+      "input": "csv",
+      "output": "xlsx",
+      "milestone": "M4",
+      "adapter": "spreadsheet",
+      "risk": "sheet-and-formula-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-256",
+      "input": "csv",
+      "output": "ods",
+      "milestone": "M4",
+      "adapter": "spreadsheet",
+      "risk": "sheet-and-formula-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-257",
+      "input": "csv",
+      "output": "tsv",
+      "milestone": "M4",
+      "adapter": "spreadsheet",
+      "risk": "sheet-and-formula-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-258",
+      "input": "csv",
+      "output": "pdf",
+      "milestone": "M4",
+      "adapter": "spreadsheet",
+      "risk": "sheet-and-formula-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-259",
+      "input": "tsv",
+      "output": "xlsx",
+      "milestone": "M4",
+      "adapter": "spreadsheet",
+      "risk": "sheet-and-formula-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-260",
+      "input": "tsv",
+      "output": "ods",
+      "milestone": "M4",
+      "adapter": "spreadsheet",
+      "risk": "sheet-and-formula-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-261",
+      "input": "tsv",
+      "output": "csv",
+      "milestone": "M4",
+      "adapter": "spreadsheet",
+      "risk": "sheet-and-formula-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-262",
+      "input": "tsv",
+      "output": "pdf",
+      "milestone": "M4",
+      "adapter": "spreadsheet",
+      "risk": "sheet-and-formula-fidelity",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-263",
+      "input": "srt",
+      "output": "vtt",
+      "milestone": "M3",
+      "adapter": "subtitle",
+      "risk": "cue-semantics",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-264",
+      "input": "srt",
+      "output": "txt",
+      "milestone": "M3",
+      "adapter": "subtitle",
+      "risk": "cue-semantics",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-265",
+      "input": "vtt",
+      "output": "srt",
+      "milestone": "M3",
+      "adapter": "subtitle",
+      "risk": "cue-semantics",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-266",
+      "input": "vtt",
+      "output": "txt",
+      "milestone": "M3",
+      "adapter": "subtitle",
+      "risk": "cue-semantics",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-267",
+      "input": "zip",
+      "output": "tar",
+      "milestone": "M2",
+      "adapter": "archive",
+      "risk": "archive-safety-and-gzip-semantics",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-268",
+      "input": "zip",
+      "output": "gz",
+      "milestone": "M2",
+      "adapter": "archive",
+      "risk": "archive-safety-and-gzip-semantics",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-269",
+      "input": "tar",
+      "output": "zip",
+      "milestone": "M2",
+      "adapter": "archive",
+      "risk": "archive-safety-and-gzip-semantics",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-270",
+      "input": "tar",
+      "output": "gz",
+      "milestone": "M2",
+      "adapter": "archive",
+      "risk": "archive-safety-and-gzip-semantics",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-271",
+      "input": "gz",
+      "output": "zip",
+      "milestone": "M2",
+      "adapter": "archive",
+      "risk": "archive-safety-and-gzip-semantics",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-272",
+      "input": "gz",
+      "output": "tar",
+      "milestone": "M2",
+      "adapter": "archive",
+      "risk": "archive-safety-and-gzip-semantics",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-273",
+      "input": "rar",
+      "output": "zip",
+      "milestone": "M2",
+      "adapter": "archive",
+      "risk": "archive-safety-and-gzip-semantics",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-274",
+      "input": "rar",
+      "output": "tar",
+      "milestone": "M2",
+      "adapter": "archive",
+      "risk": "archive-safety-and-gzip-semantics",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    },
+    {
+      "id": "CONV-275",
+      "input": "rar",
+      "output": "gz",
+      "milestone": "M2",
+      "adapter": "archive",
+      "risk": "archive-safety-and-gzip-semantics",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-CONV-ALL",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/package-results.json"
+    }
+  ],
+  "tools": [
+    {
+      "id": "TOOL-001",
+      "reference_key": "compress",
+      "name": "Compress",
+      "families": [
+        "image",
+        "video",
+        "audio",
+        "pdf"
+      ],
+      "milestone": "M2",
+      "scope": "size target, percentage, presets; resize images; media/PDF adapters follow M3/M4",
+      "evidence": [
+        "SRC-004",
+        "SRC-002"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-TOOLS-ALL",
+      "reference_applicability": {
+        "evidence": "SRC-004",
+        "scope": "simulated-demo-only",
+        "single_input_formats": [
+          "jpg",
+          "png",
+          "webp",
+          "heic",
+          "tiff",
+          "mp3",
+          "m4a",
+          "wav",
+          "flac",
+          "mp4",
+          "mov",
+          "mkv",
+          "pdf"
+        ],
+        "batch_input_formats": [
+          "jpg",
+          "png",
+          "webp",
+          "heic",
+          "tiff",
+          "mp3",
+          "m4a",
+          "wav",
+          "flac",
+          "mp4",
+          "mov",
+          "mkv",
+          "pdf"
+        ],
+        "batch_selection_rule": "intersection across selected input formats",
+        "operation_mode": "per-file",
+        "minimum_inputs_observed": 1,
+        "batch_supported_in_demo": true
+      },
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/tool-results.json"
+    },
+    {
+      "id": "TOOL-002",
+      "reference_key": "removeMetadata",
+      "name": "Metadata",
+      "families": [
+        "image",
+        "video",
+        "audio",
+        "pdf"
+      ],
+      "milestone": "M2",
+      "scope": "inspect/edit/remove; typed field support and preserve color/orientation policy",
+      "evidence": [
+        "SRC-004",
+        "SRC-002"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-TOOLS-ALL",
+      "reference_applicability": {
+        "evidence": "SRC-004",
+        "scope": "simulated-demo-only",
+        "single_input_formats": [
+          "jpg",
+          "png",
+          "webp",
+          "heic",
+          "tiff",
+          "mp3",
+          "m4a",
+          "wav",
+          "flac",
+          "mp4",
+          "mov",
+          "mkv",
+          "gif",
+          "pdf"
+        ],
+        "batch_input_formats": [
+          "jpg",
+          "png",
+          "webp",
+          "heic",
+          "tiff",
+          "mp3",
+          "m4a",
+          "wav",
+          "flac",
+          "mp4",
+          "mov",
+          "mkv",
+          "gif",
+          "pdf"
+        ],
+        "batch_selection_rule": "intersection across selected input formats",
+        "operation_mode": "per-file",
+        "minimum_inputs_observed": 1,
+        "batch_supported_in_demo": true
+      },
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/tool-results.json"
+    },
+    {
+      "id": "TOOL-003",
+      "reference_key": "editImage",
+      "name": "Edit photo",
+      "families": [
+        "image"
+      ],
+      "milestone": "M5",
+      "scope": "exposure/color/detail; dehaze/clarity/grain/noise reduction; live preview",
+      "evidence": [
+        "SRC-004",
+        "SRC-002"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "in-progress",
+      "acceptance_test": "TC-TOOLS-ALL",
+      "reference_applicability": {
+        "evidence": "SRC-004",
+        "scope": "simulated-demo-only",
+        "single_input_formats": [
+          "jpg",
+          "png",
+          "webp",
+          "heic",
+          "tiff"
+        ],
+        "batch_input_formats": [],
+        "batch_selection_rule": "intersection across selected input formats",
+        "operation_mode": "per-file",
+        "minimum_inputs_observed": 1,
+        "batch_supported_in_demo": false
+      },
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/tool-results.json",
+      "implementation_note": "Basic modes run; complete advanced reference modes/fidelity remain open."
+    },
+    {
+      "id": "TOOL-004",
+      "reference_key": "annotateImage",
+      "name": "Annotate photo",
+      "families": [
+        "image"
+      ],
+      "milestone": "M5",
+      "scope": "arrows/text/shapes/callouts; numbered labels/magnifier/images/drawing/highlight",
+      "evidence": [
+        "SRC-004",
+        "SRC-002"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "in-progress",
+      "acceptance_test": "TC-TOOLS-ALL",
+      "reference_applicability": {
+        "evidence": "SRC-004",
+        "scope": "simulated-demo-only",
+        "single_input_formats": [
+          "jpg",
+          "png",
+          "webp",
+          "heic",
+          "tiff"
+        ],
+        "batch_input_formats": [],
+        "batch_selection_rule": "intersection across selected input formats",
+        "operation_mode": "per-file",
+        "minimum_inputs_observed": 1,
+        "batch_supported_in_demo": false
+      },
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/tool-results.json",
+      "implementation_note": "Basic modes run; complete advanced reference modes/fidelity remain open."
+    },
+    {
+      "id": "TOOL-005",
+      "reference_key": "frameImage",
+      "name": "Add background",
+      "families": [
+        "image"
+      ],
+      "milestone": "M5",
+      "scope": "solid/gradient/image; aspect ratio/spacing/corners/blur/shadow",
+      "evidence": [
+        "SRC-004",
+        "SRC-002"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "in-progress",
+      "acceptance_test": "TC-TOOLS-ALL",
+      "reference_applicability": {
+        "evidence": "SRC-004",
+        "scope": "simulated-demo-only",
+        "single_input_formats": [
+          "jpg",
+          "png",
+          "webp",
+          "heic",
+          "tiff"
+        ],
+        "batch_input_formats": [],
+        "batch_selection_rule": "intersection across selected input formats",
+        "operation_mode": "per-file",
+        "minimum_inputs_observed": 1,
+        "batch_supported_in_demo": false
+      },
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/tool-results.json",
+      "implementation_note": "Basic modes run; complete advanced reference modes/fidelity remain open."
+    },
+    {
+      "id": "TOOL-006",
+      "reference_key": "cropImage",
+      "name": "Crop image",
+      "families": [
+        "image"
+      ],
+      "milestone": "M2",
+      "scope": "aspect ratio, exact dimensions, compatible batches",
+      "evidence": [
+        "SRC-004",
+        "SRC-002"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-TOOLS-ALL",
+      "reference_applicability": {
+        "evidence": "SRC-004",
+        "scope": "simulated-demo-only",
+        "single_input_formats": [
+          "jpg",
+          "png",
+          "webp",
+          "heic",
+          "tiff"
+        ],
+        "batch_input_formats": [
+          "jpg",
+          "png",
+          "webp",
+          "heic",
+          "tiff"
+        ],
+        "batch_selection_rule": "intersection across selected input formats",
+        "operation_mode": "per-file",
+        "minimum_inputs_observed": 1,
+        "batch_supported_in_demo": true
+      },
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/tool-results.json"
+    },
+    {
+      "id": "TOOL-007",
+      "reference_key": "normalizeAudio",
+      "name": "Normalize audio",
+      "families": [
+        "audio"
+      ],
+      "milestone": "M3",
+      "scope": "integrated loudness/loudness range/true peak; compare input/output; prevent clipping",
+      "evidence": [
+        "SRC-004",
+        "SRC-002"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-TOOLS-ALL",
+      "reference_applicability": {
+        "evidence": "SRC-004",
+        "scope": "simulated-demo-only",
+        "single_input_formats": [
+          "mp3",
+          "m4a",
+          "wav",
+          "flac"
+        ],
+        "batch_input_formats": [
+          "mp3",
+          "m4a",
+          "wav",
+          "flac"
+        ],
+        "batch_selection_rule": "intersection across selected input formats",
+        "operation_mode": "per-file",
+        "minimum_inputs_observed": 1,
+        "batch_supported_in_demo": true
+      },
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/tool-results.json"
+    },
+    {
+      "id": "TOOL-008",
+      "reference_key": "muteVideo",
+      "name": "Remove audio",
+      "families": [
+        "video"
+      ],
+      "milestone": "M3",
+      "scope": "remove every selected audio stream; preserve video where possible",
+      "evidence": [
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-TOOLS-ALL",
+      "reference_applicability": {
+        "evidence": "SRC-004",
+        "scope": "simulated-demo-only",
+        "single_input_formats": [
+          "mp4",
+          "mov",
+          "mkv"
+        ],
+        "batch_input_formats": [
+          "mp4",
+          "mov",
+          "mkv"
+        ],
+        "batch_selection_rule": "intersection across selected input formats",
+        "operation_mode": "per-file",
+        "minimum_inputs_observed": 1,
+        "batch_supported_in_demo": true
+      },
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/tool-results.json"
+    },
+    {
+      "id": "TOOL-009",
+      "reference_key": "trimVideo",
+      "name": "Trim video",
+      "families": [
+        "video"
+      ],
+      "milestone": "M3",
+      "scope": "frame stepping/timecodes; accurate boundaries",
+      "evidence": [
+        "SRC-004",
+        "SRC-002"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-TOOLS-ALL",
+      "reference_applicability": {
+        "evidence": "SRC-004",
+        "scope": "simulated-demo-only",
+        "single_input_formats": [
+          "mp4",
+          "mov",
+          "mkv"
+        ],
+        "batch_input_formats": [],
+        "batch_selection_rule": "intersection across selected input formats",
+        "operation_mode": "per-file",
+        "minimum_inputs_observed": 1,
+        "batch_supported_in_demo": false
+      },
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/tool-results.json"
+    },
+    {
+      "id": "TOOL-010",
+      "reference_key": "splitPDF",
+      "name": "Split PDF",
+      "families": [
+        "pdf"
+      ],
+      "milestone": "M4",
+      "scope": "page selection/ranges; stable output folder",
+      "evidence": [
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-TOOLS-ALL",
+      "reference_applicability": {
+        "evidence": "SRC-004",
+        "scope": "simulated-demo-only",
+        "single_input_formats": [
+          "pdf"
+        ],
+        "batch_input_formats": [
+          "pdf"
+        ],
+        "batch_selection_rule": "intersection across selected input formats",
+        "operation_mode": "per-file",
+        "minimum_inputs_observed": 1,
+        "batch_supported_in_demo": true
+      },
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/tool-results.json"
+    },
+    {
+      "id": "TOOL-011",
+      "reference_key": "organizePDF",
+      "name": "Organize PDF",
+      "families": [
+        "pdf"
+      ],
+      "milestone": "M4",
+      "scope": "reorder/rotate/duplicate/delete pages",
+      "evidence": [
+        "SRC-004",
+        "SRC-002"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-TOOLS-ALL",
+      "reference_applicability": {
+        "evidence": "SRC-004",
+        "scope": "simulated-demo-only",
+        "single_input_formats": [
+          "pdf"
+        ],
+        "batch_input_formats": [],
+        "batch_selection_rule": "intersection across selected input formats",
+        "operation_mode": "per-file",
+        "minimum_inputs_observed": 1,
+        "batch_supported_in_demo": false
+      },
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/tool-results.json"
+    },
+    {
+      "id": "TOOL-012",
+      "reference_key": "extractArchive",
+      "name": "Extract archive",
+      "families": [
+        "archive"
+      ],
+      "milestone": "M2",
+      "scope": "ZIP/TAR/GZIP/RAR; traversal/bomb/link protections",
+      "evidence": [
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-TOOLS-ALL",
+      "reference_applicability": {
+        "evidence": "SRC-004",
+        "scope": "simulated-demo-only",
+        "single_input_formats": [
+          "zip",
+          "tar",
+          "gz",
+          "rar"
+        ],
+        "batch_input_formats": [
+          "zip",
+          "tar",
+          "gz",
+          "rar"
+        ],
+        "batch_selection_rule": "intersection across selected input formats",
+        "operation_mode": "per-file",
+        "minimum_inputs_observed": 1,
+        "batch_supported_in_demo": true
+      },
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/tool-results.json"
+    },
+    {
+      "id": "TOOL-013",
+      "reference_key": "createPDF",
+      "name": "Images to PDF",
+      "families": [
+        "image"
+      ],
+      "milestone": "M4",
+      "scope": "one image per page; mixed image formats; explicit order",
+      "evidence": [
+        "SRC-004"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-TOOLS-ALL",
+      "reference_applicability": {
+        "evidence": "SRC-004",
+        "scope": "simulated-demo-only",
+        "single_input_formats": [],
+        "batch_input_formats": [
+          "jpg",
+          "png",
+          "webp",
+          "heic",
+          "tiff",
+          "svg"
+        ],
+        "batch_selection_rule": "intersection across selected input formats",
+        "operation_mode": "aggregate",
+        "minimum_inputs_observed": 2,
+        "batch_supported_in_demo": true
+      },
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/tool-results.json"
+    },
+    {
+      "id": "TOOL-014",
+      "reference_key": "mergePDF",
+      "name": "Merge PDF",
+      "families": [
+        "pdf"
+      ],
+      "milestone": "M4",
+      "scope": "multiple documents; preview/reorder input order",
+      "evidence": [
+        "SRC-004",
+        "SRC-002"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-TOOLS-ALL",
+      "reference_applicability": {
+        "evidence": "SRC-004",
+        "scope": "simulated-demo-only",
+        "single_input_formats": [],
+        "batch_input_formats": [
+          "pdf"
+        ],
+        "batch_selection_rule": "intersection across selected input formats",
+        "operation_mode": "aggregate",
+        "minimum_inputs_observed": 2,
+        "batch_supported_in_demo": true
+      },
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/tool-results.json"
+    },
+    {
+      "id": "TOOL-015",
+      "reference_key": "cropVideo",
+      "name": "Crop video",
+      "families": [
+        "video"
+      ],
+      "milestone": "M3",
+      "scope": "exact canvas dimensions; retain intended audio",
+      "evidence": [
+        "SRC-004",
+        "SRC-002"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-TOOLS-ALL",
+      "reference_applicability": {
+        "evidence": "SRC-004",
+        "scope": "simulated-demo-only",
+        "single_input_formats": [
+          "mp4",
+          "mov",
+          "mkv"
+        ],
+        "batch_input_formats": [],
+        "batch_selection_rule": "intersection across selected input formats",
+        "operation_mode": "per-file",
+        "minimum_inputs_observed": 1,
+        "batch_supported_in_demo": false
+      },
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/tool-results.json"
+    },
+    {
+      "id": "TOOL-016",
+      "reference_key": "changeVideoSpeed",
+      "name": "Change video speed",
+      "families": [
+        "video"
+      ],
+      "milestone": "M3",
+      "scope": "slower/faster; preserve pitch; silent clips",
+      "evidence": [
+        "SRC-004",
+        "SRC-002"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-TOOLS-ALL",
+      "reference_applicability": {
+        "evidence": "SRC-004",
+        "scope": "simulated-demo-only",
+        "single_input_formats": [
+          "mp4",
+          "mov",
+          "mkv"
+        ],
+        "batch_input_formats": [],
+        "batch_selection_rule": "intersection across selected input formats",
+        "operation_mode": "per-file",
+        "minimum_inputs_observed": 1,
+        "batch_supported_in_demo": false
+      },
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/tool-results.json"
+    },
+    {
+      "id": "TOOL-017",
+      "reference_key": "joinVideos",
+      "name": "Join videos",
+      "families": [
+        "video"
+      ],
+      "milestone": "M3",
+      "scope": "mixed MP4/MOV/MKV -> one MP4; reorder; normalize to first canvas; validate clip/audio boundaries",
+      "evidence": [
+        "SRC-004",
+        "SRC-002"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-TOOLS-ALL",
+      "reference_applicability": {
+        "evidence": "SRC-004",
+        "scope": "simulated-demo-only",
+        "single_input_formats": [],
+        "batch_input_formats": [
+          "mp4",
+          "mov",
+          "mkv"
+        ],
+        "batch_selection_rule": "intersection across selected input formats",
+        "operation_mode": "aggregate",
+        "minimum_inputs_observed": 2,
+        "batch_supported_in_demo": true
+      },
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/tool-results.json"
+    },
+    {
+      "id": "TOOL-018",
+      "reference_key": "videoSnapshots",
+      "name": "Save video frames",
+      "families": [
+        "video"
+      ],
+      "milestone": "M3",
+      "scope": "exact full-resolution PNG frames",
+      "evidence": [
+        "SRC-004",
+        "SRC-002"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-TOOLS-ALL",
+      "reference_applicability": {
+        "evidence": "SRC-004",
+        "scope": "simulated-demo-only",
+        "single_input_formats": [
+          "mp4",
+          "mov",
+          "mkv"
+        ],
+        "batch_input_formats": [],
+        "batch_selection_rule": "intersection across selected input formats",
+        "operation_mode": "per-file",
+        "minimum_inputs_observed": 1,
+        "batch_supported_in_demo": false
+      },
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/tool-results.json"
+    },
+    {
+      "id": "TOOL-019",
+      "reference_key": "splitVideo",
+      "name": "Split video",
+      "families": [
+        "video"
+      ],
+      "milestone": "M3",
+      "scope": "custom points/equal parts; grouped output folder",
+      "evidence": [
+        "SRC-004",
+        "SRC-002"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-TOOLS-ALL",
+      "reference_applicability": {
+        "evidence": "SRC-004",
+        "scope": "simulated-demo-only",
+        "single_input_formats": [
+          "mp4",
+          "mov",
+          "mkv"
+        ],
+        "batch_input_formats": [],
+        "batch_selection_rule": "intersection across selected input formats",
+        "operation_mode": "per-file",
+        "minimum_inputs_observed": 1,
+        "batch_supported_in_demo": false
+      },
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/tool-results.json"
+    },
+    {
+      "id": "TOOL-020",
+      "reference_key": "audioToVideo",
+      "name": "Audio visualizer",
+      "families": [
+        "audio"
+      ],
+      "milestone": "M5",
+      "scope": "MP4; waveform/still; landscape/portrait/square",
+      "evidence": [
+        "SRC-004",
+        "SRC-002"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-TOOLS-ALL",
+      "reference_applicability": {
+        "evidence": "SRC-004",
+        "scope": "simulated-demo-only",
+        "single_input_formats": [
+          "mp3",
+          "m4a",
+          "wav",
+          "flac"
+        ],
+        "batch_input_formats": [],
+        "batch_selection_rule": "intersection across selected input formats",
+        "operation_mode": "per-file",
+        "minimum_inputs_observed": 1,
+        "batch_supported_in_demo": false
+      },
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/tool-results.json"
+    },
+    {
+      "id": "TOOL-021",
+      "reference_key": "trimAudio",
+      "name": "Trim audio",
+      "families": [
+        "audio"
+      ],
+      "milestone": "M3",
+      "scope": "waveform; exact start/end; trim leading/trailing silence",
+      "evidence": [
+        "SRC-004",
+        "SRC-002"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-TOOLS-ALL",
+      "reference_applicability": {
+        "evidence": "SRC-004",
+        "scope": "simulated-demo-only",
+        "single_input_formats": [
+          "mp3",
+          "m4a",
+          "wav",
+          "flac"
+        ],
+        "batch_input_formats": [],
+        "batch_selection_rule": "intersection across selected input formats",
+        "operation_mode": "per-file",
+        "minimum_inputs_observed": 1,
+        "batch_supported_in_demo": false
+      },
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/tool-results.json"
+    },
+    {
+      "id": "TOOL-022",
+      "reference_key": "audioChannels",
+      "name": "Audio channels",
+      "families": [
+        "audio"
+      ],
+      "milestone": "M3",
+      "scope": "mono/stereo; independent channel gain/preview",
+      "evidence": [
+        "SRC-004",
+        "SRC-002"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-TOOLS-ALL",
+      "reference_applicability": {
+        "evidence": "SRC-004",
+        "scope": "simulated-demo-only",
+        "single_input_formats": [
+          "mp3",
+          "m4a",
+          "wav",
+          "flac"
+        ],
+        "batch_input_formats": [],
+        "batch_selection_rule": "intersection across selected input formats",
+        "operation_mode": "per-file",
+        "minimum_inputs_observed": 1,
+        "batch_supported_in_demo": false
+      },
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/tool-results.json"
+    },
+    {
+      "id": "TOOL-023",
+      "reference_key": "createCollage",
+      "name": "Image collage",
+      "families": [
+        "image"
+      ],
+      "milestone": "M5",
+      "scope": "grid/row/column/featured; order/size/spacing/corners/background",
+      "evidence": [
+        "SRC-004",
+        "SRC-002"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "in-progress",
+      "acceptance_test": "TC-TOOLS-ALL",
+      "reference_applicability": {
+        "evidence": "SRC-004",
+        "scope": "simulated-demo-only",
+        "single_input_formats": [],
+        "batch_input_formats": [
+          "jpg",
+          "png",
+          "webp",
+          "heic",
+          "tiff",
+          "svg"
+        ],
+        "batch_selection_rule": "intersection across selected input formats",
+        "operation_mode": "aggregate",
+        "minimum_inputs_observed": 2,
+        "batch_supported_in_demo": true
+      },
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/tool-results.json",
+      "implementation_note": "Basic modes run; complete advanced reference modes/fidelity remain open."
+    },
+    {
+      "id": "TOOL-024",
+      "reference_key": "redactImage",
+      "name": "Redact image",
+      "families": [
+        "image"
+      ],
+      "milestone": "M5",
+      "scope": "local face/text suggestions; solid/blur; editable regions",
+      "evidence": [
+        "SRC-004",
+        "SRC-002"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "in-progress",
+      "acceptance_test": "TC-TOOLS-ALL",
+      "reference_applicability": {
+        "evidence": "SRC-004",
+        "scope": "simulated-demo-only",
+        "single_input_formats": [
+          "jpg",
+          "png",
+          "webp",
+          "heic",
+          "tiff"
+        ],
+        "batch_input_formats": [],
+        "batch_selection_rule": "intersection across selected input formats",
+        "operation_mode": "per-file",
+        "minimum_inputs_observed": 1,
+        "batch_supported_in_demo": false
+      },
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/tool-results.json",
+      "implementation_note": "Basic modes run; complete advanced reference modes/fidelity remain open."
+    },
+    {
+      "id": "TOOL-025",
+      "reference_key": "redactVideo",
+      "name": "Redact video",
+      "families": [
+        "video"
+      ],
+      "milestone": "M5",
+      "scope": "time-bounded solid/blur regions; exact rendered ranges",
+      "evidence": [
+        "SRC-004",
+        "SRC-002"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "in-progress",
+      "acceptance_test": "TC-TOOLS-ALL",
+      "reference_applicability": {
+        "evidence": "SRC-004",
+        "scope": "simulated-demo-only",
+        "single_input_formats": [
+          "mp4",
+          "mov",
+          "mkv"
+        ],
+        "batch_input_formats": [],
+        "batch_selection_rule": "intersection across selected input formats",
+        "operation_mode": "per-file",
+        "minimum_inputs_observed": 1,
+        "batch_supported_in_demo": false
+      },
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/tool-results.json",
+      "implementation_note": "Basic modes run; complete advanced reference modes/fidelity remain open."
+    },
+    {
+      "id": "TOOL-026",
+      "reference_key": "redactAudio",
+      "name": "Bleep audio",
+      "families": [
+        "audio"
+      ],
+      "milestone": "M5",
+      "scope": "movable ranges and edges; original/output comparison",
+      "evidence": [
+        "SRC-004",
+        "SRC-002"
+      ],
+      "reference_validation": "public-demo-only",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-TOOLS-ALL",
+      "reference_applicability": {
+        "evidence": "SRC-004",
+        "scope": "simulated-demo-only",
+        "single_input_formats": [
+          "mp3",
+          "m4a",
+          "wav",
+          "flac"
+        ],
+        "batch_input_formats": [],
+        "batch_selection_rule": "intersection across selected input formats",
+        "operation_mode": "per-file",
+        "minimum_inputs_observed": 1,
+        "batch_supported_in_demo": false
+      },
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/tool-results.json"
+    }
+  ],
+  "additional_observed_tools": [
+    {
+      "id": "TOOL-027",
+      "reference_key": "qrReader",
+      "name": "Read QR code",
+      "families": [
+        "image"
+      ],
+      "milestone": "M5",
+      "scope": "local QR detection/decoding; never auto-open a decoded URL",
+      "evidence": [
+        "SRC-003"
+      ],
+      "reference_validation": "store-listed-not-in-demo-catalog",
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-TOOLS-ALL",
+      "reference_applicability": {
+        "evidence": "SRC-003",
+        "scope": "store-listing-only",
+        "native_cardinality": "unverified"
+      },
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/tool-results.json"
+    }
+  ],
+  "actions": [
+    {
+      "id": "ACT-001",
+      "name": "Share",
+      "reference_name": "AirDrop",
+      "milestone": "M5",
+      "scope": "explicit local-network sharing via bundled interoperable sender/receiver; no AirDrop wire-compatibility claim",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-ACTIONS-ALL",
+      "reference_validation": "public-demo-and-vendor-listed-not-hands-on",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/application-tests.log",
+      "implementation_note": "Native implementation; full desktop/source-app and recipient-device qualification remains open."
+    },
+    {
+      "id": "ACT-002",
+      "name": "Float",
+      "reference_name": "Float",
+      "milestone": "M2",
+      "scope": "pinned floating shelf and native drag-out; Wayland positioning is a feasibility gate",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-ACTIONS-ALL",
+      "reference_validation": "public-demo-and-vendor-listed-not-hands-on",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/application-tests.log",
+      "implementation_note": "Native implementation; full desktop/source-app and recipient-device qualification remains open."
+    },
+    {
+      "id": "ACT-003",
+      "name": "Copy",
+      "reference_name": "Copy",
+      "milestone": "M2",
+      "scope": "clipboard file URIs and file-manager interoperability",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-ACTIONS-ALL",
+      "reference_validation": "public-demo-and-vendor-listed-not-hands-on",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/application-tests.log",
+      "implementation_note": "Native implementation; full desktop/source-app and recipient-device qualification remains open."
+    },
+    {
+      "id": "ACT-004",
+      "name": "Move",
+      "reference_name": "Move",
+      "milestone": "M2",
+      "scope": "user-chosen destination; no-clobber verified publication and reviewed recoverable source-ownership/removal transaction; retain uncertain sources and report incomplete Move",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-ACTIONS-ALL",
+      "reference_validation": "public-demo-and-vendor-listed-not-hands-on",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/application-tests.log",
+      "implementation_note": "Native implementation; full desktop/source-app and recipient-device qualification remains open."
+    },
+    {
+      "id": "ACT-005",
+      "name": "Copy path",
+      "reference_name": "Copy Path",
+      "milestone": "M2",
+      "scope": "absolute decoded paths as newline-separated clipboard text",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-ACTIONS-ALL",
+      "reference_validation": "public-demo-and-vendor-listed-not-hands-on",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/application-tests.log",
+      "implementation_note": "Native implementation; full desktop/source-app and recipient-device qualification remains open."
+    },
+    {
+      "id": "ACT-006",
+      "name": "Terminal",
+      "reference_name": "Terminal",
+      "milestone": "M2",
+      "scope": "configured terminal in source parent/folder; argv only; choose one unique parent by default, explicitly opt in to several",
+      "evidence": [
+        "SRC-001",
+        "SRC-004"
+      ],
+      "implementation_status": "implemented",
+      "acceptance_test": "TC-ACTIONS-ALL",
+      "reference_validation": "public-demo-and-vendor-listed-not-hands-on",
+      "development_evidence": ".aiwg/testing/evidence/0.1.0/application-tests.log",
+      "implementation_note": "Native implementation; full desktop/source-app and recipient-device qualification remains open."
+    }
+  ],
+  "implementation_extras": [
+    "Resize image",
+    "Reveal output",
+    "Taskbar indicator",
+    "Typed CLI"
+  ]
+}

@@ -1,0 +1,22 @@
+# Mandarin 0.1.0 implementation evidence
+
+Public testing preview, 19 October 2026. The user authorized construction and requires all conversion tooling in the package. Full Tangerine equivalence is not certified.
+
+Implemented: native GTK4/libadwaita application, contextual held-file radial traversal, grouped keyboard alternative, typed forms, cancellable raw-pixel image previews, two-job queue, durable history, no-clobber publication, independent validation, CLI, six requested file actions plus Reveal, LocalSend TLS sender, settings/health and GNOME 46 companion source. A separate bundled GTK3 Ayatana helper provides the taskbar indicator, active-job status, reopen, Add files, Jobs and Quit. Closing the main window keeps the application available when the indicator is connected. The worker provides 28 operation identifiers including QR and resize. Advanced reference editor modes are partially covered.
+
+The package includes 17 explicit engine entry points and a closure of 651 binary packages. Python, both GTK versions, codecs, office filters, PDF engines, recognition data and fonts are bundled. The libxnvctrl runtime is pinned to an official Ubuntu package rather than inheriting the packaging host's NVIDIA repository version. Clean-container installation runs with networking disabled and no host Python/converters. `dist/verification.json` is created only after the final artifact passes required checks; its SHA256 identifies the tested package. Health lists engines/confinement, not arbitrary-file quality. The redistribution collector resolves 413 exact Ubuntu source packages and checks their file sizes and SHA256 hashes before producing release archives.
+
+Evidence: [0.1.0 checks](../testing/evidence/0.1.0/README.md). Reproduction commands are `python3 -m unittest discover -s tests -v`, `make gui`, `python3 scripts/validate_plan.py`, `python3 scripts/verify_runtime.py build/package-root/opt/mandarin` and `python3 scripts/verify_package.py dist/mandarin_0.1.0_amd64.deb`. Generated fixtures cover 43 source formats and 248 advertised routes, including routes outside the reference; final outcomes are in evidence JSON. These checks establish output production/decoding, not fidelity for arbitrary real documents.
+
+The application suite passed 27 tests. Native tests exercise GTK file drag events, pre-drop context, held-drag dwell, leaf release, exactly one conversion and source preservation. Other checks cover URI handling, re-arming, typed options, collisions, mixed folders, confinement denial, cancellation, recoverable Move, multi-frame preservation, broker-crash cleanup and TLS recipient consent/pinning. Native captures show normal/list/compact/editor states. A real GTK3/GTK4 private-bus check covers indicator registration, menu export, close-to-indicator, reopen, live status and Quit. Independent UI review marked its four listed fixes resolved; that review is separate from public-release certification.
+
+An additional strict core24 Snap was built and installed locally. Its health check, 12 representative conversion routes and GUI/indicator integration on the real GNOME Wayland desktop passed. The private-bus Snap GUI harness could not launch through snapd's session tracking; the real-desktop check is the passing evidence. This does not establish global held-drag behavior. Store registration requires the publisher to accept Canonical's agreement; initial submission is limited to edge and remains subject to Store review. The locally installed Snap was installed with `--dangerous` and is not a Store assertion.
+
+Open gates:
+
+- Global GNOME Wayland invocation/transfer across native, XWayland, browser and portal sources; multiple monitors/scales. Only GNOME 46 metadata is enabled.
+- Pages output, qualified Pages/RTFD/textClipping input, editable PDF reconstruction and native Tangerine comparison. No renamed-format substitutes are used.
+- Advanced annotation/photo/background/collage modes, recognition efficacy, rich-preview fidelity, localization, desktop-reader qualification and large/hostile-file performance.
+- Ubuntu 26.04/GNOME 50, package signing, automatic updates and release/rollback qualification. This unsigned preview is not a certified 1.0 release.
+
+The original documents retain milestone targets. ADR-006 records actual implementation choices. Inventory implementation status remains distinct from reference certification.

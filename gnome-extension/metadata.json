@@ -1,0 +1,7 @@
+{
+  "uuid": "mandarin@local",
+  "name": "Mandarin file conversion",
+  "description": "Tap Shift during a file drag to open Mandarin's contextual wheel. Requires the Mandarin application.",
+  "shell-version": ["46"],
+  "version-name": "0.1.0"
+}

@@ -1,0 +1,29 @@
+@define-color mandarin_accent #c35416;
+@define-color mandarin_soft #fae8da;
+@define-color mandarin_ink #272522;
+@define-color mandarin_secondary #625e58;
+@define-color mandarin_surface #f7f5f1;
+@define-color mandarin_line #d8d3cb;
+
+window.mandarin { background-color: @window_bg_color; }
+.brand { color: @mandarin_accent; font-size: 26px; font-weight: 700; }
+.subtitle { color: alpha(@window_fg_color, 0.72); }
+.workspace { padding: 20px; }
+.compact .workspace { padding: 12px; }
+.compact .status { min-height: 24px; padding: 6px 12px; }
+.file-panel { border-right: 1px solid alpha(@window_fg_color, 0.12); padding: 8px 16px 16px 0; }
+.file-row { padding: 8px; min-height: 44px; border-radius: 8px; }
+.file-row:hover { background-color: alpha(@window_fg_color, 0.05); }
+.wheel-button { background: transparent; box-shadow: none; border: none; padding: 8px; min-width: 62px; min-height: 44px; border-radius: 12px; font-size: 13px; font-weight: 600; }
+.wheel-button:hover, .wheel-button:focus-visible { background-color: alpha(@mandarin_accent, 0.14); }
+.wheel-center { background: @window_bg_color; border: 1px solid alpha(@window_fg_color, 0.1); border-radius: 50%; min-width: 0; min-height: 0; padding: 0; }
+.mode-buttons button { min-height: 40px; }
+.status { min-height: 42px; padding: 8px 12px; border-radius: 8px; background-color: alpha(@window_fg_color, 0.045); }
+.error { color: @error_color; }
+.job-row { padding: 12px; border-top: 1px solid alpha(@window_fg_color, 0.1); }
+.job-name { font-weight: 600; }
+.parameter-row { padding: 8px 0; }
+.drop-active { outline: 2px solid @mandarin_accent; outline-offset: -4px; }
+.operation-list button { min-height: 44px; }
+scrollbar slider { min-width: 6px; min-height: 6px; background: alpha(@window_fg_color, 0.35); border-radius: 8px; }
+scrollbar slider:hover { background: alpha(@window_fg_color, 0.55); }

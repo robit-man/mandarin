@@ -1,0 +1,34 @@
+test_heterogeneous_images_intersect_but_media_does_not (test_core.ContextTests.test_heterogeneous_images_intersect_but_media_does_not) ... ok
+test_no_pages_writer_is_advertised (test_core.ContextTests.test_no_pages_writer_is_advertised) ... ok
+test_options_reject_unknown_and_invalid_intervals (test_core.ContextTests.test_options_reject_unknown_and_invalid_intervals) ... ok
+test_directory_publication_reports_actual_destination (test_core.FilesystemTests.test_directory_publication_reports_actual_destination) ... ok
+test_publication_never_clobbers_existing_file (test_core.FilesystemTests.test_publication_never_clobbers_existing_file) ... ok
+test_publication_rejects_manifest_path_and_links (test_core.FilesystemTests.test_publication_rejects_manifest_path_and_links) ... ok
+test_uri_list_preserves_names_and_rejects_remote (test_core.FilesystemTests.test_uri_list_preserves_names_and_rejects_remote) ... ok
+test_deadzone_and_outer_bounds (test_core.RadialTests.test_deadzone_and_outer_bounds) ... ok
+test_stationary_child_never_executes_on_release (test_core.RadialTests.test_stationary_child_never_executes_on_release) ... ok
+test_three_levels_and_back (test_core.RadialTests.test_three_levels_and_back) ... ok
+test_actual_audio_transcode_and_channels (test_integration.WorkerIntegrationTests.test_actual_audio_transcode_and_channels) ... ok
+test_archive_roundtrip_and_traversal_rejection (test_integration.WorkerIntegrationTests.test_archive_roundtrip_and_traversal_rejection) ... ok
+test_bounded_raw_preview_and_content_probe (test_integration.WorkerIntegrationTests.test_bounded_raw_preview_and_content_probe) ... ok
+test_cancelled_job_does_not_publish (test_integration.WorkerIntegrationTests.test_cancelled_job_does_not_publish) ... ok
+test_document_conversion_is_isolated (test_integration.WorkerIntegrationTests.test_document_conversion_is_isolated) ... ok
+test_mixed_folders_publish_beside_each_source (test_integration.WorkerIntegrationTests.test_mixed_folders_publish_beside_each_source) ... ok
+test_move_keeps_verified_recovery_source (test_integration.WorkerIntegrationTests.test_move_keeps_verified_recovery_source) ... ok
+test_move_rejects_link_and_preserves_existing_destination (test_integration.WorkerIntegrationTests.test_move_rejects_link_and_preserves_existing_destination) ... ok
+test_pdf_generation_raster_and_page_order (test_integration.WorkerIntegrationTests.test_pdf_generation_raster_and_page_order) ... ok
+test_real_conversion_and_collision_preserve_original (test_integration.WorkerIntegrationTests.test_real_conversion_and_collision_preserve_original) ... ok
+test_sandbox_denies_ungranted_file_network_and_process_escape (test_integration.WorkerIntegrationTests.test_sandbox_denies_ungranted_file_network_and_process_escape) ... ok
+test_subtitles_actual_cues (test_integration.WorkerIntegrationTests.test_subtitles_actual_cues) ... ok
+test_all_image_frames_survive_conversion_and_pdf (test_regressions.RegressionTests.test_all_image_frames_survive_conversion_and_pdf) ... ok
+test_broker_crash_kills_confined_descendants (test_regressions.RegressionTests.test_broker_crash_kills_confined_descendants) ... ok
+test_reject_non_lan_destinations (test_share.LocalSendTests.test_reject_non_lan_destinations) ... ok
+test_tls_consent_payload_and_certificate_pin (test_share.LocalSendTests.test_tls_consent_payload_and_certificate_pin) ... ok
+test_actual_tool_operations (test_tools.ToolSmokeTests.test_actual_tool_operations) ... /usr/lib/python3/dist-packages/reportlab/lib/rl_safe_eval.py:11: DeprecationWarning: ast.NameConstant is deprecated and will be removed in Python 3.14; use ast.Constant instead
+  haveNameConstant = hasattr(ast,'NameConstant')
+ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 37.555s
+
+OK

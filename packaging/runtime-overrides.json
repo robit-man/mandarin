@@ -1,0 +1,11 @@
+{
+  "libxnvctrl0": {
+    "version": "510.47.03-0ubuntu4.24.04.1",
+    "architecture": "amd64",
+    "source_name": "nvidia-settings",
+    "source_version": "510.47.03-0ubuntu4.24.04.1",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/n/nvidia-settings/libxnvctrl0_510.47.03-0ubuntu4.24.04.1_amd64.deb",
+    "sha256": "7947ecbae8e3b5a2b83a1a1cd620d939b47c3ea282b0d1eda12b907994bae56d",
+    "reason": "Use the official Ubuntu runtime instead of inheriting a host CUDA-repository library. Host driver packages are never changed."
+  }
+}

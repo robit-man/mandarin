@@ -1,0 +1,62 @@
+{
+  "baseline_date": "2026-10-18",
+  "method": "Primary public sources; route graph evaluated read-only from demo format lists and target-selection function; no vendor implementation or assets distributed.",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "title": "Tangerine product page",
+      "url": "https://tangerineformac.com/",
+      "accessed": "2026-10-18",
+      "source_type": "vendor-primary",
+      "sha256": "09d2d58abf3b796cd4b62874085bebdb1703f77358d713a566cc40718d924bfb",
+      "bytes": 15726,
+      "limitation": "Published product claim, not hands-on validation."
+    },
+    {
+      "id": "SRC-002",
+      "title": "Tangerine tools page",
+      "url": "https://tangerineformac.com/tools",
+      "accessed": "2026-10-18",
+      "source_type": "vendor-primary",
+      "sha256": "02f5b2bb85bd69c286c3f356dd8400c95964a963924ab6cf91cd65c929211a72",
+      "bytes": 3351,
+      "limitation": "Published product claim, not hands-on validation."
+    },
+    {
+      "id": "SRC-003",
+      "title": "Tangerine App Store listing",
+      "url": "https://apps.apple.com/us/app/tangerine-file-converter/id6813034065?mt=12",
+      "accessed": "2026-10-18",
+      "source_type": "vendor-primary",
+      "limitation": "Store copy and release history may differ; no hands-on Mac validation."
+    },
+    {
+      "id": "SRC-004",
+      "title": "Tangerine public simulated demo asset",
+      "url": "https://tangerineformac.com/assets/home-BU_Sezi2.js",
+      "accessed": "2026-10-18",
+      "source_type": "vendor-primary",
+      "sha256": "24a7b6d5d14087d1afb576161c013f8ce4559903ad3fc8ed5d6d3e098f86d3fd",
+      "bytes": 42765,
+      "limitation": "Simulated website behavior; not a tested installed application."
+    },
+    {
+      "id": "SRC-005",
+      "title": "Tangerine public tools data asset",
+      "url": "https://tangerineformac.com/assets/tools-DHpyoIBf.js",
+      "accessed": "2026-10-18",
+      "source_type": "vendor-primary",
+      "sha256": "d2da237347cba2f74904b1288017528a76396150b63548a4003036c914f604e9",
+      "bytes": 6795,
+      "limitation": "Published product claim, not hands-on validation."
+    },
+    {
+      "id": "SRC-006",
+      "title": "Tangerine press kit",
+      "url": "https://tangerineformac.com/press",
+      "accessed": "2026-10-18",
+      "source_type": "vendor-primary",
+      "limitation": "Press version 1.4 conflicts with newer observed store 2.0.1."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+name: mandarin
+version: '0.1.0'
+summary: Offline file conversion through a contextual radial menu
+description: |
+  Convert images, video, audio, documents, PDFs, spreadsheets, subtitles and
+  archives locally. Drag into a category, hold for a submenu and release onto
+  a conversion. Use the keyboard list, image tools and taskbar indicator.
+  Conversion engines, codecs, fonts and recognition data are included.
+  Testing preview: Pages output, editable PDF reconstruction and complete
+  global GNOME drag integration are not certified.
+base: core24
+confinement: strict
+grade: devel
+architectures: [amd64]
+license: MIT
+website: https://github.com/robit-man/mandarin
+issues: https://github.com/robit-man/mandarin/issues
+apps:
+  mandarin:
+    command: usr/bin/mandarin
+    plugs: [desktop, desktop-legacy, wayland, x11, unity7, home, removable-media, network, network-bind, opengl]
+    slots: [mandarin-dbus]
+slots:
+  mandarin-dbus:
+    interface: dbus
+    bus: session
+    name: org.mandarin.Converter
+layout:
+  /opt/mandarin:
+    bind: $SNAP/opt/mandarin

@@ -1,0 +1,181 @@
+{
+  "baseline_date": "2026-10-18",
+  "version": "1.0.0",
+  "scope": "Planning baseline plus implemented 0.1.0 Ubuntu preview and runtime/package evidence; full native parity and global Wayland qualification remain open.",
+  "archive": ".aiwg/archive/2026-10-18/mandarin-plan",
+  "artifacts": [
+    {
+      "artifact_id": "PLAN-001",
+      "name": "Mandarin delivery plan",
+      "type": "deployment",
+      "version": "1.0.0",
+      "status": "baselined",
+      "path": "PLAN.md",
+      "review_evidence": [
+        ".aiwg/archive/2026-10-18/mandarin-plan/reviews/security.md",
+        ".aiwg/archive/2026-10-18/mandarin-plan/reviews/requirements.md",
+        ".aiwg/archive/2026-10-18/mandarin-plan/reviews/test-release.md"
+      ],
+      "metadata": ".aiwg/planning/mandarin-plan.metadata.json"
+    },
+    {
+      "artifact_id": "SOP-001",
+      "name": "End-to-end standard operating procedure",
+      "type": "deployment",
+      "version": "1.0.0",
+      "status": "baselined",
+      "path": "SOP.md",
+      "review_evidence": [
+        ".aiwg/archive/2026-10-18/mandarin-plan/reviews/security.md",
+        ".aiwg/archive/2026-10-18/mandarin-plan/reviews/requirements.md",
+        ".aiwg/archive/2026-10-18/mandarin-plan/reviews/test-release.md"
+      ],
+      "metadata": ".aiwg/deployment/sop.metadata.json"
+    },
+    {
+      "artifact_id": "SRS-001",
+      "name": "Requirements and acceptance baseline",
+      "type": "requirements",
+      "version": "1.0.0",
+      "status": "baselined",
+      "path": ".aiwg/requirements/srs.md",
+      "review_evidence": [
+        ".aiwg/archive/2026-10-18/mandarin-plan/reviews/security.md",
+        ".aiwg/archive/2026-10-18/mandarin-plan/reviews/requirements.md",
+        ".aiwg/archive/2026-10-18/mandarin-plan/reviews/test-release.md"
+      ],
+      "metadata": ".aiwg/requirements/srs.metadata.json"
+    },
+    {
+      "artifact_id": "SAD-001",
+      "name": "Software architecture baseline",
+      "type": "architecture",
+      "version": "1.0.0",
+      "status": "baselined",
+      "path": ".aiwg/architecture/sad.md",
+      "review_evidence": [
+        ".aiwg/archive/2026-10-18/mandarin-plan/reviews/security.md",
+        ".aiwg/archive/2026-10-18/mandarin-plan/reviews/requirements.md",
+        ".aiwg/archive/2026-10-18/mandarin-plan/reviews/test-release.md"
+      ],
+      "metadata": ".aiwg/architecture/sad.metadata.json"
+    },
+    {
+      "artifact_id": "TP-001",
+      "name": "Verification and release test plan",
+      "type": "test",
+      "version": "1.0.0",
+      "status": "baselined",
+      "path": ".aiwg/testing/test-plan.md",
+      "review_evidence": [
+        ".aiwg/archive/2026-10-18/mandarin-plan/reviews/security.md",
+        ".aiwg/archive/2026-10-18/mandarin-plan/reviews/requirements.md",
+        ".aiwg/archive/2026-10-18/mandarin-plan/reviews/test-release.md"
+      ],
+      "metadata": ".aiwg/testing/test-plan.metadata.json"
+    },
+    {
+      "artifact_id": "RISK-001",
+      "name": "Risk register",
+      "type": "report",
+      "version": "1.0.0",
+      "status": "baselined",
+      "path": ".aiwg/risks/risk-register.md",
+      "review_evidence": [
+        ".aiwg/archive/2026-10-18/mandarin-plan/reviews/security.md",
+        ".aiwg/archive/2026-10-18/mandarin-plan/reviews/requirements.md",
+        ".aiwg/archive/2026-10-18/mandarin-plan/reviews/test-release.md"
+      ]
+    },
+    {
+      "artifact_id": "REF-001",
+      "name": "Tangerine feature review",
+      "type": "report",
+      "version": "1.0.0",
+      "status": "baselined",
+      "path": ".aiwg/research/reports/tangerine-feature-review.md",
+      "review_evidence": [
+        ".aiwg/archive/2026-10-18/mandarin-plan/reviews/security.md",
+        ".aiwg/archive/2026-10-18/mandarin-plan/reviews/requirements.md",
+        ".aiwg/archive/2026-10-18/mandarin-plan/reviews/test-release.md"
+      ]
+    },
+    {
+      "artifact_id": "INV-001",
+      "name": "Parity capability inventory",
+      "type": "requirements",
+      "version": "1.0.0",
+      "status": "implementation-recorded-not-parity-certified",
+      "path": ".aiwg/requirements/parity-inventory.json",
+      "review_evidence": [
+        ".aiwg/archive/2026-10-18/mandarin-plan/reviews/security.md",
+        ".aiwg/archive/2026-10-18/mandarin-plan/reviews/requirements.md",
+        ".aiwg/archive/2026-10-18/mandarin-plan/reviews/test-release.md",
+        ".aiwg/testing/evidence/0.1.0/summary.json"
+      ]
+    },
+    {
+      "artifact_id": "MATRIX-001",
+      "name": "Directed conversion matrix",
+      "type": "requirements",
+      "version": "1.0.0",
+      "status": "implementation-recorded-not-parity-certified",
+      "path": ".aiwg/requirements/conversion-matrix.csv",
+      "review_evidence": [
+        ".aiwg/archive/2026-10-18/mandarin-plan/reviews/security.md",
+        ".aiwg/archive/2026-10-18/mandarin-plan/reviews/requirements.md",
+        ".aiwg/archive/2026-10-18/mandarin-plan/reviews/test-release.md",
+        ".aiwg/testing/evidence/0.1.0/summary.json"
+      ]
+    },
+    {
+      "artifact_id": "BIB-001",
+      "name": "Primary source provenance",
+      "type": "report",
+      "version": "1.0.0",
+      "status": "baselined",
+      "path": ".aiwg/research/sources.json",
+      "review_evidence": [
+        ".aiwg/archive/2026-10-18/mandarin-plan/reviews/security.md",
+        ".aiwg/archive/2026-10-18/mandarin-plan/reviews/requirements.md",
+        ".aiwg/archive/2026-10-18/mandarin-plan/reviews/test-release.md"
+      ]
+    },
+    {
+      "artifact_id": "RPT-001",
+      "name": "Planning verification report",
+      "type": "report",
+      "version": "1.0.0",
+      "status": "baselined",
+      "path": ".aiwg/reports/planning-verification.md",
+      "review_evidence": [
+        ".aiwg/archive/2026-10-18/mandarin-plan/reviews/security.md",
+        ".aiwg/archive/2026-10-18/mandarin-plan/reviews/requirements.md",
+        ".aiwg/archive/2026-10-18/mandarin-plan/reviews/test-release.md"
+      ]
+    },
+    {
+      "artifact_id": "ADR-006",
+      "name": "Native preview and complete offline payload",
+      "type": "architecture",
+      "version": "0.1.0",
+      "status": "implemented",
+      "path": ".aiwg/architecture/ADR-006-native-implementation.md",
+      "review_evidence": [
+        ".aiwg/testing/evidence/0.1.0/package-verification.json"
+      ]
+    },
+    {
+      "artifact_id": "IMPL-001",
+      "name": "0.1.0 implementation report",
+      "type": "report",
+      "version": "0.1.0",
+      "status": "preview-tested",
+      "path": ".aiwg/reports/implementation-0.1.0.md",
+      "review_evidence": [
+        ".aiwg/testing/evidence/0.1.0/summary.json"
+      ]
+    }
+  ],
+  "implementation_date": "2026-10-19"
+}

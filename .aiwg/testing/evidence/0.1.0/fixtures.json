@@ -1,0 +1,174 @@
+{
+  "png": {
+    "name": "image.png",
+    "sha256": "f5bc87c1b921d6c225b460ce9025a9895c3bc5eb8e309797363e4726dd7de54c"
+  },
+  "jpg": {
+    "name": "image.jpg",
+    "sha256": "e69c4a4f7edd636f5815cffbc181a036e440769407acf7406704f5f316a222ac"
+  },
+  "webp": {
+    "name": "image.webp",
+    "sha256": "0fcea17792e440896e69db9ba11242eee21c9de3c3f7121f879bb99dfea9555c"
+  },
+  "tiff": {
+    "name": "image.tiff",
+    "sha256": "fb5cc57899bc1c3d9a3b599e218b91b087e1ced5403cf8fdf95d427d6498d4d3"
+  },
+  "bmp": {
+    "name": "image.bmp",
+    "sha256": "737f8170fde85350c4d4346720c88594817d2035fd354139b257496628c0c109"
+  },
+  "avif": {
+    "name": "image.avif",
+    "sha256": "93106e8d39377fc0de32ff75b7a10dda787cb83c3040053073444d762cfb5403"
+  },
+  "heic": {
+    "name": "image.heic",
+    "sha256": "668e1fa1da0cd7d5553b6b1004aef42ab836f0c07c9285daa6fa99c201b1c495"
+  },
+  "svg": {
+    "name": "vector.svg",
+    "sha256": "44f6574f988dc270227650c71c1ab697184f666538755c2e3cbc700830823a83"
+  },
+  "wav": {
+    "name": "tone.wav",
+    "sha256": "7b67bfac7ed978a187b88fd4e461ae22c5f7a1de27d14ea220c4510f079f7f9b"
+  },
+  "mp3": {
+    "name": "tone.mp3",
+    "sha256": "6dcee907340707615dccf17a80dbfa3485f545e17d2a8f0611d507282063f00d"
+  },
+  "m4a": {
+    "name": "tone.m4a",
+    "sha256": "5b85ccc79b00e843926ebf2b0388964a861b164353f67cfd44a8a741a9b29f0e"
+  },
+  "flac": {
+    "name": "tone.flac",
+    "sha256": "8f788f307e9f645b4da86af1b3a529386f07bf719e6eed49c333ed7263a75d1d"
+  },
+  "ogg": {
+    "name": "tone.ogg",
+    "sha256": "7eb4620d034cc98ee729e55fad79cf380328fd317f518b197937462d07ff6096"
+  },
+  "opus": {
+    "name": "tone.opus",
+    "sha256": "701c36fef1431104c5f2481118849ff6ecf45e9165dd57f3b0ca8fd7e775a33a"
+  },
+  "aiff": {
+    "name": "tone.aiff",
+    "sha256": "3546844de0e77d83a24fa2c2d68bb82a4341e37fd87adaa45439ba4374c410d0"
+  },
+  "wma": {
+    "name": "tone.wma",
+    "sha256": "3930a613ed164f2ba1c94879aa13c3558afb6b7ff542ed9baf9bd6f145a3bafc"
+  },
+  "mp4": {
+    "name": "clip.mp4",
+    "sha256": "1f3443f3b0b280110a1351c4dfba65e1e83905bd3bd7e81ce31cb0bfab0e057f"
+  },
+  "mov": {
+    "name": "clip.mov",
+    "sha256": "080c28542ec4950f8f7d046dffd0092cf088c7c2fc3f956bada2456ab77e1c11"
+  },
+  "mkv": {
+    "name": "clip.mkv",
+    "sha256": "8d1332a26be670ab2353ca6dd8f32a00f4e8978798dbbd1d7a564043b16dc3cd"
+  },
+  "webm": {
+    "name": "clip.webm",
+    "sha256": "395996eec27c475f3408d0b90e4ab986eaf3cfb6b4961a50a9da87e03da9e6d0"
+  },
+  "avi": {
+    "name": "clip.avi",
+    "sha256": "461e5e1ef95f5ec8553813bfe6cd78dd644d701a96ceccbda695446958c35fa8"
+  },
+  "wmv": {
+    "name": "clip.wmv",
+    "sha256": "567345ac16350aeeaf8368fe674e0b5aadd26e22ad7d7dda4f2bea4ad2197449"
+  },
+  "gif": {
+    "name": "clip.gif",
+    "sha256": "a12d7f32a616d65366e5b4b8ecc48db4f9ce25aa9db2ccc555e1d26d47603d64"
+  },
+  "md": {
+    "name": "notes.md",
+    "sha256": "d22655b5a8807104a6f5bc423ac4c473ecd741439c998f267a14c5bf19917ba9"
+  },
+  "docx": {
+    "name": "notes.docx",
+    "sha256": "383bc49e6d5d9be93b831ed9932f6b74c36e6a74e41a1d696dc13230626517df"
+  },
+  "txt": {
+    "name": "notes.txt",
+    "sha256": "17be4c43fe6a07f2ebfbe7e18ba8a7c435a9336ec544128928859f39eab77455"
+  },
+  "html": {
+    "name": "notes.html",
+    "sha256": "56ceb8eb94dd4cb2d0a7756b42bbdd7af8daca4b8d216fa18df93c65c15810c4"
+  },
+  "epub": {
+    "name": "notes.epub",
+    "sha256": "8a80aae88732fd3a37d8ba7dcb4e293716a25ef12022486a0154834950f62bcd"
+  },
+  "pdf": {
+    "name": "notes.pdf",
+    "sha256": "26d814ee01b8c5f6f8131f7720426027febe012443c147658483b9c2134c9600"
+  },
+  "xlsx": {
+    "name": "figures.xlsx",
+    "sha256": "8cea004a878cb8ac4b72515d817114c482a6d2ef65ee38ecb02513110b8150ad"
+  },
+  "ods": {
+    "name": "figures.ods",
+    "sha256": "60d7b4793fef27a561e8bad11bbf57e3b824a318e4e74974b56a2c4b72fef20e"
+  },
+  "csv": {
+    "name": "figures.csv",
+    "sha256": "094a9ead9c3a06097c1078cbf5b33982e076bfb6d8f0724f3a5dacfb1117d63b"
+  },
+  "tsv": {
+    "name": "figures.tsv",
+    "sha256": "373dfc225d58fafee0f94d3f2ffafd93d0e0935243708d08c8e84795f7d25bb8"
+  },
+  "srt": {
+    "name": "captions.srt",
+    "sha256": "0aeeeb9f5dbe87671d5be648d9a4f808d46983fdfe07f54bfc0f43300914cf2d"
+  },
+  "vtt": {
+    "name": "captions.vtt",
+    "sha256": "7f69e3d84babe00ed855b84576418f11ae50fd7f7ca862d3bebc7aa28e4792f4"
+  },
+  "zip": {
+    "name": "files.zip",
+    "sha256": "3f3125d22736f74e7a006e5a7171e0a93bf63db93c664c3d0e449209406527c6"
+  },
+  "tar": {
+    "name": "files.tar",
+    "sha256": "a9278e380923df21fcce788964a55cb9947ad5d662ad563715ae4d246f28a1d4"
+  },
+  "gz": {
+    "name": "files.tar.gz",
+    "sha256": "83ff78624d99760122f0eb3bb53947669bed4a3511cd75248e159d94162df480"
+  },
+  "rtf": {
+    "name": "notes.rtf",
+    "sha256": "6ecd890eea3cb5d19600981c746bda8fb68505acd3418fb44e4625a6cf40129e"
+  },
+  "pptx": {
+    "name": "presentation.pptx",
+    "sha256": "5427fee872aeda05379875d09653f30cc4099ca99823f29ce43fea4f54075ebf"
+  },
+  "ppt": {
+    "name": "legacy.ppt",
+    "sha256": "db4517722e633995c1f7ae4c35deded1d10e2654a85728b7ea10f959a761ce81"
+  },
+  "xls": {
+    "name": "legacy.xls",
+    "sha256": "09f724a87ac3c163268af760780c306ff083148d461382a356d55e015b0754a7"
+  },
+  "rar": {
+    "name": "libarchive-stored.rar",
+    "sha256": "35d75e315d164d2e329afc28f7d844f013271b4fcffd4ddd78efcdd114a383a7"
+  }
+}
