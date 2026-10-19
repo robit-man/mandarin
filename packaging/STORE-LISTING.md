@@ -10,7 +10,7 @@ Description: Convert local images, video, audio, documents, PDFs, spreadsheets, 
 
 Preview limits: Pages output, editable PDF reconstruction, advanced editor modes, full global GNOME integration and all-reference fidelity remain qualification gates. The installed strict Snap passed health, 12 representative conversion routes, nested-worker confinement, GUI launch and taskbar menu lifecycle on Ubuntu 24.04 GNOME 46. Full strict-confinement file access and real-device sharing qualification remain open. External disks require the removable-media interface. The `.deb` remains the independently tested distribution lane. Do not publish this Snap as stable until these gates pass.
 
-Submission status: Ubuntu One authentication succeeded. Registration returned `user-not-ready` because the publisher agreement has not been signed. The account agreement page was opened in Firefox for the publisher. No Store registration, upload or live listing is claimed until that gate and subsequent review complete.
+Submission status: Canonical's publisher agreement was accepted and `mandarin` was registered on 19 October 2026. The original registration error cleared after the account update propagated. The package is uploaded for review before edge release; no live Store listing is claimed until review and publication complete. The `.deb` and Snap payloads strip privileged modes, group/other write permissions and extended attributes.
 
 Initial channel: edge. License: MIT for Mandarin; bundled components retain their own licenses and corresponding-source assets. Support/source: https://github.com/robit-man/mandarin.
 

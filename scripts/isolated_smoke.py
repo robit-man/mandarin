@@ -8,6 +8,13 @@ from pathlib import Path
 
 
 def main():
+    for directory, _, files in os.walk("/opt/mandarin"):
+        for name in files:
+            path = Path(directory) / name
+            if not path.is_symlink() and (
+                path.stat().st_mode & 0o6022 or os.listxattr(path, follow_symlinks=False)
+            ):
+                raise RuntimeError("Privileged/writable installed payload: " + str(path))
     from mandarin.runtime import bundle_environment
 
     os.environ.update(bundle_environment())

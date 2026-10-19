@@ -21,6 +21,7 @@ from urllib.request import urlopen
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from mandarin.runtime import ENGINE_PATHS
+from scripts.package_policy import sanitize
 
 PREFIX = Path("opt/mandarin")
 SYSTEM_PREFIX = "/opt/mandarin"
@@ -284,6 +285,7 @@ exec "$APP/runtime/lib64/ld-linux-x86-64.so.2" --library-path "$LD_LIBRARY_PATH"
     (documentation / "NOTICE").write_text(
         "Mandarin testing preview. Third-party package versions/notices are under /opt/mandarin/runtime/usr/share/doc. Exact corresponding-source archives are provided beside the installer at https://github.com/robit-man/mandarin/releases/tag/v0.1.0. No Tangerine source, artwork or binary is included.\n"
     )
+    stripped_privileges = sanitize(stage)
     for path in runtime.rglob("*"):
         if path.is_file() and not path.is_symlink():
             with path.open("rb") as handle:
@@ -291,6 +293,7 @@ exec "$APP/runtime/lib64/ld-linux-x86-64.so.2" --library-path "$LD_LIBRARY_PATH"
             records[str(path.relative_to(application))] = {
                 "sha256": digest,
                 "bytes": path.stat().st_size,
+                "mode": path.stat().st_mode & 0o7777,
             }
     for name, path in ENGINE_PATHS.items():
         target = runtime / path.lstrip("/")
@@ -306,6 +309,8 @@ exec "$APP/runtime/lib64/ld-linux-x86-64.so.2" --library-path "$LD_LIBRARY_PATH"
         "required_engines": ENGINE_PATHS,
         "packages": [{k: p[k] for k in ("name", "version", "architecture")} for p in packages],
         "runtime_overrides": overrides,
+        "privilege_policy": "no-setuid-setgid-capabilities-or-writable-payload",
+        "stripped_privileged_files": stripped_privileges,
         "files": records,
     }
     (application / "runtime-manifest.json").write_text(json.dumps(manifest, indent=2) + "\n")
@@ -331,6 +336,7 @@ Description: Offline contextual file conversion for Ubuntu
     output = ROOT / "dist"
     output.mkdir(exist_ok=True)
     (output / "runtime-manifest.json").write_text(json.dumps(manifest, indent=2) + "\n")
+    sanitize(stage)
     print(
         f"Staged {len(packages)} pinned packages, {len(records)} runtime files, {size // 1024} MiB.",
         flush=True,

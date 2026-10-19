@@ -4,9 +4,12 @@
 import os
 import shutil
 import subprocess
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+from scripts.package_policy import sanitize, violations
 
 
 def main():
@@ -32,6 +35,9 @@ def main():
     desktop = (ROOT / "packaging/org.mandarin.Converter.desktop").read_text()
     desktop = desktop.replace("Icon=org.mandarin.Converter", "Icon=${SNAP}/meta/gui/icon.svg")
     (gui / "mandarin.desktop").write_text(desktop)
+    sanitize(target)
+    if violations(target):
+        raise RuntimeError("Unsafe Snap payload permissions or extended attributes.")
     subprocess.run(["snap", "pack", "--check-skeleton", str(target)], check=True)
     subprocess.run(
         ["snap", "pack", "--compression=xz", str(target), str(ROOT / "dist")], check=True

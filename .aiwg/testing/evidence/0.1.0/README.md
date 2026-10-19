@@ -6,7 +6,7 @@ Reproduce using the [implementation report](../../../reports/implementation-0.1.
 
 - `summary.json`: implementation counts, fixture coverage and explicit absence of native parity certification.
 - `package-verification.json`, `package-results.json`, `tool-results.json`: the final installer hash, 248 offline conversion cases and 32 tool cases across 28 operations.
-- `application-tests.log`: 27 application/security/integration tests.
+- `application-tests.log`: 28 application/security/integration/packaging tests.
 - `native-gui-tests.log`: native captures, actual held-file drag traversal and the separate GTK3 taskbar helper with the GTK4 application.
 - `snap-results.json`, `snap-desktop-results.json`: the installed strict Snap's 12 representative conversions and actual GNOME desktop indicator/menu lifecycle.
 - `ui-static-audit.json`: deterministic UI audit, with zero findings.

@@ -4,12 +4,16 @@
 import argparse
 import hashlib
 import json
+import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from scripts.package_policy import violations
 
 
 def verify(root: Path):
     manifest = json.loads((root / "runtime-manifest.json").read_text())
-    failures = []
+    failures = violations(root)
     for relative, record in manifest["files"].items():
         path = root / relative
         if not path.is_file() or not path.resolve().is_relative_to(root.resolve()):
@@ -18,6 +22,8 @@ def verify(root: Path):
         if path.stat().st_size != record["bytes"]:
             failures.append("Wrong size: " + relative)
             continue
+        if (path.stat().st_mode & 0o7777) != record["mode"]:
+            failures.append("Mode mismatch: " + relative)
         with path.open("rb") as handle:
             digest = hashlib.file_digest(handle, "sha256").hexdigest()
         if digest != record["sha256"]:
