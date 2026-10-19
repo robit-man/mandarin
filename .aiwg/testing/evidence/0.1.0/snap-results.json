@@ -90,5 +90,6 @@
       "status": "pass"
     }
   ],
-  "sha256": "dc336e8af402881af0c97cf63d421e3e6b6c9f25cc07e22a7302db84953ae209"
+  "sha256": "f311451df00c90f5852365fcb6ebf08d3d4e2fdceb9f003dd58bdebbbe07b48b",
+  "installed_revision": "x2"
 }

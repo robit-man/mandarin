@@ -1,6 +1,6 @@
 {
   "package": "mandarin_0.1.0_amd64.deb",
-  "sha256": "ed6bd1ace0f5ae8b21ba807d1e7c5114e4e38e5106a498cf58bf3aafec69b3e7",
+  "sha256": "efe23889ee0ce7da4e1b37290884947cc4db596506e8570d0940cfa60712d19c",
   "status": "pass",
   "checks": [
     "offline-install",

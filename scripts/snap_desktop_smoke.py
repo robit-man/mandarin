@@ -89,6 +89,10 @@ def main():
         try:
             await_value(owned, "application D-Bus registration")
             service, properties = await_value(mandarin_item, "real taskbar registration")
+            icon_name = properties.get("IconName", "")
+            icon_theme = properties.get("IconThemePath", "")
+            if not icon_theme or not (Path(icon_theme) / (icon_name + ".svg")).is_file():
+                raise RuntimeError("The taskbar icon is not readable from the host desktop.")
             layout = call(
                 service,
                 properties["Menu"],
@@ -126,7 +130,14 @@ def main():
             if process.returncode:
                 raise RuntimeError(f"Snap GUI exited {process.returncode}")
             await_value(lambda: not owned(), "application shutdown")
-            report.update(status="pass", actions=list(labels), indicator_id=properties["Id"])
+            report.update(
+                status="pass",
+                actions=list(labels),
+                indicator_id=properties["Id"],
+                icon_name=icon_name,
+                icon_theme_path=icon_theme,
+                installed_revision=Path("/snap/mandarin/current").resolve().name,
+            )
             print(
                 "PASS: installed strict Snap GUI, real GNOME indicator, menu, Open, Jobs and Quit."
             )

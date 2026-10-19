@@ -35,1489 +35,1489 @@
       "input": "png",
       "output": "jpg",
       "status": "pass",
-      "elapsed_ms": 2321
+      "elapsed_ms": 3570
     },
     {
       "input": "png",
       "output": "webp",
       "status": "pass",
-      "elapsed_ms": 2700
+      "elapsed_ms": 3511
     },
     {
       "input": "png",
       "output": "heic",
       "status": "pass",
-      "elapsed_ms": 2331
+      "elapsed_ms": 3048
     },
     {
       "input": "png",
       "output": "tiff",
       "status": "pass",
-      "elapsed_ms": 2764
+      "elapsed_ms": 3634
     },
     {
       "input": "png",
       "output": "avif",
       "status": "pass",
-      "elapsed_ms": 2321
+      "elapsed_ms": 3129
     },
     {
       "input": "png",
       "output": "bmp",
-      "status": "pass",
-      "elapsed_ms": 2318
-    },
-    {
-      "input": "png",
-      "output": "pdf",
-      "status": "pass",
-      "elapsed_ms": 2754
-    },
-    {
-      "input": "jpg",
-      "output": "png",
-      "status": "pass",
-      "elapsed_ms": 2338
-    },
-    {
-      "input": "jpg",
-      "output": "webp",
-      "status": "pass",
-      "elapsed_ms": 2555
-    },
-    {
-      "input": "jpg",
-      "output": "heic",
-      "status": "pass",
-      "elapsed_ms": 2126
-    },
-    {
-      "input": "jpg",
-      "output": "tiff",
-      "status": "pass",
-      "elapsed_ms": 2541
-    },
-    {
-      "input": "jpg",
-      "output": "avif",
-      "status": "pass",
-      "elapsed_ms": 2145
-    },
-    {
-      "input": "jpg",
-      "output": "bmp",
-      "status": "pass",
-      "elapsed_ms": 2157
-    },
-    {
-      "input": "jpg",
-      "output": "pdf",
-      "status": "pass",
-      "elapsed_ms": 2771
-    },
-    {
-      "input": "webp",
-      "output": "jpg",
       "status": "pass",
       "elapsed_ms": 2507
     },
     {
+      "input": "png",
+      "output": "pdf",
+      "status": "pass",
+      "elapsed_ms": 2736
+    },
+    {
+      "input": "jpg",
+      "output": "png",
+      "status": "pass",
+      "elapsed_ms": 2300
+    },
+    {
+      "input": "jpg",
+      "output": "webp",
+      "status": "pass",
+      "elapsed_ms": 2813
+    },
+    {
+      "input": "jpg",
+      "output": "heic",
+      "status": "pass",
+      "elapsed_ms": 2910
+    },
+    {
+      "input": "jpg",
+      "output": "tiff",
+      "status": "pass",
+      "elapsed_ms": 3520
+    },
+    {
+      "input": "jpg",
+      "output": "avif",
+      "status": "pass",
+      "elapsed_ms": 2978
+    },
+    {
+      "input": "jpg",
+      "output": "bmp",
+      "status": "pass",
+      "elapsed_ms": 2887
+    },
+    {
+      "input": "jpg",
+      "output": "pdf",
+      "status": "pass",
+      "elapsed_ms": 3882
+    },
+    {
+      "input": "webp",
+      "output": "jpg",
+      "status": "pass",
+      "elapsed_ms": 3558
+    },
+    {
       "input": "webp",
       "output": "png",
       "status": "pass",
-      "elapsed_ms": 2825
+      "elapsed_ms": 4050
     },
     {
       "input": "webp",
       "output": "heic",
       "status": "pass",
-      "elapsed_ms": 2567
+      "elapsed_ms": 3808
     },
     {
       "input": "webp",
       "output": "tiff",
       "status": "pass",
-      "elapsed_ms": 2929
+      "elapsed_ms": 4141
     },
     {
       "input": "webp",
       "output": "avif",
       "status": "pass",
-      "elapsed_ms": 2512
+      "elapsed_ms": 3605
     },
     {
       "input": "webp",
       "output": "bmp",
       "status": "pass",
-      "elapsed_ms": 2546
+      "elapsed_ms": 3533
     },
     {
       "input": "webp",
       "output": "pdf",
       "status": "pass",
-      "elapsed_ms": 2797
+      "elapsed_ms": 3888
     },
     {
       "input": "tiff",
       "output": "jpg",
       "status": "pass",
-      "elapsed_ms": 2522
+      "elapsed_ms": 3492
     },
     {
       "input": "tiff",
       "output": "png",
       "status": "pass",
-      "elapsed_ms": 2860
+      "elapsed_ms": 3718
     },
     {
       "input": "tiff",
       "output": "webp",
       "status": "pass",
-      "elapsed_ms": 2927
+      "elapsed_ms": 4175
     },
     {
       "input": "tiff",
       "output": "heic",
       "status": "pass",
-      "elapsed_ms": 2545
+      "elapsed_ms": 3585
     },
     {
       "input": "tiff",
       "output": "avif",
       "status": "pass",
-      "elapsed_ms": 2631
+      "elapsed_ms": 3603
     },
     {
       "input": "tiff",
       "output": "bmp",
       "status": "pass",
-      "elapsed_ms": 2540
+      "elapsed_ms": 3374
     },
     {
       "input": "tiff",
       "output": "pdf",
       "status": "pass",
-      "elapsed_ms": 2956
+      "elapsed_ms": 3913
     },
     {
       "input": "bmp",
       "output": "jpg",
       "status": "pass",
-      "elapsed_ms": 2118
+      "elapsed_ms": 2759
     },
     {
       "input": "bmp",
       "output": "png",
       "status": "pass",
-      "elapsed_ms": 2331
+      "elapsed_ms": 3091
     },
     {
       "input": "bmp",
       "output": "webp",
       "status": "pass",
-      "elapsed_ms": 2541
+      "elapsed_ms": 3306
     },
     {
       "input": "bmp",
       "output": "heic",
       "status": "pass",
-      "elapsed_ms": 2127
+      "elapsed_ms": 2880
     },
     {
       "input": "bmp",
       "output": "tiff",
       "status": "pass",
-      "elapsed_ms": 2548
+      "elapsed_ms": 3354
     },
     {
       "input": "bmp",
       "output": "avif",
       "status": "pass",
-      "elapsed_ms": 2351
+      "elapsed_ms": 2880
     },
     {
       "input": "bmp",
       "output": "pdf",
       "status": "pass",
-      "elapsed_ms": 2725
+      "elapsed_ms": 3691
     },
     {
       "input": "avif",
       "output": "jpg",
       "status": "pass",
-      "elapsed_ms": 2158
+      "elapsed_ms": 3002
     },
     {
       "input": "avif",
       "output": "png",
       "status": "pass",
-      "elapsed_ms": 2305
+      "elapsed_ms": 3378
     },
     {
       "input": "avif",
       "output": "webp",
-      "status": "pass",
-      "elapsed_ms": 2421
-    },
-    {
-      "input": "avif",
-      "output": "heic",
-      "status": "pass",
-      "elapsed_ms": 2147
-    },
-    {
-      "input": "avif",
-      "output": "tiff",
-      "status": "pass",
-      "elapsed_ms": 2523
-    },
-    {
-      "input": "avif",
-      "output": "bmp",
-      "status": "pass",
-      "elapsed_ms": 2262
-    },
-    {
-      "input": "avif",
-      "output": "pdf",
-      "status": "pass",
-      "elapsed_ms": 2830
-    },
-    {
-      "input": "heic",
-      "output": "jpg",
-      "status": "pass",
-      "elapsed_ms": 2143
-    },
-    {
-      "input": "heic",
-      "output": "png",
-      "status": "pass",
-      "elapsed_ms": 2309
-    },
-    {
-      "input": "heic",
-      "output": "webp",
-      "status": "pass",
-      "elapsed_ms": 2526
-    },
-    {
-      "input": "heic",
-      "output": "tiff",
-      "status": "pass",
-      "elapsed_ms": 2542
-    },
-    {
-      "input": "heic",
-      "output": "avif",
-      "status": "pass",
-      "elapsed_ms": 2255
-    },
-    {
-      "input": "heic",
-      "output": "bmp",
-      "status": "pass",
-      "elapsed_ms": 2043
-    },
-    {
-      "input": "heic",
-      "output": "pdf",
-      "status": "pass",
-      "elapsed_ms": 2739
-    },
-    {
-      "input": "svg",
-      "output": "jpg",
-      "status": "pass",
-      "elapsed_ms": 2026
-    },
-    {
-      "input": "svg",
-      "output": "png",
-      "status": "pass",
-      "elapsed_ms": 2322
-    },
-    {
-      "input": "svg",
-      "output": "webp",
-      "status": "pass",
-      "elapsed_ms": 2504
-    },
-    {
-      "input": "svg",
-      "output": "heic",
-      "status": "pass",
-      "elapsed_ms": 2363
-    },
-    {
-      "input": "svg",
-      "output": "tiff",
-      "status": "pass",
-      "elapsed_ms": 3811
-    },
-    {
-      "input": "svg",
-      "output": "avif",
-      "status": "pass",
-      "elapsed_ms": 3310
-    },
-    {
-      "input": "svg",
-      "output": "bmp",
-      "status": "pass",
-      "elapsed_ms": 2925
-    },
-    {
-      "input": "svg",
-      "output": "pdf",
-      "status": "pass",
-      "elapsed_ms": 3925
-    },
-    {
-      "input": "wav",
-      "output": "mp3",
-      "status": "pass",
-      "elapsed_ms": 3420
-    },
-    {
-      "input": "wav",
-      "output": "m4a",
       "status": "pass",
       "elapsed_ms": 3539
     },
     {
-      "input": "wav",
-      "output": "flac",
+      "input": "avif",
+      "output": "heic",
       "status": "pass",
-      "elapsed_ms": 3309
+      "elapsed_ms": 2991
     },
     {
-      "input": "wav",
-      "output": "ogg",
+      "input": "avif",
+      "output": "tiff",
       "status": "pass",
-      "elapsed_ms": 3402
+      "elapsed_ms": 4292
     },
     {
-      "input": "wav",
-      "output": "opus",
+      "input": "avif",
+      "output": "bmp",
       "status": "pass",
-      "elapsed_ms": 3388
+      "elapsed_ms": 2785
     },
     {
-      "input": "wav",
-      "output": "aiff",
+      "input": "avif",
+      "output": "pdf",
       "status": "pass",
-      "elapsed_ms": 3194
+      "elapsed_ms": 2801
     },
     {
-      "input": "wav",
-      "output": "wma",
+      "input": "heic",
+      "output": "jpg",
       "status": "pass",
-      "elapsed_ms": 3415
+      "elapsed_ms": 2004
     },
     {
-      "input": "mp3",
-      "output": "m4a",
+      "input": "heic",
+      "output": "png",
       "status": "pass",
-      "elapsed_ms": 3424
+      "elapsed_ms": 2288
     },
     {
-      "input": "mp3",
-      "output": "wav",
+      "input": "heic",
+      "output": "webp",
       "status": "pass",
-      "elapsed_ms": 3172
+      "elapsed_ms": 2428
     },
     {
-      "input": "mp3",
-      "output": "flac",
+      "input": "heic",
+      "output": "tiff",
       "status": "pass",
-      "elapsed_ms": 3453
+      "elapsed_ms": 2498
     },
     {
-      "input": "mp3",
-      "output": "ogg",
+      "input": "heic",
+      "output": "avif",
       "status": "pass",
-      "elapsed_ms": 3385
+      "elapsed_ms": 2208
     },
     {
-      "input": "mp3",
-      "output": "opus",
+      "input": "heic",
+      "output": "bmp",
       "status": "pass",
-      "elapsed_ms": 3293
+      "elapsed_ms": 2138
     },
     {
-      "input": "mp3",
-      "output": "aiff",
+      "input": "heic",
+      "output": "pdf",
       "status": "pass",
-      "elapsed_ms": 3359
+      "elapsed_ms": 2735
     },
     {
-      "input": "mp3",
-      "output": "wma",
+      "input": "svg",
+      "output": "jpg",
       "status": "pass",
-      "elapsed_ms": 3260
+      "elapsed_ms": 2132
     },
     {
-      "input": "m4a",
-      "output": "mp3",
-      "status": "pass",
-      "elapsed_ms": 3307
-    },
-    {
-      "input": "m4a",
-      "output": "wav",
-      "status": "pass",
-      "elapsed_ms": 3364
-    },
-    {
-      "input": "m4a",
-      "output": "flac",
-      "status": "pass",
-      "elapsed_ms": 3411
-    },
-    {
-      "input": "m4a",
-      "output": "ogg",
-      "status": "pass",
-      "elapsed_ms": 3283
-    },
-    {
-      "input": "m4a",
-      "output": "opus",
-      "status": "pass",
-      "elapsed_ms": 3420
-    },
-    {
-      "input": "m4a",
-      "output": "aiff",
-      "status": "pass",
-      "elapsed_ms": 3753
-    },
-    {
-      "input": "m4a",
-      "output": "wma",
-      "status": "pass",
-      "elapsed_ms": 3175
-    },
-    {
-      "input": "flac",
-      "output": "mp3",
-      "status": "pass",
-      "elapsed_ms": 3284
-    },
-    {
-      "input": "flac",
-      "output": "m4a",
-      "status": "pass",
-      "elapsed_ms": 3364
-    },
-    {
-      "input": "flac",
-      "output": "wav",
-      "status": "pass",
-      "elapsed_ms": 3294
-    },
-    {
-      "input": "flac",
-      "output": "ogg",
-      "status": "pass",
-      "elapsed_ms": 3407
-    },
-    {
-      "input": "flac",
-      "output": "opus",
-      "status": "pass",
-      "elapsed_ms": 3336
-    },
-    {
-      "input": "flac",
-      "output": "aiff",
-      "status": "pass",
-      "elapsed_ms": 3349
-    },
-    {
-      "input": "flac",
-      "output": "wma",
-      "status": "pass",
-      "elapsed_ms": 3402
-    },
-    {
-      "input": "ogg",
-      "output": "mp3",
-      "status": "pass",
-      "elapsed_ms": 3241
-    },
-    {
-      "input": "ogg",
-      "output": "m4a",
-      "status": "pass",
-      "elapsed_ms": 3495
-    },
-    {
-      "input": "ogg",
-      "output": "wav",
-      "status": "pass",
-      "elapsed_ms": 2687
-    },
-    {
-      "input": "ogg",
-      "output": "flac",
-      "status": "pass",
-      "elapsed_ms": 2435
-    },
-    {
-      "input": "ogg",
-      "output": "opus",
-      "status": "pass",
-      "elapsed_ms": 2506
-    },
-    {
-      "input": "ogg",
-      "output": "aiff",
-      "status": "pass",
-      "elapsed_ms": 2323
-    },
-    {
-      "input": "ogg",
-      "output": "wma",
-      "status": "pass",
-      "elapsed_ms": 2316
-    },
-    {
-      "input": "opus",
-      "output": "mp3",
-      "status": "pass",
-      "elapsed_ms": 2289
-    },
-    {
-      "input": "opus",
-      "output": "m4a",
-      "status": "pass",
-      "elapsed_ms": 2488
-    },
-    {
-      "input": "opus",
-      "output": "wav",
-      "status": "pass",
-      "elapsed_ms": 2304
-    },
-    {
-      "input": "opus",
-      "output": "flac",
-      "status": "pass",
-      "elapsed_ms": 2404
-    },
-    {
-      "input": "opus",
-      "output": "ogg",
-      "status": "pass",
-      "elapsed_ms": 2307
-    },
-    {
-      "input": "opus",
-      "output": "aiff",
-      "status": "pass",
-      "elapsed_ms": 2308
-    },
-    {
-      "input": "opus",
-      "output": "wma",
-      "status": "pass",
-      "elapsed_ms": 2310
-    },
-    {
-      "input": "aiff",
-      "output": "mp3",
-      "status": "pass",
-      "elapsed_ms": 2412
-    },
-    {
-      "input": "aiff",
-      "output": "m4a",
-      "status": "pass",
-      "elapsed_ms": 2531
-    },
-    {
-      "input": "aiff",
-      "output": "wav",
+      "input": "svg",
+      "output": "png",
       "status": "pass",
       "elapsed_ms": 2313
     },
     {
-      "input": "aiff",
-      "output": "flac",
+      "input": "svg",
+      "output": "webp",
       "status": "pass",
-      "elapsed_ms": 2403
+      "elapsed_ms": 2507
     },
     {
-      "input": "aiff",
-      "output": "ogg",
+      "input": "svg",
+      "output": "heic",
       "status": "pass",
-      "elapsed_ms": 2319
+      "elapsed_ms": 2099
     },
     {
-      "input": "aiff",
-      "output": "opus",
+      "input": "svg",
+      "output": "tiff",
       "status": "pass",
-      "elapsed_ms": 2295
+      "elapsed_ms": 2595
     },
     {
-      "input": "aiff",
-      "output": "wma",
+      "input": "svg",
+      "output": "avif",
       "status": "pass",
-      "elapsed_ms": 2445
+      "elapsed_ms": 2110
     },
     {
-      "input": "wma",
+      "input": "svg",
+      "output": "bmp",
+      "status": "pass",
+      "elapsed_ms": 2032
+    },
+    {
+      "input": "svg",
+      "output": "pdf",
+      "status": "pass",
+      "elapsed_ms": 2715
+    },
+    {
+      "input": "wav",
       "output": "mp3",
       "status": "pass",
-      "elapsed_ms": 2627
+      "elapsed_ms": 2498
     },
     {
-      "input": "wma",
+      "input": "wav",
       "output": "m4a",
       "status": "pass",
-      "elapsed_ms": 2501
+      "elapsed_ms": 2405
     },
     {
-      "input": "wma",
+      "input": "wav",
+      "output": "flac",
+      "status": "pass",
+      "elapsed_ms": 2330
+    },
+    {
+      "input": "wav",
+      "output": "ogg",
+      "status": "pass",
+      "elapsed_ms": 2318
+    },
+    {
+      "input": "wav",
+      "output": "opus",
+      "status": "pass",
+      "elapsed_ms": 2429
+    },
+    {
+      "input": "wav",
+      "output": "aiff",
+      "status": "pass",
+      "elapsed_ms": 2341
+    },
+    {
+      "input": "wav",
+      "output": "wma",
+      "status": "pass",
+      "elapsed_ms": 2396
+    },
+    {
+      "input": "mp3",
+      "output": "m4a",
+      "status": "pass",
+      "elapsed_ms": 2390
+    },
+    {
+      "input": "mp3",
       "output": "wav",
       "status": "pass",
-      "elapsed_ms": 2639
+      "elapsed_ms": 2320
     },
     {
-      "input": "wma",
+      "input": "mp3",
+      "output": "flac",
+      "status": "pass",
+      "elapsed_ms": 2302
+    },
+    {
+      "input": "mp3",
+      "output": "ogg",
+      "status": "pass",
+      "elapsed_ms": 2420
+    },
+    {
+      "input": "mp3",
+      "output": "opus",
+      "status": "pass",
+      "elapsed_ms": 2310
+    },
+    {
+      "input": "mp3",
+      "output": "aiff",
+      "status": "pass",
+      "elapsed_ms": 2438
+    },
+    {
+      "input": "mp3",
+      "output": "wma",
+      "status": "pass",
+      "elapsed_ms": 2456
+    },
+    {
+      "input": "m4a",
+      "output": "mp3",
+      "status": "pass",
+      "elapsed_ms": 2519
+    },
+    {
+      "input": "m4a",
+      "output": "wav",
+      "status": "pass",
+      "elapsed_ms": 2375
+    },
+    {
+      "input": "m4a",
       "output": "flac",
       "status": "pass",
       "elapsed_ms": 2515
     },
     {
+      "input": "m4a",
+      "output": "ogg",
+      "status": "pass",
+      "elapsed_ms": 2400
+    },
+    {
+      "input": "m4a",
+      "output": "opus",
+      "status": "pass",
+      "elapsed_ms": 2526
+    },
+    {
+      "input": "m4a",
+      "output": "aiff",
+      "status": "pass",
+      "elapsed_ms": 2474
+    },
+    {
+      "input": "m4a",
+      "output": "wma",
+      "status": "pass",
+      "elapsed_ms": 2533
+    },
+    {
+      "input": "flac",
+      "output": "mp3",
+      "status": "pass",
+      "elapsed_ms": 2407
+    },
+    {
+      "input": "flac",
+      "output": "m4a",
+      "status": "pass",
+      "elapsed_ms": 2592
+    },
+    {
+      "input": "flac",
+      "output": "wav",
+      "status": "pass",
+      "elapsed_ms": 2426
+    },
+    {
+      "input": "flac",
+      "output": "ogg",
+      "status": "pass",
+      "elapsed_ms": 2509
+    },
+    {
+      "input": "flac",
+      "output": "opus",
+      "status": "pass",
+      "elapsed_ms": 2410
+    },
+    {
+      "input": "flac",
+      "output": "aiff",
+      "status": "pass",
+      "elapsed_ms": 2526
+    },
+    {
+      "input": "flac",
+      "output": "wma",
+      "status": "pass",
+      "elapsed_ms": 2596
+    },
+    {
+      "input": "ogg",
+      "output": "mp3",
+      "status": "pass",
+      "elapsed_ms": 2453
+    },
+    {
+      "input": "ogg",
+      "output": "m4a",
+      "status": "pass",
+      "elapsed_ms": 2692
+    },
+    {
+      "input": "ogg",
+      "output": "wav",
+      "status": "pass",
+      "elapsed_ms": 2796
+    },
+    {
+      "input": "ogg",
+      "output": "flac",
+      "status": "pass",
+      "elapsed_ms": 2571
+    },
+    {
+      "input": "ogg",
+      "output": "opus",
+      "status": "pass",
+      "elapsed_ms": 2652
+    },
+    {
+      "input": "ogg",
+      "output": "aiff",
+      "status": "pass",
+      "elapsed_ms": 2553
+    },
+    {
+      "input": "ogg",
+      "output": "wma",
+      "status": "pass",
+      "elapsed_ms": 2536
+    },
+    {
+      "input": "opus",
+      "output": "mp3",
+      "status": "pass",
+      "elapsed_ms": 2436
+    },
+    {
+      "input": "opus",
+      "output": "m4a",
+      "status": "pass",
+      "elapsed_ms": 2636
+    },
+    {
+      "input": "opus",
+      "output": "wav",
+      "status": "pass",
+      "elapsed_ms": 2432
+    },
+    {
+      "input": "opus",
+      "output": "flac",
+      "status": "pass",
+      "elapsed_ms": 2537
+    },
+    {
+      "input": "opus",
+      "output": "ogg",
+      "status": "pass",
+      "elapsed_ms": 2434
+    },
+    {
+      "input": "opus",
+      "output": "aiff",
+      "status": "pass",
+      "elapsed_ms": 2409
+    },
+    {
+      "input": "opus",
+      "output": "wma",
+      "status": "pass",
+      "elapsed_ms": 2438
+    },
+    {
+      "input": "aiff",
+      "output": "mp3",
+      "status": "pass",
+      "elapsed_ms": 2566
+    },
+    {
+      "input": "aiff",
+      "output": "m4a",
+      "status": "pass",
+      "elapsed_ms": 2559
+    },
+    {
+      "input": "aiff",
+      "output": "wav",
+      "status": "pass",
+      "elapsed_ms": 2517
+    },
+    {
+      "input": "aiff",
+      "output": "flac",
+      "status": "pass",
+      "elapsed_ms": 2430
+    },
+    {
+      "input": "aiff",
+      "output": "ogg",
+      "status": "pass",
+      "elapsed_ms": 2565
+    },
+    {
+      "input": "aiff",
+      "output": "opus",
+      "status": "pass",
+      "elapsed_ms": 2910
+    },
+    {
+      "input": "aiff",
+      "output": "wma",
+      "status": "pass",
+      "elapsed_ms": 2417
+    },
+    {
+      "input": "wma",
+      "output": "mp3",
+      "status": "pass",
+      "elapsed_ms": 2539
+    },
+    {
+      "input": "wma",
+      "output": "m4a",
+      "status": "pass",
+      "elapsed_ms": 2609
+    },
+    {
+      "input": "wma",
+      "output": "wav",
+      "status": "pass",
+      "elapsed_ms": 2641
+    },
+    {
+      "input": "wma",
+      "output": "flac",
+      "status": "pass",
+      "elapsed_ms": 2920
+    },
+    {
       "input": "wma",
       "output": "ogg",
       "status": "pass",
-      "elapsed_ms": 2444
+      "elapsed_ms": 3075
     },
     {
       "input": "wma",
       "output": "opus",
       "status": "pass",
-      "elapsed_ms": 2433
+      "elapsed_ms": 3027
     },
     {
       "input": "wma",
       "output": "aiff",
       "status": "pass",
-      "elapsed_ms": 2391
+      "elapsed_ms": 2632
     },
     {
       "input": "mp4",
       "output": "mov",
       "status": "pass",
-      "elapsed_ms": 2450
+      "elapsed_ms": 2549
     },
     {
       "input": "mp4",
       "output": "mkv",
       "status": "pass",
-      "elapsed_ms": 2443
+      "elapsed_ms": 2412
     },
     {
       "input": "mp4",
       "output": "webm",
       "status": "pass",
-      "elapsed_ms": 2513
+      "elapsed_ms": 2535
     },
     {
       "input": "mp4",
       "output": "avi",
       "status": "pass",
-      "elapsed_ms": 2425
+      "elapsed_ms": 2699
     },
     {
       "input": "mp4",
       "output": "wmv",
       "status": "pass",
-      "elapsed_ms": 2430
+      "elapsed_ms": 2434
     },
     {
       "input": "mp4",
       "output": "gif",
       "status": "pass",
-      "elapsed_ms": 2342
+      "elapsed_ms": 2438
     },
     {
       "input": "mp4",
       "output": "mp3",
       "status": "pass",
-      "elapsed_ms": 2562
+      "elapsed_ms": 2435
     },
     {
       "input": "mov",
       "output": "mp4",
       "status": "pass",
-      "elapsed_ms": 2654
+      "elapsed_ms": 2468
     },
     {
       "input": "mov",
       "output": "mkv",
       "status": "pass",
-      "elapsed_ms": 2524
+      "elapsed_ms": 2646
     },
     {
       "input": "mov",
       "output": "webm",
       "status": "pass",
-      "elapsed_ms": 2696
+      "elapsed_ms": 2637
     },
     {
       "input": "mov",
       "output": "avi",
       "status": "pass",
-      "elapsed_ms": 2756
+      "elapsed_ms": 2509
     },
     {
       "input": "mov",
       "output": "wmv",
       "status": "pass",
-      "elapsed_ms": 2454
+      "elapsed_ms": 2412
     },
     {
       "input": "mov",
       "output": "gif",
       "status": "pass",
-      "elapsed_ms": 2422
+      "elapsed_ms": 2404
     },
     {
       "input": "mov",
       "output": "mp3",
       "status": "pass",
-      "elapsed_ms": 2315
+      "elapsed_ms": 2318
     },
     {
       "input": "mkv",
       "output": "mp4",
       "status": "pass",
-      "elapsed_ms": 2433
+      "elapsed_ms": 2446
     },
     {
       "input": "mkv",
-      "output": "mov",
-      "status": "pass",
-      "elapsed_ms": 2511
-    },
-    {
-      "input": "mkv",
-      "output": "webm",
-      "status": "pass",
-      "elapsed_ms": 2417
-    },
-    {
-      "input": "mkv",
-      "output": "avi",
-      "status": "pass",
-      "elapsed_ms": 2439
-    },
-    {
-      "input": "mkv",
-      "output": "wmv",
-      "status": "pass",
-      "elapsed_ms": 2538
-    },
-    {
-      "input": "mkv",
-      "output": "gif",
-      "status": "pass",
-      "elapsed_ms": 2522
-    },
-    {
-      "input": "mkv",
-      "output": "mp3",
-      "status": "pass",
-      "elapsed_ms": 2528
-    },
-    {
-      "input": "webm",
-      "output": "mp4",
-      "status": "pass",
-      "elapsed_ms": 2528
-    },
-    {
-      "input": "webm",
-      "output": "mov",
-      "status": "pass",
-      "elapsed_ms": 2547
-    },
-    {
-      "input": "webm",
-      "output": "mkv",
-      "status": "pass",
-      "elapsed_ms": 2528
-    },
-    {
-      "input": "webm",
-      "output": "avi",
-      "status": "pass",
-      "elapsed_ms": 2512
-    },
-    {
-      "input": "webm",
-      "output": "wmv",
-      "status": "pass",
-      "elapsed_ms": 2538
-    },
-    {
-      "input": "webm",
-      "output": "gif",
-      "status": "pass",
-      "elapsed_ms": 2539
-    },
-    {
-      "input": "webm",
-      "output": "mp3",
-      "status": "pass",
-      "elapsed_ms": 2406
-    },
-    {
-      "input": "avi",
-      "output": "mp4",
-      "status": "pass",
-      "elapsed_ms": 2520
-    },
-    {
-      "input": "avi",
-      "output": "mov",
-      "status": "pass",
-      "elapsed_ms": 2526
-    },
-    {
-      "input": "avi",
-      "output": "mkv",
-      "status": "pass",
-      "elapsed_ms": 2552
-    },
-    {
-      "input": "avi",
-      "output": "webm",
-      "status": "pass",
-      "elapsed_ms": 2419
-    },
-    {
-      "input": "avi",
-      "output": "wmv",
-      "status": "pass",
-      "elapsed_ms": 2506
-    },
-    {
-      "input": "avi",
-      "output": "gif",
-      "status": "pass",
-      "elapsed_ms": 2533
-    },
-    {
-      "input": "avi",
-      "output": "mp3",
-      "status": "pass",
-      "elapsed_ms": 2421
-    },
-    {
-      "input": "wmv",
-      "output": "mp4",
-      "status": "pass",
-      "elapsed_ms": 2498
-    },
-    {
-      "input": "wmv",
       "output": "mov",
       "status": "pass",
       "elapsed_ms": 2414
     },
     {
+      "input": "mkv",
+      "output": "webm",
+      "status": "pass",
+      "elapsed_ms": 2392
+    },
+    {
+      "input": "mkv",
+      "output": "avi",
+      "status": "pass",
+      "elapsed_ms": 2276
+    },
+    {
+      "input": "mkv",
+      "output": "wmv",
+      "status": "pass",
+      "elapsed_ms": 2313
+    },
+    {
+      "input": "mkv",
+      "output": "gif",
+      "status": "pass",
+      "elapsed_ms": 2318
+    },
+    {
+      "input": "mkv",
+      "output": "mp3",
+      "status": "pass",
+      "elapsed_ms": 2489
+    },
+    {
+      "input": "webm",
+      "output": "mp4",
+      "status": "pass",
+      "elapsed_ms": 3278
+    },
+    {
+      "input": "webm",
+      "output": "mov",
+      "status": "pass",
+      "elapsed_ms": 2395
+    },
+    {
+      "input": "webm",
+      "output": "mkv",
+      "status": "pass",
+      "elapsed_ms": 2376
+    },
+    {
+      "input": "webm",
+      "output": "avi",
+      "status": "pass",
+      "elapsed_ms": 2277
+    },
+    {
+      "input": "webm",
+      "output": "wmv",
+      "status": "pass",
+      "elapsed_ms": 2273
+    },
+    {
+      "input": "webm",
+      "output": "gif",
+      "status": "pass",
+      "elapsed_ms": 2283
+    },
+    {
+      "input": "webm",
+      "output": "mp3",
+      "status": "pass",
+      "elapsed_ms": 2386
+    },
+    {
+      "input": "avi",
+      "output": "mp4",
+      "status": "pass",
+      "elapsed_ms": 2325
+    },
+    {
+      "input": "avi",
+      "output": "mov",
+      "status": "pass",
+      "elapsed_ms": 2505
+    },
+    {
+      "input": "avi",
+      "output": "mkv",
+      "status": "pass",
+      "elapsed_ms": 2407
+    },
+    {
+      "input": "avi",
+      "output": "webm",
+      "status": "pass",
+      "elapsed_ms": 2402
+    },
+    {
+      "input": "avi",
+      "output": "wmv",
+      "status": "pass",
+      "elapsed_ms": 2299
+    },
+    {
+      "input": "avi",
+      "output": "gif",
+      "status": "pass",
+      "elapsed_ms": 2301
+    },
+    {
+      "input": "avi",
+      "output": "mp3",
+      "status": "pass",
+      "elapsed_ms": 2392
+    },
+    {
+      "input": "wmv",
+      "output": "mp4",
+      "status": "pass",
+      "elapsed_ms": 2455
+    },
+    {
+      "input": "wmv",
+      "output": "mov",
+      "status": "pass",
+      "elapsed_ms": 2299
+    },
+    {
       "input": "wmv",
       "output": "mkv",
       "status": "pass",
-      "elapsed_ms": 2534
+      "elapsed_ms": 2302
     },
     {
       "input": "wmv",
       "output": "webm",
       "status": "pass",
-      "elapsed_ms": 2530
+      "elapsed_ms": 2402
     },
     {
       "input": "wmv",
       "output": "avi",
       "status": "pass",
-      "elapsed_ms": 2532
+      "elapsed_ms": 2298
     },
     {
       "input": "wmv",
       "output": "gif",
       "status": "pass",
-      "elapsed_ms": 2408
+      "elapsed_ms": 2295
     },
     {
       "input": "wmv",
       "output": "mp3",
       "status": "pass",
-      "elapsed_ms": 2573
+      "elapsed_ms": 2277
     },
     {
       "input": "gif",
       "output": "mp4",
       "status": "pass",
-      "elapsed_ms": 2348
+      "elapsed_ms": 2382
     },
     {
       "input": "gif",
       "output": "mov",
       "status": "pass",
-      "elapsed_ms": 2590
+      "elapsed_ms": 2312
     },
     {
       "input": "gif",
       "output": "mkv",
       "status": "pass",
-      "elapsed_ms": 2557
+      "elapsed_ms": 2412
     },
     {
       "input": "gif",
       "output": "webm",
       "status": "pass",
-      "elapsed_ms": 2519
+      "elapsed_ms": 2418
     },
     {
       "input": "gif",
       "output": "avi",
       "status": "pass",
-      "elapsed_ms": 2347
+      "elapsed_ms": 2277
     },
     {
       "input": "gif",
       "output": "wmv",
       "status": "pass",
+      "elapsed_ms": 2322
+    },
+    {
+      "input": "md",
+      "output": "docx",
+      "status": "pass",
+      "elapsed_ms": 2197
+    },
+    {
+      "input": "md",
+      "output": "txt",
+      "status": "pass",
+      "elapsed_ms": 1976
+    },
+    {
+      "input": "md",
+      "output": "html",
+      "status": "pass",
+      "elapsed_ms": 1982
+    },
+    {
+      "input": "md",
+      "output": "epub",
+      "status": "pass",
+      "elapsed_ms": 1989
+    },
+    {
+      "input": "md",
+      "output": "pdf",
+      "status": "pass",
+      "elapsed_ms": 3803
+    },
+    {
+      "input": "md",
+      "output": "png",
+      "status": "pass",
+      "elapsed_ms": 3996
+    },
+    {
+      "input": "md",
+      "output": "jpg",
+      "status": "pass",
+      "elapsed_ms": 3519
+    },
+    {
+      "input": "docx",
+      "output": "md",
+      "status": "pass",
+      "elapsed_ms": 2380
+    },
+    {
+      "input": "docx",
+      "output": "txt",
+      "status": "pass",
+      "elapsed_ms": 2275
+    },
+    {
+      "input": "docx",
+      "output": "html",
+      "status": "pass",
+      "elapsed_ms": 2379
+    },
+    {
+      "input": "docx",
+      "output": "epub",
+      "status": "pass",
       "elapsed_ms": 2518
     },
     {
-      "input": "md",
-      "output": "docx",
-      "status": "pass",
-      "elapsed_ms": 2306
-    },
-    {
-      "input": "md",
-      "output": "txt",
-      "status": "pass",
-      "elapsed_ms": 2016
-    },
-    {
-      "input": "md",
-      "output": "html",
-      "status": "pass",
-      "elapsed_ms": 2044
-    },
-    {
-      "input": "md",
-      "output": "epub",
-      "status": "pass",
-      "elapsed_ms": 2031
-    },
-    {
-      "input": "md",
-      "output": "pdf",
-      "status": "pass",
-      "elapsed_ms": 3510
-    },
-    {
-      "input": "md",
-      "output": "png",
-      "status": "pass",
-      "elapsed_ms": 4201
-    },
-    {
-      "input": "md",
-      "output": "jpg",
-      "status": "pass",
-      "elapsed_ms": 3321
-    },
-    {
-      "input": "docx",
-      "output": "md",
-      "status": "pass",
-      "elapsed_ms": 2009
-    },
-    {
-      "input": "docx",
-      "output": "txt",
-      "status": "pass",
-      "elapsed_ms": 2027
-    },
-    {
-      "input": "docx",
-      "output": "html",
-      "status": "pass",
-      "elapsed_ms": 2007
-    },
-    {
-      "input": "docx",
-      "output": "epub",
-      "status": "pass",
-      "elapsed_ms": 2418
-    },
-    {
       "input": "docx",
       "output": "pdf",
       "status": "pass",
-      "elapsed_ms": 2999
+      "elapsed_ms": 3507
     },
     {
       "input": "docx",
       "output": "png",
       "status": "pass",
-      "elapsed_ms": 3916
+      "elapsed_ms": 4287
     },
     {
       "input": "docx",
       "output": "jpg",
       "status": "pass",
-      "elapsed_ms": 3247
+      "elapsed_ms": 3501
     },
     {
       "input": "txt",
       "output": "docx",
       "status": "pass",
-      "elapsed_ms": 2094
+      "elapsed_ms": 2275
     },
     {
       "input": "txt",
       "output": "md",
       "status": "pass",
-      "elapsed_ms": 2015
+      "elapsed_ms": 2170
     },
     {
       "input": "txt",
       "output": "html",
       "status": "pass",
-      "elapsed_ms": 2009
+      "elapsed_ms": 2299
     },
     {
       "input": "txt",
       "output": "epub",
       "status": "pass",
-      "elapsed_ms": 2019
+      "elapsed_ms": 2256
     },
     {
       "input": "txt",
       "output": "pdf",
       "status": "pass",
-      "elapsed_ms": 3120
+      "elapsed_ms": 3291
     },
     {
       "input": "txt",
       "output": "png",
       "status": "pass",
-      "elapsed_ms": 3997
+      "elapsed_ms": 4380
     },
     {
       "input": "txt",
       "output": "jpg",
       "status": "pass",
-      "elapsed_ms": 3193
+      "elapsed_ms": 3471
     },
     {
       "input": "html",
       "output": "docx",
       "status": "pass",
-      "elapsed_ms": 1994
+      "elapsed_ms": 2292
     },
     {
       "input": "html",
       "output": "md",
       "status": "pass",
-      "elapsed_ms": 2004
+      "elapsed_ms": 2168
     },
     {
       "input": "html",
       "output": "txt",
       "status": "pass",
-      "elapsed_ms": 1988
+      "elapsed_ms": 2163
     },
     {
       "input": "html",
       "output": "epub",
       "status": "pass",
-      "elapsed_ms": 1994
+      "elapsed_ms": 2278
     },
     {
       "input": "html",
       "output": "pdf",
       "status": "pass",
-      "elapsed_ms": 3012
+      "elapsed_ms": 3374
     },
     {
       "input": "html",
       "output": "png",
       "status": "pass",
-      "elapsed_ms": 4234
+      "elapsed_ms": 4392
     },
     {
       "input": "html",
       "output": "jpg",
       "status": "pass",
-      "elapsed_ms": 3202
+      "elapsed_ms": 3471
     },
     {
       "input": "epub",
       "output": "docx",
       "status": "pass",
-      "elapsed_ms": 2003
+      "elapsed_ms": 2274
     },
     {
       "input": "epub",
       "output": "md",
       "status": "pass",
-      "elapsed_ms": 2009
+      "elapsed_ms": 2154
     },
     {
       "input": "epub",
       "output": "txt",
       "status": "pass",
-      "elapsed_ms": 2023
+      "elapsed_ms": 2206
     },
     {
       "input": "epub",
       "output": "html",
       "status": "pass",
-      "elapsed_ms": 2022
+      "elapsed_ms": 2255
     },
     {
       "input": "epub",
       "output": "pdf",
       "status": "pass",
-      "elapsed_ms": 3021
+      "elapsed_ms": 3384
     },
     {
       "input": "epub",
       "output": "png",
       "status": "pass",
-      "elapsed_ms": 4102
+      "elapsed_ms": 4493
     },
     {
       "input": "epub",
       "output": "jpg",
       "status": "pass",
-      "elapsed_ms": 3294
+      "elapsed_ms": 3553
     },
     {
       "input": "pdf",
       "output": "jpg",
       "status": "pass",
-      "elapsed_ms": 2088
+      "elapsed_ms": 2369
     },
     {
       "input": "pdf",
       "output": "png",
       "status": "pass",
-      "elapsed_ms": 2928
+      "elapsed_ms": 3250
     },
     {
       "input": "pdf",
       "output": "txt",
       "status": "pass",
-      "elapsed_ms": 1985
+      "elapsed_ms": 2169
     },
     {
       "input": "pdf",
       "output": "md",
       "status": "pass",
-      "elapsed_ms": 1903
+      "elapsed_ms": 2187
     },
     {
       "input": "xlsx",
       "output": "ods",
       "status": "pass",
-      "elapsed_ms": 3308
+      "elapsed_ms": 3582
     },
     {
       "input": "xlsx",
       "output": "csv",
       "status": "pass",
-      "elapsed_ms": 2913
+      "elapsed_ms": 3189
     },
     {
       "input": "xlsx",
       "output": "tsv",
-      "status": "pass",
-      "elapsed_ms": 2896
-    },
-    {
-      "input": "xlsx",
-      "output": "pdf",
-      "status": "pass",
-      "elapsed_ms": 3047
-    },
-    {
-      "input": "ods",
-      "output": "xlsx",
-      "status": "pass",
-      "elapsed_ms": 3116
-    },
-    {
-      "input": "ods",
-      "output": "csv",
-      "status": "pass",
-      "elapsed_ms": 2904
-    },
-    {
-      "input": "ods",
-      "output": "tsv",
-      "status": "pass",
-      "elapsed_ms": 2799
-    },
-    {
-      "input": "ods",
-      "output": "pdf",
-      "status": "pass",
-      "elapsed_ms": 2919
-    },
-    {
-      "input": "csv",
-      "output": "xlsx",
       "status": "pass",
       "elapsed_ms": 3198
     },
     {
+      "input": "xlsx",
+      "output": "pdf",
+      "status": "pass",
+      "elapsed_ms": 3182
+    },
+    {
+      "input": "ods",
+      "output": "xlsx",
+      "status": "pass",
+      "elapsed_ms": 3168
+    },
+    {
+      "input": "ods",
+      "output": "csv",
+      "status": "pass",
+      "elapsed_ms": 3180
+    },
+    {
+      "input": "ods",
+      "output": "tsv",
+      "status": "pass",
+      "elapsed_ms": 3172
+    },
+    {
+      "input": "ods",
+      "output": "pdf",
+      "status": "pass",
+      "elapsed_ms": 3150
+    },
+    {
+      "input": "csv",
+      "output": "xlsx",
+      "status": "pass",
+      "elapsed_ms": 3571
+    },
+    {
       "input": "csv",
       "output": "ods",
       "status": "pass",
-      "elapsed_ms": 4300
+      "elapsed_ms": 4870
     },
     {
       "input": "csv",
       "output": "tsv",
       "status": "pass",
-      "elapsed_ms": 1895
+      "elapsed_ms": 2156
     },
     {
       "input": "csv",
       "output": "pdf",
       "status": "pass",
-      "elapsed_ms": 4216
+      "elapsed_ms": 4481
     },
     {
       "input": "tsv",
       "output": "xlsx",
       "status": "pass",
-      "elapsed_ms": 3123
+      "elapsed_ms": 3470
     },
     {
       "input": "tsv",
       "output": "ods",
       "status": "pass",
-      "elapsed_ms": 4292
+      "elapsed_ms": 4788
     },
     {
       "input": "tsv",
       "output": "csv",
       "status": "pass",
-      "elapsed_ms": 2003
+      "elapsed_ms": 2283
     },
     {
       "input": "tsv",
       "output": "pdf",
       "status": "pass",
-      "elapsed_ms": 4107
+      "elapsed_ms": 4458
     },
     {
       "input": "srt",
       "output": "vtt",
       "status": "pass",
-      "elapsed_ms": 1891
+      "elapsed_ms": 2146
     },
     {
       "input": "srt",
       "output": "txt",
       "status": "pass",
-      "elapsed_ms": 2107
+      "elapsed_ms": 2196
     },
     {
       "input": "vtt",
       "output": "srt",
       "status": "pass",
-      "elapsed_ms": 1916
+      "elapsed_ms": 2191
     },
     {
       "input": "vtt",
       "output": "txt",
       "status": "pass",
-      "elapsed_ms": 2093
+      "elapsed_ms": 2188
     },
     {
       "input": "zip",
       "output": "tar",
       "status": "pass",
-      "elapsed_ms": 2012
+      "elapsed_ms": 2167
     },
     {
       "input": "zip",
       "output": "gz",
       "status": "pass",
-      "elapsed_ms": 1992
+      "elapsed_ms": 2155
     },
     {
       "input": "tar",
       "output": "zip",
       "status": "pass",
-      "elapsed_ms": 2013
+      "elapsed_ms": 2177
     },
     {
       "input": "tar",
       "output": "gz",
       "status": "pass",
-      "elapsed_ms": 2030
+      "elapsed_ms": 2164
     },
     {
       "input": "gz",
       "output": "zip",
       "status": "pass",
-      "elapsed_ms": 1990
+      "elapsed_ms": 2168
     },
     {
       "input": "gz",
       "output": "tar",
       "status": "pass",
-      "elapsed_ms": 2230
+      "elapsed_ms": 2165
     },
     {
       "input": "rtf",
       "output": "docx",
       "status": "pass",
-      "elapsed_ms": 2907
+      "elapsed_ms": 3071
     },
     {
       "input": "rtf",
       "output": "md",
       "status": "pass",
-      "elapsed_ms": 2923
+      "elapsed_ms": 3280
     },
     {
       "input": "rtf",
       "output": "txt",
       "status": "pass",
-      "elapsed_ms": 2925
+      "elapsed_ms": 3215
     },
     {
       "input": "rtf",
       "output": "html",
       "status": "pass",
-      "elapsed_ms": 2924
+      "elapsed_ms": 3251
     },
     {
       "input": "rtf",
       "output": "epub",
       "status": "pass",
-      "elapsed_ms": 2924
+      "elapsed_ms": 3179
     },
     {
       "input": "rtf",
       "output": "pdf",
       "status": "pass",
-      "elapsed_ms": 2913
+      "elapsed_ms": 3098
     },
     {
       "input": "rtf",
       "output": "png",
       "status": "pass",
-      "elapsed_ms": 3824
+      "elapsed_ms": 4273
     },
     {
       "input": "rtf",
       "output": "jpg",
       "status": "pass",
-      "elapsed_ms": 3094
+      "elapsed_ms": 3364
     },
     {
       "input": "pptx",
       "output": "pdf",
       "status": "pass",
-      "elapsed_ms": 3224
+      "elapsed_ms": 3465
     },
     {
       "input": "pptx",
       "output": "jpg",
       "status": "pass",
-      "elapsed_ms": 3697
+      "elapsed_ms": 3883
     },
     {
       "input": "pptx",
       "output": "png",
       "status": "pass",
-      "elapsed_ms": 4203
+      "elapsed_ms": 4698
     },
     {
       "input": "ppt",
       "output": "pdf",
       "status": "pass",
-      "elapsed_ms": 2888
+      "elapsed_ms": 3162
     },
     {
       "input": "ppt",
       "output": "jpg",
       "status": "pass",
-      "elapsed_ms": 3445
+      "elapsed_ms": 3571
     },
     {
       "input": "ppt",
       "output": "png",
       "status": "pass",
-      "elapsed_ms": 4213
+      "elapsed_ms": 4277
     },
     {
       "input": "xls",
       "output": "xlsx",
       "status": "pass",
-      "elapsed_ms": 2789
+      "elapsed_ms": 3168
     },
     {
       "input": "xls",
       "output": "ods",
       "status": "pass",
-      "elapsed_ms": 3160
+      "elapsed_ms": 3365
     },
     {
       "input": "xls",
       "output": "csv",
       "status": "pass",
-      "elapsed_ms": 2938
+      "elapsed_ms": 3065
     },
     {
       "input": "xls",
       "output": "tsv",
       "status": "pass",
-      "elapsed_ms": 2939
+      "elapsed_ms": 2984
     },
     {
       "input": "xls",
       "output": "pdf",
       "status": "pass",
-      "elapsed_ms": 2918
+      "elapsed_ms": 3063
     },
     {
       "input": "rar",
       "output": "zip",
       "status": "pass",
-      "elapsed_ms": 1924
+      "elapsed_ms": 2155
     },
     {
       "input": "rar",
       "output": "tar",
       "status": "pass",
-      "elapsed_ms": 2138
+      "elapsed_ms": 2172
     },
     {
       "input": "rar",
       "output": "gz",
       "status": "pass",
-      "elapsed_ms": 2176
+      "elapsed_ms": 2153
     }
   ]
 }

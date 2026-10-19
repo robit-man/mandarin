@@ -9,5 +9,8 @@
     "Conversion jobs",
     "Quit Mandarin"
   ],
-  "indicator_id": "mandarin"
+  "indicator_id": "mandarin",
+  "icon_name": "org.mandarin.Converter",
+  "icon_theme_path": "/snap/mandarin/x2/opt/mandarin/mandarin/resources",
+  "installed_revision": "x2"
 }

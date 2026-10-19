@@ -16,9 +16,15 @@ def main():
     installed = Path("/var/lib/snapd/snaps") / f"mandarin_{revision}.snap"
     with artifact.open("rb") as handle:
         expected_sha = hashlib.file_digest(handle, "sha256").hexdigest()
-    with installed.open("rb") as handle:
-        if hashlib.file_digest(handle, "sha256").hexdigest() != expected_sha:
-            raise RuntimeError("The installed Snap differs from the release artifact.")
+    try:
+        with installed.open("rb") as handle:
+            installed_sha = hashlib.file_digest(handle, "sha256").hexdigest()
+    except PermissionError:
+        installed_sha = subprocess.check_output(
+            ["sudo", "-n", "/usr/bin/sha256sum", "--", str(installed)], text=True, timeout=30
+        ).split()[0]
+    if installed_sha != expected_sha:
+        raise RuntimeError("The installed Snap differs from the release artifact.")
     fixtures = json.loads((ROOT / "build/corpus/fixtures.json").read_text())
     output = ROOT / "build/snap-qa"
     output.mkdir(exist_ok=True)

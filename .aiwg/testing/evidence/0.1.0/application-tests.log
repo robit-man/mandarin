@@ -20,6 +20,7 @@ test_pdf_generation_raster_and_page_order (test_integration.WorkerIntegrationTes
 test_real_conversion_and_collision_preserve_original (test_integration.WorkerIntegrationTests.test_real_conversion_and_collision_preserve_original) ... ok
 test_sandbox_denies_ungranted_file_network_and_process_escape (test_integration.WorkerIntegrationTests.test_sandbox_denies_ungranted_file_network_and_process_escape) ... ok
 test_subtitles_actual_cues (test_integration.WorkerIntegrationTests.test_subtitles_actual_cues) ... ok
+test_privileged_and_writable_files_are_rejected_and_neutralized (test_packaging.PackagePolicyTests.test_privileged_and_writable_files_are_rejected_and_neutralized) ... ok
 test_all_image_frames_survive_conversion_and_pdf (test_regressions.RegressionTests.test_all_image_frames_survive_conversion_and_pdf) ... ok
 test_broker_crash_kills_confined_descendants (test_regressions.RegressionTests.test_broker_crash_kills_confined_descendants) ... ok
 test_reject_non_lan_destinations (test_share.LocalSendTests.test_reject_non_lan_destinations) ... ok
@@ -29,6 +30,6 @@ test_actual_tool_operations (test_tools.ToolSmokeTests.test_actual_tool_operatio
 ok
 
 ----------------------------------------------------------------------
-Ran 27 tests in 37.555s
+Ran 28 tests in 41.757s
 
 OK
