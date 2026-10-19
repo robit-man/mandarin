@@ -1,0 +1,41 @@
+name: Submit Snap preview to edge
+on:
+  workflow_dispatch:
+    inputs:
+      sha256:
+        description: SHA256 of the locally tested Snap
+        required: true
+        type: string
+permissions:
+  contents: read
+jobs:
+  submit:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - name: Require the public source-complete release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          test "$(gh release view v0.1.0 --repo robit-man/mandarin --json isDraft --jq .isDraft)" = false
+          gh release download v0.1.0 --repo robit-man/mandarin --pattern mandarin_0.1.0_amd64.snap --dir dist
+      - name: Verify the tested artifact
+        env:
+          EXPECTED_SHA256: ${{ inputs.sha256 }}
+        run: |
+          python3 - <<'PY'
+          import hashlib, os, re
+          from pathlib import Path
+          expected = os.environ['EXPECTED_SHA256']
+          if not re.fullmatch('[0-9a-f]{64}', expected):
+              raise SystemExit('Invalid expected SHA256')
+          with Path('dist/mandarin_0.1.0_amd64.snap').open('rb') as handle:
+              if hashlib.file_digest(handle, 'sha256').hexdigest() != expected:
+                  raise SystemExit('The tested Snap differs')
+          PY
+      - name: Install Canonical Snapcraft
+        run: sudo snap install snapcraft --classic
+      - name: Upload for Store review and release only to edge
+        env:
+          SNAPCRAFT_STORE_CREDENTIALS: ${{ secrets.SNAPCRAFT_EDGE_CREDENTIALS }}
+        run: snapcraft upload --release=edge dist/mandarin_0.1.0_amd64.snap

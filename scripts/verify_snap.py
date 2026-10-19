@@ -10,6 +10,15 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 def main():
+    (ROOT / "build/snap-report.json").unlink(missing_ok=True)
+    artifact = ROOT / "dist/mandarin_0.1.0_amd64.snap"
+    revision = Path("/snap/mandarin/current").resolve().name
+    installed = Path("/var/lib/snapd/snaps") / f"mandarin_{revision}.snap"
+    with artifact.open("rb") as handle:
+        expected_sha = hashlib.file_digest(handle, "sha256").hexdigest()
+    with installed.open("rb") as handle:
+        if hashlib.file_digest(handle, "sha256").hexdigest() != expected_sha:
+            raise RuntimeError("The installed Snap differs from the release artifact.")
     fixtures = json.loads((ROOT / "build/corpus/fixtures.json").read_text())
     output = ROOT / "build/snap-qa"
     output.mkdir(exist_ok=True)
@@ -65,9 +74,8 @@ def main():
         report["results"].append(row)
         (ROOT / "build/snap-report.json").write_text(json.dumps(report, indent=2) + "\n")
         print(source, "->", target, row["status"], row.get("error", "")[:500], flush=True)
-    artifact = ROOT / "dist/mandarin_0.1.0_amd64.snap"
-    with artifact.open("rb") as handle:
-        report["sha256"] = hashlib.file_digest(handle, "sha256").hexdigest()
+    report["sha256"] = expected_sha
+    report["installed_revision"] = revision
     (ROOT / "build/snap-report.json").write_text(json.dumps(report, indent=2) + "\n")
     return any(row["status"] != "pass" for row in report["results"])
 
