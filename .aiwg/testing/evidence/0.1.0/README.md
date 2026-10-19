@@ -8,6 +8,7 @@ Reproduce using the [implementation report](../../../reports/implementation-0.1.
 - `package-verification.json`, `package-results.json`, `tool-results.json`: the final installer hash, 248 offline conversion cases and 32 tool cases across 28 operations.
 - `application-tests.log`: 28 application/security/integration/packaging tests.
 - `native-gui-tests.log`: native captures, actual held-file drag traversal and the separate GTK3 taskbar helper with the GTK4 application.
+- `deb-desktop-results.json`: the installed native Ubuntu package's real GNOME Wayland GUI, indicator icon, menu, Open, Jobs and Quit.
 - `snap-results.json`, `snap-desktop-results.json`: the installed strict Snap's 12 representative conversions and actual GNOME desktop indicator/menu lifecycle.
 - `ui-static-audit.json`: deterministic UI audit, with zero findings.
 - `source-archive-results.json`: all 1,316 exact source files checked inside five release archives, covering 413 source packages and 651 bundled binary packages.

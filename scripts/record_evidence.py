@@ -41,6 +41,7 @@ def main():
         ("build/ui-static-audit.json", "ui-static-audit.json"),
         ("build/snap-report.json", "snap-results.json"),
         ("build/snap-desktop-report.json", "snap-desktop-results.json"),
+        ("build/deb-desktop-report.json", "deb-desktop-results.json"),
         ("build/sources-report.json", "source-archive-results.json"),
         ("build/gui-radial.png", "radial.png"),
         ("build/gui-smoke.png", "keyboard.png"),

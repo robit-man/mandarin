@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
-"""Check the installed Snap on a real Ubuntu desktop and taskbar host."""
+"""Check an installed Ubuntu package on the real desktop and taskbar host."""
 
+import argparse
+import hashlib
 import json
 import subprocess
 import time
@@ -81,11 +83,24 @@ def mandarin_item():
 
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--deb", action="store_true", help="Check the native Ubuntu package")
+    args = parser.parse_args()
+    stem = "deb" if args.deb else "snap"
     if owned():
         raise RuntimeError("Close the existing Mandarin application before this check.")
-    report = {"distribution": "installed strict Snap", "desktop": "Ubuntu 24.04 GNOME 46 Wayland"}
-    with (ROOT / "build/snap-desktop-runtime.log").open("w") as log:
-        process = subprocess.Popen(["snap", "run", "mandarin"], stdout=log, stderr=log)
+    report = {
+        "distribution": "installed native .deb" if args.deb else "installed strict Snap",
+        "desktop": "Ubuntu 24.04 GNOME 46 Wayland",
+    }
+    if args.deb:
+        manifest = Path("/opt/mandarin/runtime-manifest.json").read_bytes()
+        if manifest != (ROOT / "dist/runtime-manifest.json").read_bytes():
+            raise RuntimeError("The installed runtime manifest differs.")
+        report["runtime_manifest_sha256"] = hashlib.sha256(manifest).hexdigest()
+    with (ROOT / f"build/{stem}-desktop-runtime.log").open("w") as log:
+        command = ["/usr/bin/mandarin"] if args.deb else ["snap", "run", "mandarin"]
+        process = subprocess.Popen(command, stdout=log, stderr=log)
         try:
             await_value(owned, "application D-Bus registration")
             service, properties = await_value(mandarin_item, "real taskbar registration")
@@ -136,10 +151,11 @@ def main():
                 indicator_id=properties["Id"],
                 icon_name=icon_name,
                 icon_theme_path=icon_theme,
-                installed_revision=Path("/snap/mandarin/current").resolve().name,
             )
+            if not args.deb:
+                report["installed_revision"] = Path("/snap/mandarin/current").resolve().name
             print(
-                "PASS: installed strict Snap GUI, real GNOME indicator, menu, Open, Jobs and Quit."
+                f"PASS: {report['distribution']} GUI, real GNOME indicator, menu, Open, Jobs and Quit."
             )
         finally:
             if process.poll() is None:
@@ -149,7 +165,7 @@ def main():
                 except subprocess.TimeoutExpired:
                     process.kill()
                     process.wait()
-    (ROOT / "build/snap-desktop-report.json").write_text(json.dumps(report, indent=2) + "\n")
+    (ROOT / f"build/{stem}-desktop-report.json").write_text(json.dumps(report, indent=2) + "\n")
 
 
 if __name__ == "__main__":

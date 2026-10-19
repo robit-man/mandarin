@@ -1,0 +1,16 @@
+{
+  "distribution": "installed native .deb",
+  "desktop": "Ubuntu 24.04 GNOME 46 Wayland",
+  "runtime_manifest_sha256": "fa23852795dd811ffcd6a0755ec9b42e01055df84d4c8bc804748c69b73072e2",
+  "status": "pass",
+  "actions": [
+    "Mandarin is ready",
+    "Open Mandarin",
+    "Add files\u2026",
+    "Conversion jobs",
+    "Quit Mandarin"
+  ],
+  "indicator_id": "mandarin",
+  "icon_name": "org.mandarin.Converter",
+  "icon_theme_path": "/opt/mandarin/mandarin/resources"
+}

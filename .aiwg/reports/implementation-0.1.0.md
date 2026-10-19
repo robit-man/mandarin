@@ -12,6 +12,8 @@ The application suite passed 28 tests, including a packaging regression for priv
 
 An additional strict core24 Snap was built and installed locally. Its health check, 12 representative conversion routes and GUI/indicator integration on the real GNOME Wayland desktop passed. The private-bus Snap GUI harness could not launch through snapd's session tracking; the real-desktop check is the passing evidence. This does not establish global held-drag behavior. Canonical's publisher agreement was accepted, and the name `mandarin` was registered on 19 October 2026. Initial submission is limited to edge and remains subject to Store review. The locally installed Snap was installed with `--dangerous` and is not a Store assertion.
 
+The final `.deb` was also installed on the real Ubuntu 24.04 GNOME 46 Wayland host. All 24,634 runtime files passed verification. Its GUI, taskbar icon and menu, Open, Jobs and Quit passed the desktop check. The temporary QA Snap was removed before native installation; the native package remains installed. Reproduce this desktop lane with `python3 scripts/snap_desktop_smoke.py --deb` after installing the tested package and closing any existing Mandarin instance.
+
 Open gates:
 
 - Global GNOME Wayland invocation/transfer across native, XWayland, browser and portal sources; multiple monitors/scales. Only GNOME 46 metadata is enabled.

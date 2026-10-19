@@ -78,6 +78,8 @@ python3 scripts/record_evidence.py
 
 For the Snap lane, run `python3 scripts/build_snap.py`, install the resulting local Snap with `sudo snap install --dangerous dist/mandarin_0.1.0_amd64.snap`, then run `python3 scripts/verify_snap.py` and `python3 scripts/snap_desktop_smoke.py` in the real desktop session with no existing Mandarin instance. The desktop check opens and quits the application through the real taskbar host. Store registration requires the account owner to accept Canonical's publisher agreement. Submit only to edge until the additional Snap and full-parity gates pass; see [submission record](packaging/STORE-LISTING.md).
 
+For the native `.deb` desktop lane, install the final package, verify `/opt/mandarin` using `scripts/verify_runtime.py`, then run `python3 scripts/snap_desktop_smoke.py --deb` in the real desktop session with no existing Mandarin instance. Keep the Snap and native checks separate to avoid two applications sharing the same D-Bus name. Preserve both reports before switching installations.
+
 For every increment, run relevant reducer/adapter/output-safety checks, then its affected desktop and package lanes. Before a release candidate, run the complete supported matrix once on the exact package bytes; repeat affected lanes only if changes or failures invalidate the result. Archive commands, exit status and content validators. If a test is unrun or blocked, record that explicitly.
 
 ## Procedure E — Build the self-contained release candidate
