@@ -70,10 +70,11 @@ With Docker running and the official Ubuntu 24.04 image available, produce and v
 docker pull ubuntu:24.04
 make package
 python3 scripts/collect_sources.py
+python3 scripts/verify_sources.py
 python3 scripts/record_evidence.py
 ```
 
-`make package` rejects an incomplete runtime or a failure in the actual offline-installed conversion/tool corpus. `collect_sources.py` checks all exact source-package descriptors and source-file hashes and creates numbered release archives. Never publish the bundled binary before every source archive is available with it. `record_evidence.py` binds the checked installer hash to inventory implementation status; it does not grant native parity certification. The [test plan](.aiwg/testing/test-plan.md) retains the full reference, desktop and release requirements.
+`make package` rejects an incomplete runtime or a failure in the actual offline-installed conversion/tool corpus. `collect_sources.py` checks all exact source-package descriptors and source-file hashes and creates numbered release archives. `verify_sources.py` independently checks every file's presence, hash and size inside those archives. Never publish the bundled binary before every source archive is available with it. `record_evidence.py` binds the checked installer hash to inventory implementation status; it does not grant native parity certification. The [test plan](.aiwg/testing/test-plan.md) retains the full reference, desktop and release requirements.
 
 For the Snap lane, run `python3 scripts/build_snap.py`, install the resulting local Snap with `sudo snap install --dangerous dist/mandarin_0.1.0_amd64.snap`, then run `python3 scripts/verify_snap.py` and `python3 scripts/snap_desktop_smoke.py` in the real desktop session with no existing Mandarin instance. The desktop check opens and quits the application through the real taskbar host. Store registration requires the account owner to accept Canonical's publisher agreement. Submit only to edge until the additional Snap and full-parity gates pass; see [submission record](packaging/STORE-LISTING.md).
 

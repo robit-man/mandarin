@@ -1,0 +1,20 @@
+{
+  "status": "pass",
+  "source_packages": 413,
+  "binary_packages": 651,
+  "source_files": 1316,
+  "archives": [
+    "mandarin-0.1.0-corresponding-sources-01.tar",
+    "mandarin-0.1.0-corresponding-sources-02.tar",
+    "mandarin-0.1.0-corresponding-sources-03.tar",
+    "mandarin-0.1.0-corresponding-sources-04.tar",
+    "mandarin-0.1.0-corresponding-sources-05.tar"
+  ],
+  "manifest_sha256": "e40c25d88c1737e513c6a36f3c2b55d0df1569cabff9276c635c4b5ded49caba",
+  "checks": [
+    "every-source-present-once",
+    "source-file-SHA256",
+    "source-file-size",
+    "matching-manifest"
+  ]
+}
